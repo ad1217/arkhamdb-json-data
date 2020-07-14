@@ -646,5 +646,13 @@
         "name": "By the Book",
         "position": 4,
         "size": 13
+    },
+    {
+        "code": "kyo",
+        "cycle_code": "kyo",
+        "date_release": null,
+        "name": "Keith's Custom Stuff Set",
+        "position": 1,
+        "size": 4
     }
 ]
