@@ -472,14 +472,6 @@
         "size": 78
     },
     {
-        "code": "mtt",
-        "cycle_code": "side_stories",
-        "date_release": null,
-        "name": "Machinations Through Time",
-        "position": 8,
-        "size": 78
-    },
-    {
         "code": "hoth",
         "cycle_code": "promotional",
         "date_release": "2017-10-13",
@@ -668,48 +660,8 @@
         "code": "kyo",
         "cycle_code": "kyo",
         "date_release": null,
-        "name": "Keith's Custom Investigators",
+        "name": "Keith's Custom Stuff Set",
         "position": 1,
         "size": 4
-    },
-    {
-        "code": "kyo_player",
-        "cycle_code": "kyo",
-        "date_release": null,
-        "name": "Keith's Custom Player Cards",
-        "position": 2,
-        "size": 4
-    },
-    {
-        "code": "monogatari",
-        "cycle_code": "monogatari",
-        "date_release": "2020-12-13",
-        "name": "Monogatari Investigators",
-        "position": 1,
-        "size": 20
-    },
-    {
-        "code": "monogatari_player",
-        "cycle_code": "monogatari",
-        "date_release": "2020-12-13",
-        "name": "Monogatari Player Cards",
-        "position": 2,
-        "size": 64
-    },
-    {
-        "code": "jim",
-        "cycle_code": "misc",
-        "date_release": "2020-06-22",
-        "name": "Jim Alternates",
-        "position": 1,
-        "size": 8
-    },
-    {
-        "code": "wonderland",
-        "cycle_code": "misc",
-        "date_release": "2020-10-30",
-        "name": "Alice in Wonderland",
-        "position": 2,
-        "size": 3
     }
 ]
