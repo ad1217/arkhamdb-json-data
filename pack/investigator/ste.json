@@ -179,6 +179,23 @@
 		"text": "[free] Spend 1 resource: You get +1 [combat] for this skill test.\n[free] Spend 1 resource: You get +1 [agility] for this skill test.",
 		"traits": "Talent.",
 		"type_code": "asset",
+        "xp": 0
+    },
+    {
+		"code": "60513",
+		"cost": 1,
+		"deck_limit": 2,
+		"faction_code": "survivor",
+        "flavor": "With or without hope, all you can do is resist.",
+		"illustrator": "Stanishav Dikolenko",
+		"name": "A Test of Will",
+		"pack_code": "ste",
+		"position": 13,
+		"quantity": 2,
+		"skill_willpower": 1,
+		"text": "Fast. Play when an investigator at your location draws a non-weakness treachery card.\nTest [willpower] (3). If you succeed, cancel that card's revelation effect.",
+		"traits": "Spirit.",
+		"type_code": "event",
 		"xp": 0
 	},
 	{
