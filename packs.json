@@ -538,6 +538,14 @@
         "size": 7
     },
     {
+        "code": "aon",
+        "cycle_code": "parallel",
+        "date_release": "2020-08-13",
+        "name": "All or Nothing",
+        "position": 2,
+        "size": 10
+    },
+    {
         "code": "kyo",
         "cycle_code": "kyo",
         "date_release": null,
