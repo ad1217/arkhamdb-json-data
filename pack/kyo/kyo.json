@@ -123,7 +123,7 @@
         "skill_combat": 2,
         "skill_agility": 5,
         "subname": "The Black Market Dealer",
-        "text": "Handlocked.\n[reaction] When you play the left most card in your hand: Reduce the cost of that card by 1 for every 3 other cards in your hand (Limit once per round).\n[elder_sign] effect: +1, if you succeed; draw a card and you may move a card in your hand up to 3 positions to the left or right.",
+        "text": "Anytime a card enters your hand, place it as the right most card of your hand (Your choice of order for multi-card draws).\n[reaction] When you play the left most card in your hand; Reduce the cost of that card by 1 for every 3 other cards in your hand (Limit once per round).\n[elder_sign] effect: +1, if you succeed; draw a carc and you may move a card in your hand up to 3 positions to the left or right.",
         "traits": "Criminal. Mafia.",
         "type_code": "investigator"
     },
