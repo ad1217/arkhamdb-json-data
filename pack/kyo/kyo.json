@@ -88,7 +88,7 @@
             {"faction":["rogue", "neutral"], "level":{"min":0, "max":5} },
             {"faction":["seeker"], "level":{"min":0, "max":2}, "limit":15 }
         ],
-        "deck_requirements": "size:30, card:1000011, card:1000012, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:1000011, card:1000011, card:1000011, card:1000012, card:1000012, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "rogue",
         "flavor": "",
@@ -111,7 +111,7 @@
     },
     {
         "code": "1000011",
-		"cost": 1,
+	"cost": 1,
         "deck_limit": 3,
         "faction_code": "neutral",
         "illustrator": "",
@@ -121,9 +121,9 @@
         "position": 2,
         "quantity": 3,
         "restrictions": "investigator:1000010",
-		"skill_agility": 1,
+	"skill_agility": 1,
         "text": "Fast.\nThis card does not count towards your maximum hand size. Ignore this card when determining your left most card in hand.\nMove a non-weakness card in your hand up to 2  position to the left or right. Draw a card. Shuffle this card into your deck.",
-        "flavor": ""Favors bought in blood and loyalty."",
+        "flavor": "\"Favors bought in blood and loyalty.\"",
         "traits": "Favor. Service.",
         "type_code": "event"
     },
@@ -139,7 +139,7 @@
         "position": 3,
         "quantity": 2,
         "restrictions": "investigator:1000010",
-		"subtype_code": "weakness",
+	"subtype_code": "weakness",
         "text": "Discard all cards that were to the left of this card when it was in your hand.\n[forced] While Prying Eyes is in your hand: Increase the cost of the first card played at your location each round by 1.\n[forced] At the end of your turn: move Prying Eyes one position to the left.",
         "traits": "Intrusion. Blunder.",
         "type_code": "event"
