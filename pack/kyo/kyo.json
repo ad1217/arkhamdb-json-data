@@ -2,13 +2,13 @@
 	{
         "back_flavor": "Chiaki Asami was born in the Japanese Province of Owari. Though happy with his simple life, it would soon be take from him by the great Mino–Owari earthquake of 1891. Without an remaining family Chiaki immigrated to the United States, where he found himself settling down is the city of Arkham. Working from nothing, he would spend years founding his own company, set on creating a city like no other. It was only after some of his employees starting going missing and strange happening started appearing in the news that Chiaki learned the truth. If he didn't act now, Arkham would lead him to an early grave before he could see his plans for the city to completion.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Foresight, Field Reports, Sleepless Nights, 1 random basic weakness.",
-        "code": "1000000",
+        "code": "14000",
         "deck_limit": 1,
         "deck_options": [
             {"faction":["survivor", "neutral"], "level":{"min":0, "max":5} },
             {"faction":["seeker"], "level":{"min":0, "max":2}, "limit":15 }
         ],
-        "deck_requirements": "size:30, card:1000001, card:1000002, card:1000003, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:14001, card:14002, card:14003, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "survivor",
         "flavor": "",
@@ -30,7 +30,7 @@
         "type_code": "investigator"
     },
     {
-        "code": "1000001",
+        "code": "14001",
         "deck_limit": 1,
         "faction_code": "neutral",
         "illustrator": "",
@@ -39,14 +39,14 @@
         "permanent": true,
         "position": 2,
         "quantity": 1,
-        "restrictions": "investigator:1000000",
+        "restrictions": "investigator:14000",
         "text": "Uses (2 supplies) (Limit 2 supplies spent per round.)\n[free] During your turn, spend 1 supply: Move a clue on your location to a revealed connecting location.",
         "flavor": "\"I see a with a booming economy, zero unemployment, and smiling families. And If I must, I will remake this city twice over to see that happen.\"",
         "traits": "Talent.",
         "type_code": "asset"
     },
     {
-        "code": "1000002",
+        "code": "14002",
         "cost": 2,
         "deck_limit": 1,
         "faction_code": "neutral",
@@ -56,7 +56,7 @@
         "pack_code": "kyo",
         "position": 3,
         "quantity": 1,
-        "restrictions": "investigator:1000000",
+        "restrictions": "investigator:14000",
         "skill_agility": 1,
         "skill_intellect": 1,
         "skill_wild": 1,
@@ -65,7 +65,7 @@
         "type_code": "event"
     },
     {
-        "code": "1000003",
+        "code": "14003",
         "deck_limit": 1,
         "faction_code": "neutral",
         "illustrator": "",
@@ -73,7 +73,7 @@
         "pack_code": "kyo",
         "position": 4,
         "quantity": 1,
-        "restrictions": "investigator:1000000",
+        "restrictions": "investigator:14000",
         "subtype_code": "weakness",
         "text": "<b>Revelation</b> - If Foresight has less than 3 supplies; shuffle Sleepless Nights into your deck. Otherwise, put Sleepless Nights into play in your threat area.\nForesight's \"[free]\" ability can only be used once per round.\nAt the end of your turn: take 1 horror damage for each supply on Foresight (Max 2 horror). If Foresight has no supplies on it discard this card.",
         "traits": "Flaw.",
@@ -82,13 +82,13 @@
     {
         "back_flavor": "",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Family Bonds, 2 copies of Prying Eyes, 1 random basic weakness.",
-        "code": "1000010",
+        "code": "14004",
         "deck_limit": 1,
         "deck_options": [
             {"faction":["rogue", "neutral"], "level":{"min":0, "max":5} },
             {"faction":["seeker"], "level":{"min":0, "max":2}, "limit":15 }
         ],
-        "deck_requirements": "size:30, card:1000011, card:1000011, card:1000011, card:1000012, card:1000012, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:14005, card:14006, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "rogue",
         "flavor": "",
@@ -110,7 +110,7 @@
         "type_code": "investigator"
     },
     {
-        "code": "1000011",
+        "code": "14005",
         "cost": 1,
         "deck_limit": 3,
         "faction_code": "neutral",
@@ -120,7 +120,7 @@
         "permanent": false,
         "position": 2,
         "quantity": 3,
-        "restrictions": "investigator:1000010",
+        "restrictions": "investigator:14004",
         "skill_agility": 1,
         "text": "Fast.\nThis card does not count towards your maximum hand size. Ignore this card when determining your left most card in hand.\nMove a non-weakness card in your hand up to 2  position to the left or right. Draw a card. Shuffle this card into your deck.",
         "flavor": "\"Favors bought in blood and loyalty.\"",
@@ -128,7 +128,7 @@
         "type_code": "event"
     },
     {
-        "code": "1000012",
+        "code": "14006",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "neutral",
@@ -138,7 +138,7 @@
         "pack_code": "kyo",
         "position": 3,
         "quantity": 2,
-        "restrictions": "investigator:1000010",
+        "restrictions": "investigator:14004",
         "subtype_code": "weakness",
         "text": "Discard all cards that were to the left of this card when it was in your hand.\n[forced] While Prying Eyes is in your hand: Increase the cost of the first card played at your location each round by 1.\n[forced] At the end of your turn: move Prying Eyes one position to the left.",
         "traits": "Intrusion. Blunder.",
@@ -147,7 +147,7 @@
     {
         "back_flavor": "",
         "back_text": "",
-        "code": "1000020",
+        "code": "14101",
         "deck_limit": 1,
         "deck_options": [{
             "faction": ["guardian", "mystic", "rogue", "seeker", "survivor", "neutral"],

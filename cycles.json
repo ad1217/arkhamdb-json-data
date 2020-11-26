@@ -74,7 +74,13 @@
     {
         "code": "kyo",
         "name": "Keith's Custom Stuff",
-        "position": 1000,
+        "position": 140,
+        "size": 1
+    },
+	{
+        "code": "monogatari",
+        "name": "Monogatari_Campaign",
+        "position": 177,
         "size": 1
     }
 ]
