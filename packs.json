@@ -601,5 +601,13 @@
         "name": "Keith's Custom Stuff Set",
         "position": 1,
         "size": 4
+    },
+	{
+        "code": "monogatari",
+        "cycle_code": "monogatari",
+        "date_release": null,
+        "name": "Monogatari Investigators",
+        "position": 1,
+        "size": 20
     }
 ]
