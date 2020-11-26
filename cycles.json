@@ -82,5 +82,11 @@
         "name": "Keith's Custom Stuff",
         "position": 1000,
         "size": 1
+    },
+	{
+        "code": "monogatari",
+        "name": "Monogatari_Campaign",
+        "position": 101,
+        "size": 2
     }
 ]
