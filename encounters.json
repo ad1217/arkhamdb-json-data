@@ -886,5 +886,9 @@
     {
         "code": "fatal_mirage",
         "name": "Fatal Mirage"
+    },
+    {
+        "code": "monogatari",
+        "name": "All the Monogatari stuff, whatever"
     }
 ]
