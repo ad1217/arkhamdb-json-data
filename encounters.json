@@ -834,5 +834,9 @@
     {
         "code": "swarm_of_assimilation",
         "name": "Swarm of Assimilation"
+    },
+    {
+        "code": "monogatari",
+        "name": "All the Monogatari stuff, whatever"
     }
 ]
