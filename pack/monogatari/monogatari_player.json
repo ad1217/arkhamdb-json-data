@@ -76,6 +76,7 @@
     "sanity": null,
     "skill_willpower": 2,
     "slot": "Arcane x2",
+    "text": "Exceptional.\n[reaction] After a phase begins, exhaust Iron-Blooded and deal it 1 damage: Ignore all damage and horror dealt to you until the end of the phase.",
     "traits": "Ritual.",
     "type_code": "asset",
     "xp": 2
@@ -296,6 +297,7 @@
     "pack_code": "monogatari_player",
     "position": 41,
     "quantity": 2,
+    "text": "Permanent. Exceptional. ..."
     "traits": "Talent.",
     "type_code": "asset",
     "xp": 3
@@ -458,13 +460,14 @@
     "code": "41052",
     "deck_limit": 1,
     "faction_code": "rogue",
-    "name": "Exeptional Favors",
+    "name": "Exceptional Favors",
     "pack_code": "monogatari_player",
     "position": 52,
     "quantity": 2,
+    "text": "Permanent. Exceptional. ..."
     "traits": "Talent.",
     "type_code": "asset",
-    "xp": 6
+    "xp": 3
   },
   {
     "code": "41053",
@@ -662,10 +665,11 @@
     "code": "41066",
     "deck_limit": 1,
     "faction_code": "mystic",
-    "name": "Thrid Eye",
+    "name": "Third Eye",
     "pack_code": "monogatari_player",
     "position": 66,
     "quantity": 2,
+    "text": "Exceptional. Permanent. ...",
     "traits": "Talent.",
     "type_code": "asset",
     "xp": 3
@@ -830,7 +834,7 @@
   {
     "code": "41078",
     "cost": 2,
-    "deck_limit": 2,
+    "deck_limit": 1,
     "faction_code": "survivor",
     "name": "Decieve Reality",
     "pack_code": "monogatari_player",
@@ -880,6 +884,7 @@
     "pack_code": "monogatari_player",
     "position": 81,
     "quantity": 2,
+    "text": "Permanent. Limit 1 per deck. ...",
     "traits": "Condition.",
     "type_code": "asset",
     "xp": 5
