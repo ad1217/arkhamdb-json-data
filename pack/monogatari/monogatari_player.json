@@ -66,7 +66,8 @@
   {
     "code": "41026",
     "cost": 3,
-    "deck_limit": 2,
+    "deck_limit": 1,
+    "exceptional": true,
     "faction_code": "guardian",
     "health": 3,
     "name": "Iron-Blooded",
@@ -76,7 +77,6 @@
     "sanity": null,
     "skill_willpower": 2,
     "slot": "Arcane x2",
-    "text": "Exceptional.\n[reaction] After a phase begins, exhaust Iron-Blooded and deal it 1 damage: Ignore all damage and horror dealt to you until the end of the phase.",
     "traits": "Ritual.",
     "type_code": "asset",
     "xp": 2
@@ -292,12 +292,12 @@
   {
     "code": "41041",
     "deck_limit": 1,
+	"exceptional": true,
     "faction_code": "seeker",
     "name": "Memory Palace",
     "pack_code": "monogatari_player",
     "position": 41,
     "quantity": 2,
-    "text": "Permanent. Exceptional. ..."
     "traits": "Talent.",
     "type_code": "asset",
     "xp": 3
@@ -459,15 +459,15 @@
   {
     "code": "41052",
     "deck_limit": 1,
+	"exceptional": true,
     "faction_code": "rogue",
-    "name": "Exceptional Favors",
+    "name": "Exeptional Favors",
     "pack_code": "monogatari_player",
     "position": 52,
     "quantity": 2,
-    "text": "Permanent. Exceptional. ..."
     "traits": "Talent.",
     "type_code": "asset",
-    "xp": 3
+    "xp": 6
   },
   {
     "code": "41053",
@@ -664,12 +664,12 @@
   {
     "code": "41066",
     "deck_limit": 1,
+	"exceptional": true,
     "faction_code": "mystic",
-    "name": "Third Eye",
+    "name": "Thrid Eye",
     "pack_code": "monogatari_player",
     "position": 66,
     "quantity": 2,
-    "text": "Exceptional. Permanent. ...",
     "traits": "Talent.",
     "type_code": "asset",
     "xp": 3
@@ -834,7 +834,7 @@
   {
     "code": "41078",
     "cost": 2,
-    "deck_limit": 1,
+    "deck_limit": 2,
     "faction_code": "survivor",
     "name": "Decieve Reality",
     "pack_code": "monogatari_player",
@@ -884,7 +884,6 @@
     "pack_code": "monogatari_player",
     "position": 81,
     "quantity": 2,
-    "text": "Permanent. Limit 1 per deck. ...",
     "traits": "Condition.",
     "type_code": "asset",
     "xp": 5
