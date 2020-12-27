@@ -307,6 +307,7 @@
         "is_unique": true,
         "name": "Monkey Paw",
         "pack_code": "monogatari",
+        "permanent": true,
         "position": 12,
         "quantity": 1,
         "restrictions": "investigator:41003",
