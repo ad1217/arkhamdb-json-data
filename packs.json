@@ -671,5 +671,13 @@
         "name": "Monogatari Investigators",
         "position": 1,
         "size": 20
+    },
+    {
+        "code": "monogatari_player",
+        "cycle_code": "monogatari",
+        "date_release": null,
+        "name": "Monogatari Player Cards",
+        "position": 2,
+        "size": 64
     }
 ]
