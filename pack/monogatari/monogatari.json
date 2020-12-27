@@ -29,7 +29,7 @@
 		"skill_combat": 5,
 		"skill_willpower": 3,
 		"subname": "The Former Vampire",
-		"text": "Each <b>Ally</b> asset you control gains Linked.\n[reaction] After you defeat an enemy - eat its remains: Heal 1 damage. (Limit once per phase.)\n[elder_sign] effect: +0 If this test results in defeating an enemy, resolve Shinobu Oshino's \"[reaction]\"",
+		"text": "Each <b>Ally</b> asset you control gains Linked.\n[reaction] After you defeat an enemy - eat its remains: Heal 1 damage. (Limit once per phase.)\n[elder_sign] effect: +0 If this test results in defeating an enemy, resolve Shinobu Oshino's \"[reaction]\" ability an additional time.",
 		"traits": "Vampire.",
 		"type_code": "investigator"
 	},
