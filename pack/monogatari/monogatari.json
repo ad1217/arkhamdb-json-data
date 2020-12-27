@@ -440,7 +440,7 @@
         "type_code": "event"
     },
 	{
-        "code": "41021",
+        "code": "41020",
         "deck_limit": 1,
         "enemy_damage": 1,
         "enemy_evade": 3,
@@ -452,7 +452,7 @@
         "illustrator": "Damien Mammoliti",
         "name": "High-ranking Cult Member",
         "pack_code": "monogatari",
-        "position": 21,
+        "position": 20,
         "quantity": 1,
 		"restrictions": "investigator:41005",
         "subtype_code": "weakness",
