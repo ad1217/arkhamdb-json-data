@@ -679,5 +679,13 @@
         "name": "Monogatari Player Cards",
         "position": 2,
         "size": 64
+    },
+    {
+        "code": "jim",
+        "cycle_code": "misc",
+        "date_release": null,
+        "name": "Jim Alternates",
+        "position": 1,
+        "size": 8
     }
 ]
