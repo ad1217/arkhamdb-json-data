@@ -88,5 +88,11 @@
         "name": "Monogatari_Campaign",
         "position": 101,
         "size": 2
+    },
+    {
+        "code": "misc",
+        "name": "Misc fan stuff",
+        "position": 102,
+        "size": 1
     }
 ]
