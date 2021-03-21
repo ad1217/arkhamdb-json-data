@@ -65,7 +65,7 @@
 		"skill_combat": 1,
 		"skill_willpower": 5,
 		"subname": "Possessed by a Cat Spirit",
-		"text": "[reaction] After 1 or more horror is placed on Tsubasa Hanekawa, take 1 additional horror: Discover 1 clue at your locations.(Limit once per round.)\n[elder_sign] effect: heal 1 horror or ready Black Hanekawa.",
+		"text": "[reaction] After 1 or more horror is placed on Tsubasa Hanekawa, take 1 additional horror: Discover 1 clue at your locations.(Limit once per round.)\n[elder_sign] effect: +2. You may either take 1 direct horror, heal 1 horror, or ready Black Hanekawa.",
 		"traits": "Drifter. Cursed.",
 		"type_code": "investigator"
 	},
@@ -100,7 +100,7 @@
 		"skill_combat": 3,
 		"skill_willpower": 1,
 		"subname": "The Underclassman",
-		"text": "[reaction] After you evade an enemy: Place 1 charge on Monkey Paw (2 charges if you succeeded by 2 or more, instead).(Limit once per round.)\n[elder_sign] effect: +2. Place 1 charge in Monkey Paw.",
+		"text": "[reaction] After you evade an enemy: Place 1 charge on Monkey Paw.(Limit once per phase.)\n[elder_sign] effect: +2. Place 1 charge in Monkey Paw.",
 		"traits": "Athlete. Cursed.",
 		"type_code": "investigator"
 	},
@@ -137,17 +137,17 @@
 		"quantity": 1,
 		"sanity": 7,
 		"skill_agility": 1,
-		"skill_intellect": 2,
+		"skill_intellect": 1,
 		"skill_combat": 1,
-		"skill_willpower": 4,
+		"skill_willpower": 3,
 		"subname": "The Living Doll",
-		"text": "You get +1 to each of your skills for every two <b>Spell</b> or <b>Ritual</b> assets you control.\n[reaction] After your turn begins: Play a <b>Spell</b> or <b>Ritual</b> asset from your hand, reducing its cost by 2.\n[elder_sign] effect: +1. If you succeed, you may play a <b>Spell</b> or <b>Ritual</b> asset from your hand, at no cost.",
+		"text": "You get +1 to each of your skills for every two non-permanent <b>Spell</b> or <b>Ritual</b> assets you control.\n[reaction] After your turn begins: Play a <b>Spell</b> or <b>Ritual</b> asset from your hand, reducing its cost by 2.\n[elder_sign] effect: +1. If you succeed, you may put a <b>Spell</b> or <b>Ritual</b> asset from your hand into play.",
 		"traits": "Servitor.",
 		"type_code": "investigator"
 	},
 	{
 		"back_flavor": "TEXT HERE",
-		"back_text": "<b>Deck Size</b>: 35.\n<b>Trait Choice</b>: At deck creation, either choose <b>Insight</b> or no trait.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5 (Survivor cards ([survivor]) level 0-2 if you chose <b>Insight</b> instead), Neutral cards level 0-5, up to 10 other <b>Insight</b> cards level 0-5(up to 10 other <b>Insight</b> cards level 0-3 if you chose no trait, instead).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 2 copies of Limitless Stationery, Weightlessness, High-ranking Cult Member, 1 random basic weakness.",
+		"back_text": "<b>Deck Size</b>: 35.\n<b>Trait Choice</b>: At deck creation, either choose <b>Insight</b> or no trait.\n<b>Deckbuilding Options</b>: If you chose <b>Insight: Insight</b> cards level 0-5, Survivor cards ([survivor]) level 0-2, Neutral cards level 0-5.\n\nIf you chose no trait: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, up to 10 other <b>Insight</b> cards level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 2 copies of Limitless Stationery, Weightlessness, High-ranking Cult Member, 1 random basic weakness.",
 		"code": "41005",
 		"deck_limit": 1,
 		"deck_options": [
@@ -157,11 +157,11 @@
 				"complex_select":{
 					"Insight":[
 						{"faction":["survivor"], "level":{"min":0, "max":2} },
-						{"trait":["insight"], "level":{"min":0, "max":5}, "limit": 10 }
+						{"trait":["insight"], "level":{"min":0, "max":5}}
 					],
 					"None":[
 						{"faction":["survivor"], "level":{"min":0, "max":5} },
-						{"trait":["insight"], "level":{"min":0, "max":3}, "limit": 10 }
+						{"trait":["insight"], "level":{"min":0, "max":2}, "limit": 10 }
 					]
 				}
 			}
@@ -182,7 +182,7 @@
 		"skill_combat": 2,
 		"skill_willpower": 3,
 		"subname": "The Graduate",
-		"text": "[action] :<b>Draw.</b> Either draw 1 card, or choose and discard 1 card from your hand.\nYou may take an additinal action during your turn, which can only be used to preform the above \"[action]\" ability.\n[elder_sign] effect: +0. Either draw 1 card or choose and discard 1 card.",
+		"text": "[action] :<b>Draw.</b> Either draw 1 card, or choose and discard 1 card from your hand.\n\nYou may take an additinal action during your turn, which can only be used to draw.\n[elder_sign] effect: +0. You may choose and discard 1 card from your hand to automatically succeed, instead.",
 		"traits": "Student.",
 		"type_code": "investigator"
 	},
@@ -199,7 +199,7 @@
         "position": 6,
         "quantity": 1,
         "restrictions": "investigator:41001",
-        "skill_combat": 1,
+        "skill_combat": 2,
         "skill_wild": 1,
         "slot": "Hand x2",
         "subname": "Oddity Slayer",
@@ -221,13 +221,13 @@
         "quantity": 1,
         "restrictions": "investigator:41001",
         "skill_combat": 2,
-        "skill_wild": 1,
+        "skill_wild": 2,
         "slot": "Hand x2",
         "subname": "Oddity Slayer",
-        "text": "Exceptional. Shinobu Oshino deck only.\n[free] During your turn, take 2 damage and exhaust Kokorowatari (Replica): <b>Fight.</b> You get +3 [combat] and deal +2 damage for this attack. \n<b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack.",
+        "text": "Exceptional. Shinobu Oshino deck only.\n[free] During your turn, take 2 damage and exhaust Kokorowatari (Replica): <b>Fight.</b> You get +3 [combat] and deal +2 damage for this attack. If this attack defeats an enemy, ready Kokorowatari(Replica).\n<b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack.",
         "traits": "Item. Weapon. Melee. Relic",
         "type_code": "asset",
-		"xp": 3
+		"xp": 4
     },
 	{
         "code": "41008",
@@ -283,7 +283,7 @@
     },
 	{
         "code": "41011",
-		"cost": 2,
+		"cost": -2,
         "deck_limit": 1,
         "faction_code": "neutral",
         "flavor": "",
@@ -294,7 +294,7 @@
         "quantity": 1,
 		"restrictions": "investigator:41002",
         "subtype_code": "weakness",
-        "text": "While Kako is in your hand, you cannot trigger [reaction] abilities except for the ability printed below.\nShuffle Kako into your deck.\n[reaction] When you would play Kako, if Black Hanekawa is in your play area: Cancel all its effects and discard Kako.",
+        "text": "While Kako is in your hand, you cannot trigger [reaction] abilities.\n X is your remaining sanity. Remove Kako from the game.",
         "traits": "Madness.",
         "type_code": "event"
     },
@@ -436,7 +436,7 @@
         "position": 19,
         "quantity": 1,
         "restrictions": "investigator:41005",
-        "text": "Hitagi Senjougahara deck only.\nLimitless Stationery annot be played or committed from your hand.\nDiscover 1 clue at your location.\n[reaction] After you discard Limitless Stationery from your hand during your turn: Play it. (Limit 1 <b>Introspection</b> ability per discard.)",
+        "text": "Hitagi Senjougahara deck only.\nLimitless Stationery cannot be played or committed from your hand.\nDiscover 1 clue at your location.\n[reaction] After you discard Limitless Stationery from your hand during your turn: Play it. (Limit 1 <b>Introspection</b> ability per discard.)",
         "traits": "Introspection.",
         "type_code": "event"
     },
@@ -444,8 +444,8 @@
         "code": "41020",
         "deck_limit": 1,
         "enemy_damage": 1,
-        "enemy_evade": 3,
-        "enemy_fight": 3,
+        "enemy_evade": 2,
+        "enemy_fight": 2,
         "enemy_horror": 1,
         "faction_code": "neutral",
         "flavor": "",
