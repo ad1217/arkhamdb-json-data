@@ -283,7 +283,7 @@
     },
 	{
         "code": "41011",
-		"cost": 'x',
+		"cost": -2,
         "deck_limit": 1,
         "faction_code": "neutral",
         "flavor": "",
