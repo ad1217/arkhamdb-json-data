@@ -1,5 +1,5 @@
 [
-	{
+    {
         "back_flavor": "Chiaki Asami was born in the Japanese Province of Owari. Though happy with his simple life, it would soon be take from him by the great Mino–Owari earthquake of 1891. Without an remaining family Chiaki immigrated to the United States, where he found himself settling down is the city of Arkham. Working from nothing, he would spend years founding his own company, set on creating a city like no other. It was only after some of his employees starting going missing and strange happening started appearing in the news that Chiaki learned the truth. If he didn't act now, Arkham would lead him to an early grave before he could see his plans for the city to completion.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Foresight, Field Reports, Sleepless Nights, 1 random basic weakness.",
         "code": "40000",
@@ -146,13 +146,103 @@
     },
     {
         "back_flavor": "",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-4, Neutral cards level 0-5, and up to 15 Rogue cards ([rogue]) level 0-X where X is the number of tallies marks under Hojo's rank (max level 3).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 1 Burning Ambition, 1 Occupational Hazard, 1 random basic weakness.",
+        "code": "40007",
+        "deck_limit": 1,
+        "deck_options": [
+            {"faction":["neutral"], "level":{"min":0, "max":5} },
+            {"faction":["guardian"], "level":{"min":0, "max":4} },
+            {
+                "name": "Hojo's Rank",
+                "complex_select": {
+                    "Rank 0": {"faction":["rogue"], "level":{"min":0, "max":0}, "limit":15 },
+                    "Rank 1": {"faction":["rogue"], "level":{"min":0, "max":1}, "limit":15 },
+                    "Rank 2": {"faction":["rogue"], "level":{"min":0, "max":2}, "limit":15 },
+                    "Rank 3": {"faction":["rogue"], "level":{"min":0, "max":3}, "limit":15 }
+                }
+            }
+        ],
+        "deck_requirements": "size:30, card:40008, card:40009, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "survivor",
+        "flavor": "",
+        "health": 8,
+        "sanity": 6,
+        "illustrator": "",
+        "is_unique": true,
+        "name": "Akira Hojo",
+        "pack_code": "kyo",
+        "position": 1,
+        "quantity": 1,
+        "skill_willpower": 4,
+        "skill_intellect": 3,
+        "skill_combat": 3,
+        "skill_agility": 2,
+        "subname": "Climbing Through the Ranks",
+        "text": "[reaction] When you perform a <b>Fight</b> action, spend 1 resource: Add your [agility] value to your skill value for this attack. If you succeed by 2 or more, you gain 1 resource (Limit once per test).\n[elder_sign] effect: +1. If this skill test causes an enemy to be defeated; gain 3 resources.",
+        "traits": "Philanthropist. Criminal.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "40008",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "",
+        "name": "Burning Ambition",
+        "pack_code": "kyo",
+        "permanent": true,
+        "position": 2,
+        "quantity": 1,
+        "restrictions": "investigator:40007",
+        "skill_agility": 1,
+        "skill_combat": 1,
+        "skill_wild": 1,
+        "text": "Akira Hojo deck only.\nFast. Uses (0 supplies).\n[reaction] After you pay a cost on a card effect, place a supply on Burning Ambition.\n[forced] When there are at least 7 supplies on Burning Ambition: Search your bonded cards for Rite of Passage and swap it with Burning Ambition.",
+        "flavor": "\"Why did you become a gangster?\"\n\"Because you can do in a single day...\"",
+        "traits": "Talent.",
+        "type_code": "asset"
+    },
+    {
+        "bonded_to": "Burning Ambition",
+        "bonded_count": 1,
+        "code": "40009",
+        "cost": null,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "",
+        "name": "Rite of Passage",
+        "pack_code": "kyo",
+        "position": 3,
+        "quantity": 1,
+        "restrictions": "investigator:40007",
+        "text": "Bonded (Long-Term Ambition). Permanent.\nRecord one tally mark under “Hojo's Rank” in your Campaign Log.\nYou get +1[agility].\n[reaction] After you defeat an enemy: Play a card (Limit once per round).",
+        "flavor": "\"...What it takes an ordinary man thirty years to do.\"",
+        "traits": "Talent. Practiced.",
+        "type_code": "asset"
+    },
+    {
+        "code": "400010",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "illustrator": "",
+        "name": "Occupational Hazard",
+        "pack_code": "kyo",
+        "position": 4,
+        "quantity": 1,
+        "restrictions": "investigator:40007",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> - Put Occupational Hazard into play in your threat area.\n<b>Forced</b> - At the end of your turn take 1 damage. If an ally is defeated this way, Akira Hojo takes 2 horror and discard Occupational Hazard.",
+        "traits": "Blunder.",
+        "type_code": "treachery"
+    },
+    {
+        "back_flavor": "",
         "back_text": "",
         "code": "40101",
         "deck_limit": 1,
-        "deck_options": [{
-            "faction": ["guardian", "mystic", "rogue", "seeker", "survivor", "neutral"],
-            "level": {"min":0, "max":5}
-        }],
+        "deck_options": [
+            {"faction": ["guardian", "mystic", "rogue", "seeker", "survivor", "neutral"], "level": {"min":0, "max":5}}
+        ],
         "deck_requirements": "size:30",
         "double_sided": true,
         "faction_code": "neutral",
