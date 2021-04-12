@@ -687,5 +687,13 @@
         "name": "Jim Alternates",
         "position": 1,
         "size": 8
+    },
+    {
+        "code": "wonderland",
+        "cycle_code": "misc",
+        "date_release": null,
+        "name": "Alice in Wonderland",
+        "position": 2,
+        "size": 3
     }
 ]
