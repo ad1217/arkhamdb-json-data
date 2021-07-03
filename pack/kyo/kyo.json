@@ -245,6 +245,7 @@
         "deck_options": [
             {"faction":["neutral"], "level":{"min":0, "max":5} },
             {"faction":["survivor"], "level":{"min":0, "max":3} },
+            {"faction":["guardian"], "level":{"min":0, "max":0}, "limit":5},
             {"trait":["cursed"], "level":{"min":0, "max":3} },
             {"trait":["blessed"], "level":{"min":0, "max":5} }
         ],
