@@ -660,8 +660,16 @@
         "code": "kyo",
         "cycle_code": "kyo",
         "date_release": null,
-        "name": "Keith's Custom Stuff Set",
+        "name": "Keith's Custom Investigators",
         "position": 1,
+        "size": 4
+    },
+    {
+        "code": "kyo_player",
+        "cycle_code": "kyo",
+        "date_release": null,
+        "name": "Keith's Custom Player Cards",
+        "position": 2,
         "size": 4
     },
     {
