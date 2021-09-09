@@ -50,6 +50,7 @@
         "pack_code": "kyo_player",
         "position": 27,
         "quantity": 2,
+        "sanity": 1,
         "skill_willpower": 1,
         "slot": "Accessory",
         "text": "[reaction] After an investigator at your location takes damage, exhaust Discarded Dogtags and deal it 1 damage: Gain 1 resource and heal 1 horror.",
@@ -720,13 +721,13 @@
         "position": 62,
         "quantity": 2,
         "skill_willpower": 1,
-        "text": "Group limit 1 The First to Flinch in play.\nFast. Play after you draw a non-peril encounter card, but before resolving that card's effects.\n\nPut The First to Flinch into play in your play area and attach that treachery to it instead of resolving it.\n\n<b>Forced</b> At the start of the mythos phase, an investigator draws the attached card. Then, discard The First to Flinch.",
+        "text": "Group limit 1 copy of The First to Flinch in play.\nFast. Play after you draw a non-weakness treachery card, but before resolving that card's effects.\n\nPut The First to Flinch into play in your play area and attach that encounter card to it instead of resolving it.\n\n<b>forced</b> After an investigator fails a skill test on an encounter card, they draw the attached card. Then, discard The First to Flinch.",
         "traits": "Trick. Spirit.",
         "type_code": "event",
         "xp": 0
     },
     {
-        "code": "43063",
+        "code": "42063",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "rogue",
