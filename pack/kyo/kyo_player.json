@@ -187,7 +187,7 @@
     },
     {
         "code": "43035",
-        "cost": 2,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "guardian",
         "flavor": "",
@@ -510,7 +510,7 @@
     },
     {
         "code": "43052",
-        "cost": 4,
+        "cost": 3,
         "deck_limit": 2,
         "faction_code": "seeker",
         "flavor": "",
@@ -721,14 +721,14 @@
         "position": 62,
         "quantity": 2,
         "skill_willpower": 1,
-        "text": "Group limit 1 copy of The First to Flinch in play.\nFast. Play after you draw a non-weakness treachery card, but before resolving that card's effects.\n\nPut The First to Flinch into play in your play area and attach that encounter card to it instead of resolving it.\n\n<b>forced</b> After an investigator fails a skill test on an encounter card, they draw the attached card. Then, discard The First to Flinch.",
+        "text": "Group limit 1 copy of The First to Flinch in play.\nFast. Play after you draw a non-weakness treachery card, but before resolving that card's effects.\n\nPut The First to Flinch into play in your play area and attach that encounter card to it instead of resolving it.\n\n<b>Forced</b> After an investigator fails a skill test on an encounter card, they draw the attached card. Then, discard The First to Flinch.",
         "traits": "Trick. Spirit.",
         "type_code": "event",
         "xp": 0
     },
     {
         "code": "43063",
-        "cost": 2,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "rogue",
         "flavor": "",
@@ -978,7 +978,7 @@
     },
     {
         "code": "43076",
-        "cost": 2,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "mystic",
         "flavor": "",
@@ -1015,7 +1015,7 @@
     },
     {
         "code": "43078",
-        "cost": 2,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "mystic",
         "flavor": "",
@@ -1510,7 +1510,6 @@
         "code": "43104",
         "deck_limit": 2,
         "faction_code": "guardian",
-        "faction2_code": "seeker",
         "flavor": "",
         "illustrator": "sstarkm",
         "is_unique": false,
@@ -1553,7 +1552,6 @@
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "mystic",
-        "faction2_code": "survivor",
         "flavor": "",
         "illustrator": "EmKriArt",
         "is_unique": false,
