@@ -58,7 +58,7 @@
     },
     {
         "code": "42028",
-        "cost": 3,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "guardian",
         "flavor": "",
@@ -70,7 +70,7 @@
         "quantity": 2,
         "skill_agility": 1,
         "skill_combat": 1,
-        "text": "<b>Fight</b>. You get +1 [combat] for this attack. If you succeed and have a modified skill value of least 3 [agility] during this skill test, including icons on cards you commited, this attack deals an additional +2 damage.",
+        "text": "<b>Fight</b>. Add your [agility] value to your skill value for this attack. You get -1 [agility] for this test. If you succeed, this attack deals an additional +1 damage.",
         "traits": "Spirit. Tactic.",
         "type_code": "event",
         "xp": 0
@@ -107,7 +107,7 @@
         "quantity": 2,
         "skill_combat": 1,
         "skill_intellect": 1,
-        "text": "<b>Parley</b>. Choose a <b><i>Humanoid</i></b> enemy at your location and test [combat] (4). You may use your [intellect] value for this test. If you succeed, discover 2 clues at your location. If this test fails, deal 1 damage to that enemy.",
+        "text": "<b>Parley</b>. Choose an enemy at your location and test [combat] (4) or [intellect] (4). If you succeed and that enemy is <b><i>Humanoid</i></b>, discover 2 clues at your location. If they aren't or you fail, deal 1 damage to that enemy.",
         "traits": "Tactic. Insight.",
         "type_code": "event",
         "xp": 0
@@ -123,8 +123,8 @@
         "pack_code": "kyo_player",
         "position": 31,
         "quantity": 2,
-        "skill_combat": 1,
-        "text": "You get +2 [willpower], +2 [intellect], and +2 [agility] during this skill test.",
+        "skill_wild": 1,
+        "text": "You get +1 [willpower], +1 [intellect], +1 [combat], and +1 [agility] during this skill test.",
         "traits": "Practiced.",
         "type_code": "skill",
         "xp": 0
@@ -186,7 +186,7 @@
     },
     {
         "code": "42035",
-        "cost": 2,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "guardian",
         "flavor": "",
@@ -198,7 +198,7 @@
         "quantity": 2,
         "skill_combat": 2,
         "skill_intellect": 1,
-        "text": "<b>Parley</b>. Choose a <b><i>Humanoid</i></b> enemy at your location and test [combat] (4). You may use your [intellect] value for this test. If you succeed, discover 3 clues at your location. If this test fails, deal 2 damage to that enemy.",
+        "text": "<b>Parley</b>. Choose an enemy at your location and test [combat] (4) or [intellect] (4). If you succeed and that enemy is <b><i>Humanoid</i></b>, discover 2 clues at your location. If they aren't or you fail, deal 2 damage to that enemy.",
         "traits": "Tactic. Insight.",
         "type_code": "event",
         "xp": 2
@@ -324,7 +324,7 @@
     },
     {
         "code": "42042",
-        "cost": 2,
+        "cost": 3,
         "deck_limit": 2,
         "faction_code": "seeker",
         "flavor": "",
@@ -338,7 +338,7 @@
         "skill_intellect": 1,
         "skill_willpower": 1,
         "slot": "Body",
-        "text": "Handlocked.\n\nYour maximum hand size is increased by 1.\n[reaction] At the start of the upkeep phase, exhaust Laboratory Coat: Move the leftmost card in your hand to the rightmost position.",
+        "text": "Handlocked.\n\nYour maximum hand size is increased by 1.\n[free] During a skill test you can commit to, exhaust Laboratory Coat: The current leftmost card in your hand gains a [wild] icon during this test.",
         "traits": "Item. Clothing.",
         "type_code": "asset",
         "xp": 0
@@ -356,17 +356,17 @@
         "position": 43,
         "quantity": 2,
         "skill_intellect": 2,
-        "text": "Fast. Play only after making a test as your first action.\nChoose another investigator at your location. They take an action of the same type as your first action. This action does not count toward the number of actions they can take each turn. If they succeed a skill test, lose 1 action and you both gain 2 resources <i>(types include activate, evade, fight, and investigate)</i>.",
+        "text": "Fast. Play only after making a skill test as your first action.\nChoose another investigator at your location. They take an action of the same type as your first action. This action does not count toward the number of actions they can take each turn. If they succeed a skill test, lose 1 action and you both gain 2 resources <i>(types include activate, evade, fight, and investigate)</i>.",
         "traits": "Insight.",
         "type_code": "event",
         "xp": 0
     },
     {
         "code": "42044",
-        "cost": 1,
+        "cost": 0,
         "deck_limit": 2,
         "faction_code": "seeker",
-        "flavor": "\"How is that even possible!\"",
+        "flavor": "\"My head! I should have listened when Daisy warned me.\"",
         "illustrator": "Mandy Jurgens",
         "is_unique": false,
         "name": "Eldritch Research",
@@ -374,7 +374,7 @@
         "position": 44,
         "quantity": 2,
         "skill_intellect": 1,
-        "text": "Take 1 horror. Discard the top 5 card of your deck. Add up to 2 <b><i>Insight</i></b> cards discarded this way to your hand.",
+        "text": "Take 1 horror. Discard the top 6 card of your deck. Add up to 2 <b><i>Insight</i></b> cards discarded this way to your hand.",
         "traits": "Insight.",
         "type_code": "event",
         "xp": 0
@@ -392,7 +392,7 @@
         "position": 45,
         "quantity": 2,
         "skill_agility": 1,
-        "text": "Handlocked. While this card is in your hand's middle position, it gains fast.\n<b>Investigate.</b> Add your [agility] value to your skill value for this investigation. If you succeed, you may automatically evade an enemy at your location instead of discovering a clue.",
+        "text": "Handlocked. While this card is in the right half of your hand, it gains fast.\n<b>Investigate.</b> Add your [agility] value to your skill value for this investigation. If you succeed, you may automatically evade an enemy at your location instead of discovering a clue.",
         "traits": "Insight.",
         "type_code": "event",
         "xp": 0
@@ -409,14 +409,14 @@
         "pack_code": "kyo_player",
         "position": 46,
         "quantity": 2,
-        "text": "Handlocked. Glint From Afar cannot be played.\n<b>forced</b> Whenever Glint From Afar is leftmost card in your hand: Shuffle it into your deck and draw a card.\n\n[reaction] After you take a <b>Move</b> action while Glint From Afar is in the right side of your hand: Discard this card and move an investigator at a connecting location to your location or visa versa.",
+        "text": "Handlocked. Glint From Afar cannot be played.\n<b>Forced</b> Whenever Glint From Afar is the leftmost card in your hand: Draw a card. Then, shuffle Glint From Afar into your deck. \n\n[reaction] After you take a <b>Move</b> action: Discard this card and move an investigator at a connecting location to your location or visa versa.",
         "traits": "Insight.",
         "type_code": "event",
         "xp": 0
     },
     {
         "code": "42047",
-        "cost": 2,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "seeker",
         "flavor": "",
@@ -428,7 +428,7 @@
         "quantity": 2,
         "skill_combat": 1,
         "skill_intellect": 1,
-        "text": "<b>Investigate.</b> You get +1 [intellect] for this investigation. If you succeed and have a modified skill value of least 3 [combat] during this skill test, including icons on cards you commited, you discover 1 additional clue at your location.",
+        "text": "<b>Investigate.</b> Add your [combat] value to your skill value for this investigation. You get -1 [combat] for this test. If you succeed, you discover 1 additional clue at your location.",
         "traits": "Insight.",
         "type_code": "event",
         "xp": 0
@@ -473,7 +473,7 @@
         "cost": 3,
         "deck_limit": 2,
         "faction_code": "seeker",
-        "flavor": "\"I just need to beat them at there own game. Easy.\"",
+        "flavor": "\"I just need to beat them at their own game. Easy.\"",
         "illustrator": "Stéphane Robert",
         "is_unique": false,
         "name": "Sinister Challenge",
@@ -482,7 +482,7 @@
         "quantity": 2,
         "skill_intellect": 1,
         "skill_willpower": 1,
-        "text": "Reduce the cost to play Sinister Challenge by 1 for every 4 cards in your hand.\n<b>Investigate.</b> Investigate with a base [intellect] value of 1. (If Sinister Challenge cost 0 to play, this test is automatically successful.) If you succeed, discover 3 total clues from among your location and connecting locations.",
+        "text": "Reduce the cost to play Sinister Challenge by 1 for every 4 cards in your hand.\n<b>Investigate.</b> Investigate with a base [intellect] value of 1. (If you have 8 or more cards in your hand, this test is automatically successful.) If you succeed, discover 2 total clues from among your location and connecting locations.",
         "traits": "Insight. Cursed.",
         "type_code": "event",
         "xp": 2
@@ -499,14 +499,14 @@
         "position": 51,
         "quantity": 2,
         "skill_wild": 2,
-        "text": "Exceptional. Handlocked.\n\nYou cannot choose to commit Seeing the Big Picture.\n<b>forced</b> At the end of the round, move Seeing the Big Picture 1 position to the left. While it is the the leftmost card in your hand, it cannot change positions and you must commit it to the next eligible skill test you perform.\n\nWhile Seeing the Big Picture is in your hand, reduce the cost of <b><i>Insight</i></b> cards you play by 1.",
+        "text": "Exceptional. Handlocked.\n<b>Forced</b> At the end of the round, move Seeing the Big Picture 1 position to the left. While it is the the leftmost card in your hand, it cannot change position and you must commit it to the next eligible skill test you perform.\n\nWhile Seeing the Big Picture is in your hand, reduce the cost of <b><i>Insight</i></b> cards you play by 1.",
         "traits": "Practiced.",
         "type_code": "skill",
         "xp": 2
     },
     {
         "code": "42052",
-        "cost": 4,
+        "cost": 3,
         "deck_limit": 2,
         "faction_code": "seeker",
         "flavor": "",
@@ -522,7 +522,7 @@
         "skill_wild": 1,
         "slot": "Ally",
         "subname": "The Novelist",
-        "text": "While you have more than 7 cards in hand you gain +1 [intellect].\n[reaction] After you discard a card, exhaust Heather Freeman: Draw a card. You may discard the card you drew. If you do, draw a card.",
+        "text": "While you have at least 7 cards in hand you gain\n+1 [intellect].\n[reaction] After you discard a card from your hand or deck, exhaust Heather Freeman: Draw a card. You may discard the card you drew. If you do, draw a card.",
         "traits": "Ally. Civic.",
         "type_code": "asset",
         "xp": 3
@@ -543,7 +543,7 @@
         "skill_combat": 1,
         "skill_wild": 1,
         "slot": "Body",
-        "text": "<> When an enemy would spawn at your location, exhaust Shroud of the Old Ones: Choose a connecting location with clues on it. Then, test\n[intellect] (4). If you succeed, spawn that enemy at the chosen location instead, if able.",
+        "text": "[reaction] When an enemy would spawn at your location, exhaust Shroud of the Old Ones: Choose a connecting location with at least 1 clue on it. Then, test [intellect] (4). If you succeed, spawn that enemy at the chosen location instead, if able.",
         "traits": "Item. Clothing. Relic. Occult.",
         "type_code": "asset",
         "xp": 3
@@ -564,7 +564,7 @@
         "skill_wild": 1,
         "skill_willpower": 1,
         "slot": "Arcane",
-        "text": "Exceptional.\nDuring the upkeep phase, you may choose to not draw a card.\n\nWhile you have no cards in your deck, you get +1 [willpower] , +1 [intellect], +1 [combat], +1 [agility] and may take an additional action during your turn.\n\n[reaction] After this card enters play: Discard your hand and draw 5 cards.\n\n<b>forced</b> Cards that would shuffle into your deck are removed from the game, instead.",
+        "text": "Exceptional.\nDuring the upkeep phase, you may choose to not draw a card.\n\nWhile you have no cards in your deck, you get +1 [willpower] , +1 [intellect], +1 [combat], +1 [agility] and may take an additional action during your turn.\n\n[reaction] After this card enters play: Discard your hand and draw 5 cards.\n\n<b>Forced</b> Cards that would shuffle into your deck are removed from the game, instead.",
         "traits": "Ritual. Insight.",
         "type_code": "asset",
         "xp": 3
@@ -583,7 +583,7 @@
         "quantity": 2,
         "skill_intellect": 2,
         "skill_wild": 1,
-        "text": "If your discard has at least...\n\n- ...10 cards, you may draw a card.\n\n- ...15 cards, your location gets -1 shroud until the end of this round. \n\n- ...20 cards, discover 2 clues at your location.\n\n- ...25 cards, discover 1 clue at any location.\n\nYou may shuffle your discard into your deck.",
+        "text": "If in your discard, there are at least...\n\n- ...10 cards, you may draw a card.\n\n- ...15 cards, your location gets -1 shroud until the end of this round. \n\n- ...20 cards, discover 2 clues at your location.\n\n- ...25 cards, discover 1 clue at any location.\n\n\nYou may shuffle your discard into your deck.",
         "traits": "Insight.",
         "type_code": "event",
         "xp": 3
@@ -603,7 +603,7 @@
         "skill_intellect": 1,
         "skill_wild": 2,
         "slot": "Hand",
-        "text": "You get +1 skill value while resolving skill tests on event cards.\n\n<b>forced</b> At the start of your turn, add an <b><i>Insight</i></b> card from your discard to your hand. At the end of your turn, remove that card from the game.",
+        "text": "You get +1 skill value while resolving skill tests on event cards.\n\n<b>Forced</b> At the start of your turn, add an <b><i>Insight</i></b> card from your discard to your hand. At the end of your turn, remove that card from the game.",
         "traits": "Item. Tome.",
         "type_code": "asset",
         "xp": 4
@@ -688,7 +688,7 @@
     },
     {
         "code": "42061",
-        "cost": 1,
+        "cost": 0,
         "deck_limit": 2,
         "faction_code": "rogue",
         "flavor": "",
@@ -717,14 +717,14 @@
         "position": 62,
         "quantity": 2,
         "skill_willpower": 1,
-        "text": "Group limit 1 copy of The First to Flinch in play.\nFast. Play after you draw a non-weakness treachery card, but before resolving that card's effects.\n\nPut The First to Flinch into play in your play area and attach that encounter card to it instead of resolving it.\n\n<b>forced</b> After an investigator fails a skill test on an encounter card, they draw the attached card. Then, discard The First to Flinch.",
+        "text": "Group limit 1 copy of The First to Flinch in play.\nFast. Play after you draw a non-weakness treachery card, but before resolving that card's effects.\n\nPut The First to Flinch into play in your play area and attach that encounter card to it instead of resolving it.\n\n<b>Forced</b> After an investigator fails a skill test on an encounter card, they draw the attached card. Then, discard The First to Flinch.",
         "traits": "Trick. Spirit.",
         "type_code": "event",
         "xp": 0
     },
     {
         "code": "42063",
-        "cost": 2,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "rogue",
         "flavor": "",
@@ -736,8 +736,8 @@
         "quantity": 2,
         "skill_agility": 1,
         "skill_intellect": 1,
-        "text": "<b>Evade.</b> You get +1 [agility] for this evade. If you succeed and have a modified skill value of least 3 [willpower] during this skill test, including icons on cards you commited, you deal the evaded enemy 1 damage.",
-        "traits": "Spirit. Insight.",
+        "text": "<b>Evade.</b> Add your [willpower] value to your skill value for this evade. You get -1 [willpower] for this test If you succeed, you deal the evaded enemy 1 damage.",
+        "traits": "Trick. Insight.",
         "type_code": "event",
         "xp": 0
     },
@@ -809,7 +809,7 @@
         "skill_agility": 1,
         "skill_combat": 1,
         "slot": "Hand",
-        "text": "Handlocked. Uses (4 ammo).\nIf Klabb  was the leftmost card in your hand when playing it: Place 2 additional ammo on this card.\n\n[action] Spend 1 ammo: <b>Fight.</b> Add your [agility] value to your skill value for this attack and you deal +1 damage. If you do not succeed by at least 2, remove 1 ammo from Klabb .",
+        "text": "Handlocked. Uses (3 ammo).\nIf Klabb  was the leftmost card in your hand when playing it: Place 3 additional ammo on this card.\n\n[action] Spend 1 ammo: <b>Fight.</b> Add your [agility] value to your skill value for this attack and you deal +1 damage. If you do not succeed by at least 1, remove 1 ammo from Klabb .",
         "traits": "Item. Weapon. Firearm. Illicit.",
         "type_code": "asset",
         "xp": 2
@@ -829,7 +829,7 @@
         "skill_agility": 1,
         "skill_combat": 1,
         "slot": "Hand",
-        "text": "[action]: <b>Fight.</b> You get +1 [combat] for this attack for every 3 resources in your resource pool (Max +5 [combat]). As an additional cost to initiate this ability, you may exhaust Platinum Club. If you do, you deal +1 damage for this attack.",
+        "text": "[action]: <b>Fight.</b> You get +1 [combat] for this attack for every 3 resources in your resource pool (Limit +5 [combat]). As an additional cost to initiate this ability, you may exhaust Platinum Club. If you do, you deal +1 damage for this attack.",
         "traits": "Item. Weapon. Melee.",
         "type_code": "asset",
         "xp": 2
@@ -852,7 +852,7 @@
         "text": "Uses (0 supplies). Limit 15 supplies on Stacked Deck.\n[reaction] After you spend resources to play a card: Place 1 resource on this card. (Limit 15 resources)\n\n[free] Discard Stacked Deck: Move all supplies from it to your resource pool, as resources.",
         "traits": "Item. Illicit.",
         "type_code": "asset",
-        "xp": 2
+        "xp": 3
     },
     {
         "code": "42070",
@@ -868,7 +868,7 @@
         "quantity": 2,
         "skill_agility": 1,
         "skill_combat": 1,
-        "text": "Handlocked.\n<b>Fight.</b> This attack deals +1 damage. If before playing Deal Closer, right of it was at least...\n- ...2 cards, Add your [agility] value to your skill value for this attack.\n\n- ...5 cards, this attack deals an additional +2 damage.",
+        "text": "Handlocked.\n<b>Fight.</b> This attack deals +1 damage. If before playing Deal Closer, right of it was at least...\n- ...2 cards, Add your [agility] value to your skill value for this attack.\n\n- ...4 cards, this attack deals an additional +2 damage.",
         "traits": "Trick. Illicit.",
         "type_code": "event",
         "xp": 2
@@ -909,7 +909,7 @@
         "skill_intellect": 1,
         "skill_wild": 1,
         "slot": "Ally",
-        "text": "Handlocked.\nYou get +1 [intellect] and +1 [agility].\n\nAt the start of each round, the cards currently in the left most and middle position of your hand become the \"Package\", until the end of the round.\n\n[reaction] After you play a Package card, exhaust Underworld Couriers: Draw 1 card and gain 1 resource.",
+        "text": "Handlocked.\nYou get +1 [intellect] and +1 [agility].\n\nAt the start of each round, the cards currently in the leftmost and middle position of your hand become the \"Package\", until either they are played or the round ends.\n\n[reaction] After you play a Package card: Gain 1 resource. You may exhaust Underworld Couriers to draw 1 card.",
         "traits": "Ally. Criminal.",
         "type_code": "asset",
         "xp": 4
@@ -974,7 +974,7 @@
     },
     {
         "code": "42076",
-        "cost": 2,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "mystic",
         "flavor": "",
@@ -986,7 +986,7 @@
         "quantity": 2,
         "skill_intellect": 1,
         "skill_willpower": 1,
-        "text": "<b>Investigate.</b> Investigate using [willpower] instead of [intellect]. You get +2 [willpower] for this test. If you succeed and have a modified skill value of least 3 [intellect] during this skill test, including icons on cards you commited, you discover 1 additional clue at your location.",
+        "text": "<b>Investigate.</b> Investigate using [willpower] instead of [intellect]. </b> Add your [intellect] value to your skill value for this investigation. You get -1 [intellect] for this test. If you succeed, you discover 1 additional clue at your location.",
         "traits": "Spell. Insight.",
         "type_code": "event",
         "xp": 0
@@ -1011,7 +1011,7 @@
     },
     {
         "code": "42078",
-        "cost": 2,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "mystic",
         "flavor": "",
@@ -1023,7 +1023,7 @@
         "quantity": 2,
         "skill_combat": 1,
         "skill_willpower": 1,
-        "text": "<b>Fight.</b> This attack uses [willpower] instead of [combat]. You get +2 [willpower] for this test. If you succeed and have a modified skill value of least 3 [combat] during this skill test, including icons on cards you commited, this attack deals +1 damage (+2 damage instead if the enemy is non-<b><i>Elite</i></b>).",
+        "text": "<b>Fight.</b> This attack uses [willpower] instead of [combat]. Add your [combat] value to your skill value for this attack. You get -1 [combat] for this test. If you succeed, this attack deals +1 damage (+2 damage instead if the enemy is non-<b><i>Elite</i></b>).",
         "traits": "Spell.",
         "type_code": "event",
         "xp": 0
@@ -1047,7 +1047,7 @@
     },
     {
         "code": "42080",
-        "cost": 4,
+        "cost": 3,
         "deck_limit": 2,
         "faction_code": "mystic",
         "flavor": "",
@@ -1079,8 +1079,8 @@
         "quantity": 2,
         "skill_intellect": 1,
         "skill_willpower": 1,
-        "text": "Fast. Play only during your turn.\nAttach to an <b><i>Ally</i></b> asset you control.\n\nAttached asset gets +1 health.\n\n[free] Exhaust Predict Fate: Shuffle a card from your hand into your deck. Draw a card.\n\n<b>forced</b> When Predict Fate leaves play, take 2 horror.",
-        "traits": "Ritual. Bond.",
+        "text": "Fast. Play only during your turn.\nAttach to an <b><i>Ally</i></b> asset you control.\n\nAttached asset gets +1 health.\n\n[free] Exhaust Predict Fate: Shuffle a card you control or in your hand into your deck. Draw a card.\n\n<b>Forced</b> When Predict Fate leaves play, take 2 horror.",
+        "traits": "Ritual. Upgrade.",
         "type_code": "event",
         "xp": 1
     },
@@ -1114,8 +1114,8 @@
         "pack_code": "kyo_player",
         "position": 83,
         "quantity": 2,
-        "skill_willpower": 1,
-        "text": "Commit only to a skill test you are performing. When you commit this card, 1 of your skills gets +2 for the duration of this test.\nIf multiple chaos tokens were revealed during this skill test, you may return Blesssing From Above to your hand when this test ends.",
+        "skill_wild": 2,
+        "text": "Commit only to a skill test you are performing.\nIf multiple chaos tokens were revealed during this skill test, you may return Blesssing From Above to your hand after this test ends.",
         "traits": "Innate. Blessed.",
         "type_code": "skill",
         "xp": 2
@@ -1136,7 +1136,7 @@
         "skill_wild": 1,
         "skill_willpower": 1,
         "slot": "Hands x2. Arcane",
-        "text": "Exceptional.\n\nWhile there is only 1 enemy engaged with you, they cannot make attacks of opportunity. When you move, non-<b><i>Elite</i></b> enemies disengage from you first.\n[action] <b>Fight.</b> This attack uses your [willpower] instead of [combat]. If your [combat] is within 2 skill value of your [willpower] before revealing a chaos token, then you get +3 [willpower] and deal +2 damage for this attack.",
+        "text": "Exceptional.\n\nWhile there is only 1 non-<b><i>Elite</i></b> enemy engaged with you, they cannot make attacks of opportunity against you. When you move, non-<b><i>Elite</i></b> enemies disengage from you first.\n[action] <b>Fight.</b> This attack uses your [willpower] instead of [combat]. If your [combat] is within 2 skill value of your [willpower] before revealing a chaos token, then you get +4 [willpower] and deal +2 damage for this attack.",
         "traits": "Spell.",
         "type_code": "asset",
         "xp": 3
@@ -1235,7 +1235,7 @@
         "quantity": 2,
         "skill_wild": 1,
         "slot": "Ally",
-        "text": "[free] Discard Lucky Rabbit: Search the top 8 cards of your deck for a <b><i>Item</i></b> card and add it to your hand. Shuffle your deck.",
+        "text": "[free] Discard Lucky Rabbit: Search the top 7 cards of your deck for a <b><i>Item</i></b> card and add it to your hand. Shuffle your deck.",
         "traits": "Ally. Creature.",
         "type_code": "asset",
         "xp": 0
@@ -1292,14 +1292,14 @@
         "position": 92,
         "quantity": 2,
         "skill_wild": 1,
-        "text": "<b>Investigate</b>. You get +1 [intellect] during this skill test for each <b><i>Creature</i></b> card you control and/or in your discard. If you succeed and have at least 3 <b><i>Creature</i></b> cards in your control and/or in your discard, you discover 1 additional clue at your location.",
+        "text": "<b>Investigate</b>. You get +1 [intellect] during this skill test for each <b><i>Creature</i></b> card in your control and/or discard. If you succeed and have at least 3 total <b><i>Creature</i></b> cards in your control and discard, you discover 1 additional clue at your location.",
         "traits": "Insight.",
         "type_code": "event",
         "xp": 0
     },
     {
         "code": "42093",
-        "cost": 2,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "",
@@ -1311,7 +1311,7 @@
         "quantity": 2,
         "skill_intellect": 1,
         "skill_willpower": 1,
-        "text": "<b>Investigate.</b> This investigation uses your highest skill value, instead of [intellect]. If you succeed and a different skill has a modified skill value of at least 4 skill value during this skill test, including icons on cards you commited, you may heal 1 damage or 1 horror.",
+        "text": "<b>Investigate.</b> This investigation uses your skill with the highest base value, instead of [intellect]. Add the value of your skill with the lowest base value to your skill value for this investigation. You get -1 skill value for this test. If you succeed, you may heal 1 damage or 1 horror.",
         "traits": "Spirit. Insight.",
         "type_code": "event",
         "xp": 0
@@ -1328,7 +1328,7 @@
         "position": 94,
         "quantity": 2,
         "skill_agility": 2,
-        "text": "You can only commit Jumpy during a basic evade action you are performing.\nWhile this card is in your discard, you get +1 [agility].\n\n<b>forced</b> At the end of the round, if Jumpy is in your discard; shuffle Jumpy into your deck. If you cannot, remove Jumpy from the game.",
+        "text": "You can only commit Jumpy during a basic evade action you are performing.\nWhile this card is in your discard, you get +1 [agility].\n\n<b>Forced</b> At the end of the round, if Jumpy is in your discard; shuffle Jumpy into your deck. If you cannot, remove Jumpy from the game.",
         "traits": "Innate.",
         "type_code": "skill",
         "xp": 0
@@ -1345,7 +1345,7 @@
         "position": 95,
         "quantity": 2,
         "skill_intellect": 2,
-        "text": "You can only commit Nosy during a basic investigate action you are performing.\nWhile Nosy is in your discard, you get +1 [intellect].\n\n<b>forced</b> At the end of the round, if Nosy is in your discard; shuffle Nosy into your deck. If you cannot, remove Nosy from the game.",
+        "text": "You can only commit Nosy during a basic investigate action you are performing.\nWhile Nosy is in your discard, you get +1 [intellect].\n\n<b>Forced</b> At the end of the round, if Nosy is in your discard; shuffle Nosy into your deck. If you cannot, remove Nosy from the game.",
         "traits": "Innate.",
         "type_code": "skill",
         "xp": 0
@@ -1362,7 +1362,7 @@
         "position": 96,
         "quantity": 2,
         "skill_combat": 2,
-        "text": "You can only commit Ragey during a basic fight action you are performing.\nWhile this card is in your discard, you get +1 [combat].\n\n<b>forced</b> At the end of the round, if Ragey is in your discard; shuffle Ragey into your deck. If you cannot, remove Ragey from the game.",
+        "text": "You can only commit Ragey during a basic fight action you are performing.\nWhile this card is in your discard, you get +1 [combat].\n\n<b>Forced</b> At the end of the round, if Ragey is in your discard; shuffle Ragey into your deck. If you cannot, remove Ragey from the game.",
         "traits": "Innate.",
         "type_code": "skill",
         "xp": 0
@@ -1456,7 +1456,7 @@
         "position": 101,
         "quantity": 2,
         "skill_agility": 2,
-        "text": "You can only commit Jumpy during a basic evade action you are performing.\nWhile this card is in your discard, you get +1 [agility] and you may take an additional action during your turn, which can only be used to take a basic evade action.\n\n<b>forced</b> At the end of the round, if Jumpy is in your discard; shuffle Jumpy into your deck. If you cannot, remove Jumpy from the game.",
+        "text": "You can only commit Jumpy during a basic evade action you are performing.\nWhile this card is in your discard, you get +1 [agility] and you may take an additional action during your turn, which can only be used to take a basic evade action.\n\n<b>Forced</b> At the end of the round, if Jumpy is in your discard; shuffle Jumpy into your deck. If you cannot, remove Jumpy from the game.",
         "traits": "Innate.",
         "type_code": "skill",
         "xp": 3
@@ -1473,7 +1473,7 @@
         "position": 102,
         "quantity": 2,
         "skill_intellect": 2,
-        "text": "You can only commit Nosy during a basic investigate action you are performing.\nWhile Nosy is in your discard, you get +1 [intellect] and you may take an additional action during your turn, which can only be used to take a basic investigate action.\n\n<b>forced</b> At the end of the round, if Nosy is in your discard; shuffle Nosy into your deck. If you cannot, remove Nosy from the game.",
+        "text": "You can only commit Nosy during a basic investigate action you are performing.\nWhile Nosy is in your discard, you get +1 [intellect] and you may take an additional action during your turn, which can only be used to take a basic investigate action.\n\n<b>Forced</b> At the end of the round, if Nosy is in your discard; shuffle Nosy into your deck. If you cannot, remove Nosy from the game.",
         "traits": "Innate.",
         "type_code": "skill",
         "xp": 3
@@ -1490,7 +1490,7 @@
         "position": 103,
         "quantity": 2,
         "skill_combat": 2,
-        "text": "You can only commit Ragey during a basic fight action you are performing.\nWhile this card is in your discard, you get +1 [combat] and you may take an additional action during your turn, which can only be used to take a basic fight action..\n\n<b>forced</b> At the end of the round, if Ragey is in your discard, shuffle Ragey into your deck. If you cannot, remove Ragey from the game.",
+        "text": "You can only commit Ragey during a basic fight action you are performing.\nWhile this card is in your discard, you get +1 [combat] and you may take an additional action during your turn, which can only be used to take a basic fight action..\n\n<b>Forced</b> At the end of the round, if Ragey is in your discard, shuffle Ragey into your deck. If you cannot, remove Ragey from the game.",
         "traits": "Innate.",
         "type_code": "skill",
         "xp": 3
@@ -1565,8 +1565,7 @@
         "position": 107,
         "quantity": 2,
         "skill_agility": 1,
-        "slot": "Accessory",
-        "text": "[reaction] At the start of the round, exhaust Mask of the Forgotten: For the remainder of this round you get \n-1 [willpower] and can parley enemies at your location as if they were humanoid.",
+        "text": "[reaction] At the start of the round, exhaust Mask of the Forgotten: For the remainder of this round you get \n-1 [willpower] and can parley enemies at your location as if they had the <b><i>Humanoid</i></b> trait.",
         "traits": "Item. Relic. Cursed.",
         "type_code": "asset",
         "xp": 0
@@ -1585,7 +1584,7 @@
         "quantity": 2,
         "sanity": 1,
         "skill_willpower": 1,
-        "text": "Choose your skill with the lowest base value. Increase the base value of that skill by 1.",
+        "text": "Choose one of your skills with the lowest base value. Increase the base value of that skill by 1.",
         "traits": "Item.",
         "type_code": "asset",
         "xp": 0
@@ -1595,7 +1594,7 @@
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "neutral",
-        "flavor": "",
+        "flavor": "\"I'm sure we can handle this.\"",
         "illustrator": "Billy Christian",
         "is_unique": false,
         "name": "Calm the Nerves",
@@ -1603,7 +1602,7 @@
         "position": 109,
         "quantity": 2,
         "skill_willpower": 1,
-        "text": "Test [willpower] (2), you get +1 [willpower] for each Calm the Nerves in the victory display (max +3). If you succeed, heal 1 horror and add this card to the victory display.",
+        "text": "If there are at least 2 Calm the Nerves in the victory display, reduced the cost of this card by 1.\nTest [willpower] (5), add your [intellect] value to your skill value for this test and you get +1 [willpower] for each Calm the Nerves in the victory display (max +3). If you succeed, heal 1 horror from an investigator at your location and add this card to the victory display.",
         "traits": "Spirit.",
         "type_code": "event",
         "xp": 0
@@ -1673,9 +1672,10 @@
         "position": 113,
         "quantity": 2,
         "subtype_code": "basicweakness",
-        "text": "<b>Revelation</b> Place Delusional Parasitosis into play in your threat area.\n<b>forced</b> At the end of your turn: If there are no other investigators at your location, take 1 damage. Otherwise take 1 horror.\n\n[action] [action]: Discard Delusional Parasitosis.",
+        "text": "<b>Revelation</b> Place Delusional Parasitosis into play in your threat area.\n<b>Forced</b> At the end of your turn: If there are no other investigators at your location, take 1 damage. Otherwise take 1 horror.\n\n[action] [action]: Discard Delusional Parasitosis.",
         "traits": "Madness.",
-        "type_code": "treachery"
+        "type_code": "treachery",
+        "xp": null
     },
     {
         "code": "42114",
@@ -1689,8 +1689,29 @@
         "position": 114,
         "quantity": 2,
         "subtype_code": "basicweakness",
-        "text": "<b>Revelation</b> Place Overshadowed into play in your threat area.\n<b>forced</b> At the end of your turn: If an enemy was defeated at your location, take 1 damage. Otherwise take 1 horror.\n\n[action] [action]: Discard Overshadowed.",
+        "text": "<b>Revelation</b> Place Overshadowed into play in your threat area.\n<b>Forced</b> At the end of your turn: If an enemy was defeated at your location, take 1 damage. Otherwise take 1 horror.\n\n[action] [action]: Discard Overshadowed.",
         "traits": "Madness.",
         "type_code": "treachery"
+    },
+    {
+        "code": "42115",
+        "cost": 5,
+        "deck_limit": 2,
+        "faction2_code": "mystic",
+        "faction_code": "guardian",
+        "flavor": "",
+        "illustrator": "Gabrix89",
+        "is_unique": false,
+        "name": "Sword of the Last Crusader",
+        "pack_code": "kyo_player",
+        "position": 115,
+        "quantity": 2,
+        "skill_combat": 2,
+        "skill_willpower": 1,
+        "slot": "Hand. Arcane",
+        "text": "[action] <b>Fight.</b> Add your [willpower] to your skill value for this attack You get -1 skill value and deal +1 damage for this attack. If you succeed and a [eldersign] token was revealed this round, this attack deals an additional +1 damage.\n\nAny investigator at your location may choose to use the following effect instead of their [eldersign] token's normal effect: \n[eldersign]: +1. The owner of this card may take an additional action this round, which can only be used to fight (Limit once per round).",
+        "traits": "Item. Weapon. Relic. Blessed.",
+        "type_code": "asset",
+        "xp": 4
     }
 ]
