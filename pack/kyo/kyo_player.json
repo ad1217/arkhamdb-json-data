@@ -1,6 +1,6 @@
 [
     {
-        "code": "42025",
+        "code": "43025",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -18,7 +18,7 @@
         "xp": 0
     },
     {
-        "code": "42026",
+        "code": "43026",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -37,7 +37,7 @@
         "xp": 0
     },
     {
-        "code": "42027",
+        "code": "43027",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -57,7 +57,7 @@
         "xp": 0
     },
     {
-        "code": "42028",
+        "code": "43028",
         "cost": 3,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -76,7 +76,7 @@
         "xp": 0
     },
     {
-        "code": "42029",
+        "code": "43029",
         "cost": 0,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -94,7 +94,7 @@
         "xp": 0
     },
     {
-        "code": "42030",
+        "code": "43030",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -113,7 +113,7 @@
         "xp": 0
     },
     {
-        "code": "42031",
+        "code": "43031",
         "deck_limit": 2,
         "faction_code": "guardian",
         "flavor": "",
@@ -130,7 +130,7 @@
         "xp": 0
     },
     {
-        "code": "42032",
+        "code": "43032",
         "cost": 0,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -149,7 +149,7 @@
         "xp": 1
     },
     {
-        "code": "42033",
+        "code": "43033",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -168,7 +168,7 @@
         "xp": 2
     },
     {
-        "code": "42034",
+        "code": "43034",
         "cost": null,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -185,7 +185,7 @@
         "xp": 2
     },
     {
-        "code": "42035",
+        "code": "43035",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -204,7 +204,7 @@
         "xp": 2
     },
     {
-        "code": "42036",
+        "code": "43036",
         "deck_limit": 2,
         "faction_code": "guardian",
         "flavor": "",
@@ -222,7 +222,7 @@
         "xp": 2
     },
     {
-        "code": "42037",
+        "code": "43037",
         "cost": 4,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -244,7 +244,7 @@
         "xp": 3
     },
     {
-        "code": "42038",
+        "code": "43038",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -264,7 +264,7 @@
         "xp": 3
     },
     {
-        "code": "42039",
+        "code": "43039",
         "cost": 0,
         "deck_limit": 2,
         "faction_code": "guardian",
@@ -283,7 +283,7 @@
         "xp": 3
     },
     {
-        "code": "42040",
+        "code": "43040",
         "deck_limit": 2,
         "faction_code": "guardian",
         "flavor": "",
@@ -300,7 +300,7 @@
         "xp": 3
     },
     {
-        "code": "42041",
+        "code": "43041",
         "cost": 4,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -323,7 +323,7 @@
         "xp": 0
     },
     {
-        "code": "42042",
+        "code": "43042",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -344,7 +344,7 @@
         "xp": 0
     },
     {
-        "code": "42043",
+        "code": "43043",
         "cost": 0,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -362,7 +362,7 @@
         "xp": 0
     },
     {
-        "code": "42044",
+        "code": "43044",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -380,7 +380,7 @@
         "xp": 0
     },
     {
-        "code": "42045",
+        "code": "43045",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -398,7 +398,7 @@
         "xp": 0
     },
     {
-        "code": "42046",
+        "code": "43046",
         "cost": null,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -415,7 +415,7 @@
         "xp": 0
     },
     {
-        "code": "42047",
+        "code": "43047",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -434,7 +434,7 @@
         "xp": 0
     },
     {
-        "code": "42048",
+        "code": "43048",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -451,7 +451,7 @@
         "xp": 0
     },
     {
-        "code": "42049",
+        "code": "43049",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -469,7 +469,7 @@
         "xp": 2
     },
     {
-        "code": "42050",
+        "code": "43050",
         "cost": 3,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -488,7 +488,7 @@
         "xp": 2
     },
     {
-        "code": "42051",
+        "code": "43051",
         "deck_limit": 2,
         "faction_code": "seeker",
         "flavor": "",
@@ -505,7 +505,7 @@
         "xp": 2
     },
     {
-        "code": "42052",
+        "code": "43052",
         "cost": 4,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -528,7 +528,7 @@
         "xp": 3
     },
     {
-        "code": "42053",
+        "code": "43053",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -549,7 +549,7 @@
         "xp": 3
     },
     {
-        "code": "42054",
+        "code": "43054",
         "cost": 3,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -570,7 +570,7 @@
         "xp": 3
     },
     {
-        "code": "42055",
+        "code": "43055",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -589,7 +589,7 @@
         "xp": 3
     },
     {
-        "code": "42056",
+        "code": "43056",
         "cost": 4,
         "deck_limit": 2,
         "faction_code": "seeker",
@@ -609,7 +609,7 @@
         "xp": 4
     },
     {
-        "code": "42057",
+        "code": "43057",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -629,7 +629,7 @@
         "xp": 0
     },
     {
-        "code": "42058",
+        "code": "43058",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -648,7 +648,7 @@
         "xp": 0
     },
     {
-        "code": "42059",
+        "code": "43059",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -668,7 +668,7 @@
         "xp": 0
     },
     {
-        "code": "42060",
+        "code": "43060",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -687,7 +687,7 @@
         "xp": 0
     },
     {
-        "code": "42061",
+        "code": "43061",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -705,7 +705,7 @@
         "xp": 0
     },
     {
-        "code": "42062",
+        "code": "43062",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -723,7 +723,7 @@
         "xp": 0
     },
     {
-        "code": "42063",
+        "code": "43063",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -742,7 +742,7 @@
         "xp": 0
     },
     {
-        "code": "42064",
+        "code": "43064",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -760,7 +760,7 @@
         "xp": 0
     },
     {
-        "code": "42065",
+        "code": "43065",
         "deck_limit": 2,
         "faction_code": "rogue",
         "flavor": "",
@@ -777,7 +777,7 @@
         "xp": 0
     },
     {
-        "code": "42066",
+        "code": "43066",
         "deck_limit": 2,
         "faction_code": "rogue",
         "flavor": "",
@@ -795,7 +795,7 @@
         "xp": 1
     },
     {
-        "code": "42067",
+        "code": "43067",
         "cost": 4,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -815,7 +815,7 @@
         "xp": 2
     },
     {
-        "code": "42068",
+        "code": "43068",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -835,7 +835,7 @@
         "xp": 2
     },
     {
-        "code": "42069",
+        "code": "43069",
         "cost": 0,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -855,7 +855,7 @@
         "xp": 2
     },
     {
-        "code": "42070",
+        "code": "43070",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -874,7 +874,7 @@
         "xp": 2
     },
     {
-        "code": "42071",
+        "code": "43071",
         "cost": 5,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -892,7 +892,7 @@
         "xp": 3
     },
     {
-        "code": "42072",
+        "code": "43072",
         "cost": 4,
         "deck_limit": 2,
         "faction_code": "rogue",
@@ -915,7 +915,7 @@
         "xp": 4
     },
     {
-        "code": "42073",
+        "code": "43073",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -935,7 +935,7 @@
         "xp": 0
     },
     {
-        "code": "42074",
+        "code": "43074",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -954,7 +954,7 @@
         "xp": 0
     },
     {
-        "code": "42075",
+        "code": "43075",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -973,7 +973,7 @@
         "xp": 0
     },
     {
-        "code": "42076",
+        "code": "43076",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -992,7 +992,7 @@
         "xp": 0
     },
     {
-        "code": "42077",
+        "code": "43077",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -1010,7 +1010,7 @@
         "xp": 0
     },
     {
-        "code": "42078",
+        "code": "43078",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -1029,7 +1029,7 @@
         "xp": 0
     },
     {
-        "code": "42079",
+        "code": "43079",
         "deck_limit": 2,
         "faction_code": "mystic",
         "flavor": "",
@@ -1046,7 +1046,7 @@
         "xp": 0
     },
     {
-        "code": "42080",
+        "code": "43080",
         "cost": 4,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -1066,7 +1066,7 @@
         "xp": 1
     },
     {
-        "code": "42081",
+        "code": "43081",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -1085,7 +1085,7 @@
         "xp": 1
     },
     {
-        "code": "42082",
+        "code": "43082",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -1104,7 +1104,7 @@
         "xp": 2
     },
     {
-        "code": "42083",
+        "code": "43083",
         "deck_limit": 2,
         "faction_code": "mystic",
         "flavor": "",
@@ -1121,7 +1121,7 @@
         "xp": 2
     },
     {
-        "code": "42084",
+        "code": "43084",
         "cost": 3,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -1142,7 +1142,7 @@
         "xp": 3
     },
     {
-        "code": "42085",
+        "code": "43085",
         "cost": 4,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -1162,7 +1162,7 @@
         "xp": 3
     },
     {
-        "code": "42086",
+        "code": "43086",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -1182,7 +1182,7 @@
         "xp": 4
     },
     {
-        "code": "42087",
+        "code": "43087",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -1202,7 +1202,7 @@
         "xp": 4
     },
     {
-        "code": "42088",
+        "code": "43088",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -1221,7 +1221,7 @@
         "xp": 0
     },
     {
-        "code": "42089",
+        "code": "43089",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -1241,7 +1241,7 @@
         "xp": 0
     },
     {
-        "code": "42090",
+        "code": "43090",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -1262,7 +1262,7 @@
         "xp": 0
     },
     {
-        "code": "42091",
+        "code": "43091",
         "cost": 3,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -1280,7 +1280,7 @@
         "xp": 0
     },
     {
-        "code": "42092",
+        "code": "43092",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -1298,7 +1298,7 @@
         "xp": 0
     },
     {
-        "code": "42093",
+        "code": "43093",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -1317,7 +1317,7 @@
         "xp": 0
     },
     {
-        "code": "42094",
+        "code": "43094",
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "",
@@ -1334,7 +1334,7 @@
         "xp": 0
     },
     {
-        "code": "42095",
+        "code": "43095",
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "",
@@ -1351,7 +1351,7 @@
         "xp": 0
     },
     {
-        "code": "42096",
+        "code": "43096",
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "",
@@ -1368,7 +1368,7 @@
         "xp": 0
     },
     {
-        "code": "42097",
+        "code": "43097",
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "",
@@ -1385,7 +1385,7 @@
         "xp": 0
     },
     {
-        "code": "42098",
+        "code": "43098",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -1407,7 +1407,7 @@
         "xp": 2
     },
     {
-        "code": "42099",
+        "code": "43099",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -1426,7 +1426,7 @@
         "xp": 2
     },
     {
-        "code": "42100",
+        "code": "43100",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "survivor",
@@ -1445,7 +1445,7 @@
         "xp": 3
     },
     {
-        "code": "42101",
+        "code": "43101",
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "",
@@ -1462,7 +1462,7 @@
         "xp": 3
     },
     {
-        "code": "42102",
+        "code": "43102",
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "",
@@ -1479,7 +1479,7 @@
         "xp": 3
     },
     {
-        "code": "42103",
+        "code": "43103",
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "",
@@ -1496,7 +1496,7 @@
         "xp": 3
     },
     {
-        "code": "42104",
+        "code": "43104",
         "deck_limit": 2,
         "faction_code": "guardian",
         "flavor": "",
@@ -1514,7 +1514,7 @@
         "xp": 0
     },
     {
-        "code": "42105",
+        "code": "43105",
         "cost": 2,
         "deck_limit": 2,
         "faction2_code": "mystic",
@@ -1536,7 +1536,7 @@
         "xp": 3
     },
     {
-        "code": "42106",
+        "code": "43106",
         "cost": 0,
         "deck_limit": 2,
         "faction_code": "mystic",
@@ -1553,7 +1553,7 @@
         "xp": 2
     },
     {
-        "code": "42107",
+        "code": "43107",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "neutral",
@@ -1572,7 +1572,7 @@
         "xp": 0
     },
     {
-        "code": "42108",
+        "code": "43108",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "neutral",
@@ -1591,7 +1591,7 @@
         "xp": 0
     },
     {
-        "code": "42109",
+        "code": "43109",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "neutral",
@@ -1609,7 +1609,7 @@
         "xp": 0
     },
     {
-        "code": "42110",
+        "code": "43110",
         "deck_limit": 2,
         "faction_code": "neutral",
         "flavor": "",
@@ -1625,7 +1625,7 @@
         "xp": 0
     },
     {
-        "code": "42111",
+        "code": "43111",
         "cost": 2,
         "deck_limit": 2,
         "faction_code": "neutral",
@@ -1645,7 +1645,7 @@
         "xp": 2
     },
     {
-        "code": "42112",
+        "code": "43112",
         "cost": null,
         "deck_limit": 2,
         "faction_code": "neutral",
@@ -1662,7 +1662,7 @@
         "xp": 3
     },
     {
-        "code": "42113",
+        "code": "43113",
         "deck_limit": 2,
         "faction_code": "neutral",
         "flavor": "\"I can feel them crawling under my skin!\"",
@@ -1678,7 +1678,7 @@
         "type_code": "treachery"
     },
     {
-        "code": "42114",
+        "code": "43114",
         "deck_limit": 2,
         "faction_code": "neutral",
         "flavor": "",
