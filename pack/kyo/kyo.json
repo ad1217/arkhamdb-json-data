@@ -2,7 +2,7 @@
      {
         "back_flavor": "Akira Hojo lived with his father who work as a doctor in an unstable country. When the ensuing chaos toke everything from him, he gathered other suffering childern together. With Chiaki Asami and few others, they fled the country. Only he and Chiaki managed to survive the journey. When he reached the safety of Arkham, he saw a warped city. He decided he would be the one to reform the criminal underbelly of Arkham. He vowed to he would turn these gangsters into a force that could protect Arkham from the anything, be it man or monster.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-4, Neutral cards level 0-5, and up to 15 Rogue cards ([rogue]) level 0-X where X is the number of tallies marks under Hojo's rank minus 2(max level 3).\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 1 Burning Ambition, 1 Occupational Hazard, 1 random basic weakness.\nBefore drawing your opening hand: Set aside Burning Ambition. After Mulligan, shuffle Burning Ambition into the top 10 cards of your deck (top 5 cards if there are at least 6 tallies under Hojo's rank).",
-        "code": "43001",
+        "code": "40001",
         "deck_limit": 1,
         "deck_options": [
             { "not": true, "trait": ["police"] },
@@ -34,7 +34,7 @@
                 }
             }
         ],
-        "deck_requirements": "size:30, card:43002, card:43003, card:43004, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:40002, card:40003, card:40004, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "guardian",
         "flavor": "",
@@ -56,7 +56,7 @@
         "type_code": "investigator"
     },
 	{
-        "code": "43002",
+        "code": "40002",
         "cost": 1,
         "deck_limit": 1,
         "faction_code": "neutral",
@@ -76,7 +76,7 @@
         "xp": null
     },
     {
-        "code": "43003",
+        "code": "40003",
         "cost": null,
         "deck_limit": 1,
         "faction_code": "neutral",
@@ -93,7 +93,7 @@
         "xp": null
     },
     {
-        "code": "43004",
+        "code": "40004",
         "deck_limit": 1,
 		"faction_code": "neutral",
         "flavor": "",
@@ -112,7 +112,7 @@
 	{
         "back_flavor": "Chiaki Asami was born in the Japanese Province of Owari. Though happy with his simple life, it would soon be take from him by the great Mino–Owari earthquake of 1891. Without an remaining family Chiaki immigrated to the United States, where he found himself settling down is the city of Arkham. Working from nothing, he would spend years founding his own company, set on creating a city like no other. It was only after some of his employees starting going missing and strange happening started appearing in the news that Chiaki learned the truth. If he didn't act now, Arkham would lead him to an early grave before he could see his plans for the city to completion.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Foresight, Field Reports, Sleepless Nights, 1 random basic weakness.",
-        "code": "43005",
+        "code": "40005",
         "deck_limit": 1,
         "deck_options": [
 		{ "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
@@ -124,7 +124,7 @@
             },
              { "trait": ["insight"], "level": { "min": 0, "max": 5 } }
         ],
-        "deck_requirements": "size:30, card:43006, card:43007, card:43008, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:40006, card:40007, card:40008, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "seeker",
         "flavor": "",
@@ -146,7 +146,7 @@
         "type_code": "investigator"
     },
     {
-        "code": "43006",
+        "code": "40006",
         "cost": 2,
         "deck_limit": 1,
         "faction_code": "neutral",
@@ -163,7 +163,7 @@
         "xp": null
     },
     {
-        "code": "43007",
+        "code": "40007",
         "cost": null,
         "deck_limit": 1,
         "faction_code": "neutral",
@@ -180,7 +180,7 @@
         "xp": null
     },
     {
-        "code": "43008",
+        "code": "40008",
         "deck_limit": 1,
 		"faction_code": "neutral",
         "flavor": "\"Just what kind of man is he? How can\nhe walk around with a smile on his face?\"",
@@ -199,7 +199,7 @@
 	 {
         "back_flavor": "",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Family Bonds, 2 copies of Prying Eyes, 1 random basic weakness.",
-        "code": "40004",
+        "code": "40009",
         "deck_limit": 1,
         "deck_options": [
             {
@@ -212,7 +212,7 @@
                 "limit": 15
             }
         ],
-        "deck_requirements": "size:30, card:43010, card:43011, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:40010, card:40011, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "rogue",
         "flavor": "",
@@ -234,7 +234,7 @@
         "type_code": "investigator"
     },
     {
-        "code": "43010",
+        "code": "40010",
         "cost": 0,
         "deck_limit": 3,
         "faction_code": "neutral",
@@ -252,7 +252,7 @@
         "xp": null
     },
     {
-        "code": "43011",
+        "code": "40011",
         "cost": 1,
         "deck_limit": 2,
 		"faction_code": "neutral",
@@ -272,7 +272,7 @@
 	{
         "back_flavor": "",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: TEXT HERE\n<b>Deckbuilding Requirements</b> (do not count toward deck size): XX, XX, XX, 1 random basic weakness.",
-        "code": "43005",
+        "code": "40005",
         "deck_limit": 1,
         "deck_options": [
 			{ "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
@@ -282,7 +282,7 @@
             },
              { "trait": ["ally"], "level": { "min": 0, "max": 5 } }
         ],
-        "deck_requirements": "size:30, card:43013, card:43013, card:43014, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:40013, card:40013, card:40014, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "survivor",
         "flavor": "",
@@ -304,7 +304,7 @@
         "type_code": "investigator"
     },
     {
-        "code": "43013",
+        "code": "40013",
         "cost": 1,
         "deck_limit": 2,
         "faction_code": "neutral",
@@ -325,7 +325,7 @@
         "xp": null
     },
     {
-        "code": "43014",
+        "code": "40014",
         "deck_limit": 1,
 		"faction_code": "neutral",
         "flavor": "\"This feeling...Like something \nawful is about to happen!\"",
@@ -344,7 +344,7 @@
 	{
         "back_flavor": "",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: TEXT HERE\n<b>Deckbuilding Requirements</b> (do not count toward deck size): XX, XX, XX, 1 random basic weakness.",
-        "code": "43005",
+        "code": "40005",
         "deck_limit": 1,
         "deck_options": [
             {
@@ -353,7 +353,7 @@
             },
              { "trait": ["augury"], "level": { "min": 0, "max": 3 } }
         ],
-        "deck_requirements": "size:30, card:43016, card:43017, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:40016, card:40017, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "mystic",
         "flavor": "",
@@ -375,7 +375,7 @@
         "type_code": "investigator"
     },
     {
-        "code": "43016",
+        "code": "40016",
         "cost": 1,
         "deck_limit": 1,
         "faction_code": "neutral",
@@ -392,7 +392,7 @@
         "xp": null
     },
     {
-        "code": "43017",
+        "code": "40017",
         "deck_limit": 1,
 		"faction_code": "neutral",
         "flavor": "",
