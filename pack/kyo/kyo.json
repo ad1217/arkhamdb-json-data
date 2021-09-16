@@ -197,7 +197,7 @@
         "xp": null
     },
 	 {
-        "back_flavor": "",
+        "back_flavor": "XXXX",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 3 copies of Family Bonds, 2 copies of Prying Eyes, 1 random basic weakness.",
         "code": "40009",
         "deck_limit": 1,
