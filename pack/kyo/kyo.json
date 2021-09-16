@@ -40,7 +40,7 @@
         "flavor": "",
         "health": 8,
         "sanity": 6,
-        "illustrator": "",
+        "illustrator": "XXXX",
         "is_unique": true,
         "name": "Akira Hojo",
         "pack_code": "kyo",
@@ -130,7 +130,7 @@
         "flavor": "",
         "health": 6,
         "sanity": 8,
-        "illustrator": "",
+        "illustrator": "XXXX",
         "is_unique": true,
         "name": "Chiaki Asami",
         "pack_code": "kyo",
@@ -218,7 +218,7 @@
         "flavor": "",
         "health": 8,
         "sanity": 6,
-        "illustrator": "",
+        "illustrator": "XXXX",
         "is_unique": true,
         "name": "Jack Myers",
         "pack_code": "kyo",
@@ -270,7 +270,7 @@
         "xp": 0
     },
 	{
-        "back_flavor": "",
+        "back_flavor": "XXXX",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: TEXT HERE\n<b>Deckbuilding Requirements</b> (do not count toward deck size): XX, XX, XX, 1 random basic weakness.",
         "code": "40005",
         "deck_limit": 1,
@@ -342,7 +342,7 @@
         "xp": null
     },
 	{
-        "back_flavor": "",
+        "back_flavor": "XXXX",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: TEXT HERE\n<b>Deckbuilding Requirements</b> (do not count toward deck size): XX, XX, XX, 1 random basic weakness.",
         "code": "40005",
         "deck_limit": 1,
@@ -359,7 +359,7 @@
         "flavor": "",
         "health": 6,
         "sanity": 8,
-        "illustrator": "",
+        "illustrator": "XXXX",
         "is_unique": true,
         "name": "William Grindwell",
         "pack_code": "kyo",
