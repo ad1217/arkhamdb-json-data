@@ -50,7 +50,6 @@
         "pack_code": "kyo_player",
         "position": 27,
         "quantity": 2,
-        "sanity": 1,
         "skill_willpower": 1,
         "slot": "Accessory",
         "text": "[reaction] After an investigator at your location takes damage, exhaust Discarded Dogtags and deal it 1 damage: Gain 1 resource and heal 1 horror.",
