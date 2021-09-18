@@ -986,7 +986,7 @@
         "quantity": 2,
         "skill_intellect": 1,
         "skill_willpower": 1,
-        "text": "<b>Investigate.</b> Add your [willpower] value - 1 to your skill value for this investigation or reduce the cost of Flickering Memories by 2. If you succeed, you discover 1 additional clue at your location.\n\nAfter this test ends, if Flickering Memories cost 0 resources to play and used your [willpower] value in the skill test, you may shuffle it into your deck.",
+        "text": "<b>Investigate.</b> Reduce the cost to play Flickering Memories by 2 or add your [willpower] value - 1 to your skill value for this investigation. If you succeed, you discover 1 additional clue at your location.\n\nAfter this test ends, if Flickering Memories cost 0 resources to play and used your [willpower] value in the skill test, you may shuffle it into your deck.",
         "traits": "Spell. Insight.",
         "type_code": "event",
         "xp": 0
@@ -1023,7 +1023,7 @@
         "quantity": 2,
         "skill_combat": 1,
         "skill_willpower": 1,
-        "text": "<b>Fight.</b> Add your [willpower] value - 1 to your skill value for this attack or reduce the cost of Shockwave by 2. If you succeed, this attack deals +1 damage (+2 damage instead if the enemy is non-<b><i>Elite</i></b>).\n\nAfter this test ends, if Shockwave cost 0 resources to play and used your [willpower] value in the skill test, you may shuffle it into your deck.",
+        "text": "<b>Fight.</b> Reduce the cost to play Shockwave by 2 or add your [willpower] value - 1 to your skill value for this attack. If you succeed, this attack deals +1 damage (+2 damage instead if the enemy is non-<b><i>Elite</i></b>).\n\nAfter this test ends, if Shockwave cost 0 resources to play and used your [willpower] value in the skill test, you may shuffle it into your deck.",
         "traits": "Spell.",
         "type_code": "event",
         "xp": 0
