@@ -1500,6 +1500,7 @@
   {
     "code": "43104",
     "deck_limit": 2,
+    "faction2_code": "seeker",
     "faction_code": "guardian",
     "flavor": "",
     "illustrator": "sstarkm",
@@ -1541,6 +1542,7 @@
     "code": "43106",
     "cost": 0,
     "deck_limit": 2,
+    "faction2_code": "survivor",
     "faction_code": "mystic",
     "flavor": "",
     "illustrator": "EmKriArt",
