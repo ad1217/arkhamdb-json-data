@@ -1149,7 +1149,7 @@
     "faction_code": "mystic",
     "flavor": "",
     "illustrator": "theprettycult",
-    "is_unique": true,
+    "is_unique": false,
     "name": "The Hanged Man · XII",
     "pack_code": "kyo_player",
     "position": 85,
@@ -1423,7 +1423,7 @@
     "skill_combat": 1,
     "skill_wild": 1,
     "text": "Fast. Play when you would fail a skill test by 3 or less while performing a basic fight action.\nCancel that attack. Take a <b>Fight</b> action on a card you control, against the same enemy. You get +1 [combat] for this attack. This attack deals +1 damage.",
-    "traits": "Tactic.z",
+    "traits": "Tactic.",
     "type_code": "event",
     "xp": 2
   },
