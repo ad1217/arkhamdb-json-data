@@ -1,7 +1,7 @@
 [
     {
         "back_flavor": "Chiaki Asami lived with his parents in an unstable country on the brink of rebellion. Just a child, he was forced to watch as the ensuing chaos stole his family from him. Forming a small group with refugees including Akira Hojo, he attempted flee the country. Only the two of them had survived by the time they reached the new world of Arkham. Chiaki was disgusted by the state of society when he saw the broken city. He vowed to take the political reins of Arkham and steer it towards a brighter future. Criminals, the corrupt, or even the abyss itself be damned.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([survivor]) level 0-5, Neutral cards level 0-5, Spirit and Insight cards level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Referendum, On Borrowed Time, 1 random basic weakness.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-5, Neutral cards level 0-5, and up to 15 Seeker cards ([seeker]) level 0-2.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Foresight, Field Reports, Sleepless Nights, 1 random basic weakness.",
         "code": "40000",
         "deck_limit": 1,
         "deck_options": [
@@ -13,12 +13,7 @@
                 "faction": ["seeker"],
                 "level": { "min": 0, "max": 5 }
             },
-            {
-                "faction": ["rogue"],
-                "level": { "min": 0, "max": 0 },
-                "limit": 5
-            },
-            { "trait": ["favor"], "level": { "min": 0, "max": 3 } }
+            { "trait": ["insight, spirit"], "level": { "min": 0, "max": 0 } }
         ],
         "deck_requirements": "size:30, card:40001, card:40002, random:subtype:basicweakness",
         "double_sided": true,
@@ -26,7 +21,7 @@
         "flavor": "",
         "health": 6,
         "sanity": 8,
-        "illustrator": "",
+        "illustrator": "XXXX",
         "is_unique": true,
         "name": "Chiaki Asami",
         "pack_code": "kyo",
@@ -53,7 +48,6 @@
         "pack_code": "kyo",
         "position": 1,
         "quantity": 2,
-        "restrictions": "investigator:40000",
         "text": "While you have 10 or more events in your discard: The ability below is [free].\n[action]: Reveal an event to investigator at your location. They play that event as if it was in their hand. If they trigger Chiaki Asami's \"[reaction]\" this way; they may draw a card instead of him (limit once per round).",
         "traits": "Talent. Practiced.",
         "type_code": "asset",
@@ -69,7 +63,6 @@
         "name": "On Borrowed Time",
         "pack_code": "kyo",
         "position": 2,
-        "restrictions": "investigator:40000",
         "quantity": 2,
         "text": "Peril. Hidden.\n\n<b>Revelation</b> Secretly add On Borrowed Time to your hand.\n<b>Forced</b> At the end of the investigator phase, if you played at least 2 event cards this round: Take 2 direct damage. Each investigator at your location takes 1 horror. Discard On Borrowed Time.",
         "traits": "Condition. Terminal.",
@@ -123,7 +116,7 @@
         "skill_combat": 2,
         "skill_agility": 5,
         "subname": "The Black Market Dealer",
-        "text": "Anytime a card enters your hand, place it as the right most card of your hand (Your choice of order for multi-card draws).\n[reaction] When you play the left most card in your hand; Reduce the cost of that card by 1 for every 3 other cards in your hand (Limit once per round).\n[elder_sign] effect: +1, if you succeed; draw a carc and you may move a card in your hand up to 3 positions to the left or right.",
+        "text": "Handlocked.\n[reaction] When you play the left most card in your hand: Reduce the cost of that card by 1 for every 3 other cards in your hand (Limit once per round).\n[elder_sign] effect: +1, if you succeed; draw a card and you may move a card in your hand up to 3 positions to the left or right.",
         "traits": "Criminal. Mafia.",
         "type_code": "investigator"
     },
@@ -139,7 +132,6 @@
         "pack_code": "kyo",
         "position": 5,
         "quantity": 2,
-        "restrictions": "investigator:40004",
         "skill_agility": 1,
         "text": "Fast. Jack Myers Deck only.\n\nFamily Bonds does not count towards your maximum hand size. Ignore Family Bonds when determining your left most card in hand.\nMove a non-weakness card in your hand up to 2 positions to the left or right. Draw a card. Shuffle this card into your deck (limit 2 played per round).",
         "traits": "Favor. Service.",
@@ -158,11 +150,10 @@
         "pack_code": "kyo",
         "position": 6,
         "quantity": 2,
-        "restrictions": "investigator:40004",
         "subtype_code": "weakness",
         "text": "Discard all cards in your hand that were left of Prying Eyes before it was played.\n\n<b>Forced</b> While Prying Eyes is in your hand: Increase the cost of the first card played at your location each round by 1.\n\n<b>Forced</b> At the end of your turn: move Prying Eyes one position to the left.",
         "traits": "Intrusion. Blunder.",
-        "type_code": "treachery",
+        "type_code": "event",
         "xp": 0
     },
     {
@@ -200,7 +191,7 @@
                 }
             }
         ],
-        "deck_requirements": "size:30, card:40008, card:40010, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:40008, card:40009, card:40010, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "guardian",
         "flavor": "",
@@ -210,7 +201,7 @@
         "is_unique": true,
         "name": "Akira Hojo",
         "pack_code": "kyo",
-        "position": 7,
+        "position": 1,
         "quantity": 1,
         "skill_willpower": 4,
         "skill_intellect": 3,
@@ -233,7 +224,6 @@
         "pack_code": "kyo",
         "position": 8,
         "quantity": 2,
-        "restrictions": "investigator:40007",
         "skill_agility": 1,
         "skill_combat": 1,
         "skill_wild": 1,
@@ -254,7 +244,6 @@
         "pack_code": "kyo",
         "position": 9,
         "quantity": 2,
-        "restrictions": "investigator:40007",
         "text": "Bonded (Burning Ambition). Permanent.\n\n<b>Forced</b> After Rite of Passage enters play: Record 1 tally mark under “Hojo's Rank” in your Campaign Log.\nYou get +1 [agility].\n\n[reaction] After you succeed a skill test by 3 or more, exhaust Rite of Passage: Play an event card from your hand (paying its cost).",
         "traits": "Talent. Practiced.",
         "type_code": "asset",
@@ -271,8 +260,6 @@
         "pack_code": "kyo",
         "position": 10,
         "quantity": 2,
-        "restrictions": "investigator:40007",
-        "subtype_code": "weakness",
         "text": "<b>Revelation</b> Put Occupational Hazard into play in your threat area.\n<b>Forced</b> At the end of your turn take 1 damage. If an ally is defeated this way, take 2 horror and discard Occupational Hazard.",
         "traits": "Blunder.",
         "type_code": "treachery",
@@ -330,7 +317,6 @@
         "pack_code": "kyo",
         "position": 12,
         "quantity": 2,
-        "restrictions": "investigator:40011",
         "skill_agility": 1,
         "skill_combat": 1,
         "skill_wild": 1,
@@ -350,8 +336,6 @@
         "pack_code": "kyo",
         "position": 13,
         "quantity": 2,
-        "restrictions": "investigator:40011",
-        "subtype_code": "weakness",
         "text": "<b>Revelation</b> Place Inevitable Fate into play in your\nthreat area.\nIt costs Investigators an additional action to leave\nyour location.\n\n[action] Discard an <b><i>Ally</i></b> asset controled by Alma Venandi: Discard Inevitable Fate.",
         "traits": "Cursed. Omen.",
         "type_code": "treachery",
@@ -359,7 +343,7 @@
     },
     {
         "back_flavor": "During every age, terrors would try to invade the world. While most of humanity remained unaware, William was there, holding the final line between the world and the forces outside it's understanding. From place to place, age to age, whenever the tides of madness began, he was there, waiting. Sometimes, he wonders if he holds back the chaos, or if his birth marks the start of the apocalypse.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([Mystic]) level 0-5, Neutral cards level 0-5, cards that \"cancel\" level 0-3, and up to 5 other seeker cards ([Seeker]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Future Foretold, Star Spawn, 1 random basic weakness.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: TEXT HERE\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Future Foretold, Star Spawn, 1 random basic weakness.",
         "code": "40014",
         "deck_limit": 1,
         "deck_options": [
@@ -367,7 +351,7 @@
                 "faction": ["mystic", "neutral"],
                 "level": { "min": 0, "max": 5 }
             },
-            { "text": ["[Cc]ancel "], "level": { "min": 0, "max": 3 } },
+            { "text": ["[Cc]ancel"], "level": { "min": 0, "max": 3 } },
             {
                 "faction": ["seeker"],
                 "level": { "min": 0, "max": 0 },
@@ -407,7 +391,6 @@
         "pack_code": "kyo",
         "position": 22,
         "quantity": 2,
-        "restrictions": "investigator:40014",
         "text": "William Grindel's deck only. Fast. Play at the start of the round.\nUntil the end of the round, investigators get +1 [willpower], +1 [intellect], +1 [combat], +1 [agility], and may take an additional action during their turn.\n\n<b>Forced</b> Whenever Future Foretold would enter your discard, move it to the top card of your prophecy deck instead.",
         "traits": "Fated. Transcendent.",
         "type_code": "event",
@@ -430,7 +413,7 @@
         "position": 23,
         "quantity": 2,
         "restrictions": "investigator:40014",
-        "subtype_code": "weakness",
+        "subtype_code": "basicweakness",
         "text": "<size 8.0><spa> Location farthest from all \n   investigators.</size>\n\nHunter.\nAfter an investigator reveals an [eldersign] or [auto_fail] symbol during a skill test: Star Spawn attacks them (<i>regardless of their location</i>).",
         "traits": "Monster. Harbinger.",
         "type_code": "enemy",
