@@ -311,7 +311,6 @@
         "position": 8,
         "quantity": 1,
         "restrictions": "investigator:41001",
-        "sanity": null,
         "subname": "Half Vampire",
         "text": "Permanent. Shinobu Oshino deck only.\n[reaction] After you heal 1 or more damage from Koyomi Araragi, exhaust him: Draw 1 card.\n <b>Forced</b> - When Koyomi Araragi is defeated: Removed all damage from him and flip him.\n <b>Backside</b>\nPermanent.(You cannot assign damage to Koyomi Araragi.)\nYou get -3 [combat].\n[action][action]: Flip Koyomi Araragi. Then place 2 damage on him.",
         "traits": "Ally. Vampire",
