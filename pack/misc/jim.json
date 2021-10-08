@@ -1,6 +1,6 @@
 [
     {
-        "back_flavor": "",
+        "back_flavor": "-",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5, up to five level 0 cards from any other class.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Jim's Trumpet, Final Rhapsody, 1 random basic weakness.",
         "code": "42005",
         "deck_limit": 1,
