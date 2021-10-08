@@ -85,7 +85,7 @@
             "type": "string"
         },
         "pack_code": {
-            "maxLength": 10,
+            "maxLength": 20,
             "minLength": 2,
             "type": "string"
         },
