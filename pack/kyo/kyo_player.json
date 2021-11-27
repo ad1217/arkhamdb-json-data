@@ -356,7 +356,7 @@
         "position": 43,
         "quantity": 2,
         "skill_intellect": 2,
-        "text": "Play after succeeding a skill test during your turn.\nChoose another investigator at your location. They perform an action with the same type as your last action. If they succeed a skill test, one of you gains 3 resources. If they fail a skill test, you may take an additional action this turn.",
+        "text": "Play after succeeding a skill test during your turn.\nChoose another investigator at your location. They perform an ability with a skill test wuth the same type as your last action, without spending an action. If they succeed, one of you gain 3 resources. Otherwise, you may take an additional action this turn.",
         "traits": "Insight.",
         "type_code": "event",
         "xp": 0
@@ -1061,7 +1061,7 @@
         "quantity": 2,
         "skill_willpower": 1,
         "slot": "Arcane",
-        "text": "Uses (2 Charges). If this card has no charges, discard it.\n\nFor the purpose of counting icons committed to your skill tests, [willpower] icons on your cards count as matching icons.\n[reaction] When you initiate a skill test on an event card that does not use your [willpower] in any way, exhaust Infuse Strength: Add your [willpower] value to your skill value for this test. If you fail, remove 1 charge from Infuse Strength.",
+        "text": "Uses (2 Charges). If this card has no charges, discard it.\n\nYou may commit cards with [willpower] icons to any of your skill tests and those [willpower] icons boost your [willpower] value during that test.\n[reaction] When you initiate a skill test on an event card that does not use your [willpower] in any way, exhaust Infuse Strength: Add your [willpower] value to your skill value for this test. If you fail, remove 1 charge from Infuse Strength.",
         "traits": "Spell. Ritual.",
         "type_code": "asset",
         "xp": 0
@@ -1088,7 +1088,7 @@
     {
         "code": "43082",
         "cost": 1,
-        "deck_limit": 2,
+        "deck_limit": 3,
         "faction_code": "mystic",
         "flavor": "",
         "illustrator": "Unknown",
@@ -1096,7 +1096,7 @@
         "name": "Bend Reality",
         "pack_code": "kyo_player",
         "position": 82,
-        "quantity": 2,
+        "quantity": 3,
         "skill_agility": 1,
         "skill_willpower": 1,
         "text": "Myriad. Fast. Play only during your turn.\nAttach to your location or a connecting location. Group limit 3 in play. \n\n[free] Move an investigator at your location to a location with a Bend Reality attached to it. Discard this card or discard 1 card to shuffle Bend Reality into your deck.",
@@ -1668,8 +1668,8 @@
     {
         "code": "43113",
         "deck_limit": 2,
-		"faction_code": "neutral",
-		"subtype_code": "basicweakness",
+        "faction_code": "neutral",
+        "subtype_code": "basicweakness",
         "flavor": "\"I can feel them crawling under my skin!\"",
         "illustrator": "Unknown",
         "is_unique": false,
@@ -1685,8 +1685,8 @@
     {
         "code": "43114",
         "deck_limit": 2,
-		"faction_code": "neutral",
-		"subtype_code": "basicweakness",
+        "faction_code": "neutral",
+        "subtype_code": "basicweakness",
         "flavor": "",
         "illustrator": "LelandSolomonDesigns",
         "is_unique": false,
