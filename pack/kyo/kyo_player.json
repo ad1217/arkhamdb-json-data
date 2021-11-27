@@ -357,6 +357,7 @@
         "quantity": 2,
         "skill_intellect": 2,
         "text": "Play after succeeding a skill test during your turn.\nChoose another investigator at your location. They perform an ability with a skill test wuth the same type as your last action, without spending an action. If they succeed, one of you gain 3 resources. Otherwise, you may take an additional action this turn.",
+        "text": "Play after succeeding a skill test during your turn.\nChoose another investigator at your location. They perform an action with the same type as your last action. If they succeed a skill test, one of you gains 3 resources. If they fail a skill test, you may take an additional action this turn.",
         "traits": "Insight.",
         "type_code": "event",
         "xp": 0
@@ -1739,7 +1740,7 @@
     },
     {
         "code": "43117",
-        "cost": 3,
+        "cost": 2,
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "",
