@@ -1670,6 +1670,8 @@
     {
         "code": "43113",
         "deck_limit": 2,
+        "faction_code": "neutral",
+        "subtype_code": "basicweakness",
         "flavor": "\"I can feel them crawling under my skin!\"",
         "illustrator": "Unknown",
         "is_unique": false,
@@ -1685,6 +1687,8 @@
     {
         "code": "43114",
         "deck_limit": 2,
+        "faction_code": "neutral",
+        "subtype_code": "basicweakness",
         "flavor": "",
         "illustrator": "LelandSolomonDesigns",
         "is_unique": false,
