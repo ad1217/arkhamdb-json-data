@@ -11,8 +11,9 @@
         "pack_code": "kyo_player",
         "position": 25,
         "quantity": 2,
+        "skill_intellect": 1,
         "skill_willpower": 1,
-        "text": "Uses (0 Bonds). Limit 1 per investigator.\n\nAttached asset does not take up an Ally slot.\n[reaction]  When an investigator plays an <b><i>Ally</i></b> asset at your location: Place 1 resource on this card as a bond. If you own that <b><i>Ally</i></b>, this card is not attached to a card, and that <i><b>Ally</b></i> costs less than the number of bonds on this card: Reduce the cost of that <b><i>Ally</i></b> to 0 and attach this card to it.",
+        "text": "Uses (0 Bonds). Limit 1 per investigator.\n\nAttached asset does not take up an Ally slot.\n[reaction]  When an investigator plays an <b><i>Ally</i></b> asset at your location: Place 1 resource on this card as a bond. If your playing the <b><i>Ally</i></b>, it costs less than the number of bonds on this card,  and this card is not already attached to an <b><i>Ally</i></b>: Reduce the cost of that <b><i>Ally</i></b> to 0 and attach this card to it.",
         "traits": "Tactic.",
         "type_code": "asset",
         "xp": 0
@@ -107,7 +108,7 @@
         "quantity": 2,
         "skill_combat": 1,
         "skill_intellect": 1,
-        "text": "<b>Parley</b>. Choose an enemy at your location and test [combat] (3) or [intellect] (4). If you succeed and that enemy is <b><i>Humanoid</i></b>, discover 2 clues at your location. If they aren't and/or you fail, deal 1 damage to that enemy.",
+        "text": "<b>Parley</b>. Choose an enemy at your location and test [combat] (3) or [intellect] (3). If you succeed and that enemy is <b><i>Humanoid</i></b>, discover 2 clues at your location. If they aren't, deal 1 damage to that enemy instead.",
         "traits": "Tactic. Insight.",
         "type_code": "event",
         "xp": 0
@@ -125,7 +126,7 @@
         "quantity": 2,
         "skill_wild": 1,
         "skill_willpower": 1,
-        "text": "You get +1 [willpower], +1 [intellect], +1 [combat], and +1 [agility] during this skill test.",
+        "text": "You get +1 [intellect], +1 [combat], and +1 [agility] during this skill test.",
         "traits": "Practiced.",
         "type_code": "skill",
         "xp": 0
@@ -180,7 +181,7 @@
         "pack_code": "kyo_player",
         "position": 34,
         "quantity": 2,
-        "text": "Permanent. Limit 1 per deck.\n[reaction] Before you draw your opening hand: Search your deck for a <b><i>Firearm</i></b> asset with Uses (X ammo). Play it, reducing it's cost by 2, with 0 ammo on it. Shuffle your deck.",
+        "text": "Permanent. Limit 1 per deck.\n[reaction] Before you draw your opening hand: Search your deck for a <b><i>Firearm</i></b> asset with Uses (X ammo). Play it, reducing it's cost by 2, with 1 ammo on it. Shuffle your deck.",
         "traits": "Tactic.",
         "type_code": "asset",
         "xp": 2
@@ -199,7 +200,7 @@
         "quantity": 2,
         "skill_combat": 2,
         "skill_intellect": 1,
-        "text": "<b>Parley</b>. Choose an enemy at your location and test [combat] (3) or [intellect] (4). If you succeed and that enemy is <b><i>Humanoid</i></b>, discover 2 clues at your location. If they aren't and/or you fail, deal 2 damage to that enemy.",
+        "text": "<b>Parley</b>. Choose an enemy at your location and test [combat] (3) or [intellect] (2). If you succeed and that enemy is <b><i>Humanoid</i></b>, discover 2 clues at your location. If they aren't, deal 2 damage to that enemy instead.",
         "traits": "Tactic. Insight.",
         "type_code": "event",
         "xp": 1
@@ -239,7 +240,7 @@
         "skill_agility": 1,
         "skill_combat": 1,
         "slot": "Ally",
-        "text": "Uses (1 supply).\nYou get +1 [combat].\n\n[reaction] After you perform a fight action, exhaust Security Guard: Place 1 supply on Security Guard.\n\n[free] Spend 3 supplies: Automatically evade a non-<b><i>Elite</i></b> enemy at your location.",
+        "text": "Uses (1 courage).\nYou get +1 [combat] and +1 [agility].\n\n[reaction] After you perform a fight action, exhaust Security Guard: Place 1 courage on Security Guard.\n\n[free] Spend 3 courage: Automatically evade a non-<b><i>Elite</i></b> enemy at your location.",
         "traits": "Ally. Civic.",
         "type_code": "asset",
         "xp": 3
@@ -375,7 +376,7 @@
         "position": 44,
         "quantity": 2,
         "skill_intellect": 1,
-        "text": "Take 1 horror. Discard the top 6 card of your deck. Add up to 2 <b><i>Insight</i></b> cards discarded this way to your hand. Shuffle each weakness that was discarded by this effect back into your deck.",
+        "text": "Discard the top 6 card of your deck. Add up to 2 event cards discarded this way to your hand. Shuffle each weakness that was discarded by this effect back into your deck.",
         "traits": "Insight.",
         "type_code": "event",
         "xp": 0
@@ -446,7 +447,7 @@
         "pack_code": "kyo_player",
         "position": 48,
         "quantity": 2,
-        "text": "Fast. Play only at the start of the mythos phase.\nSearch the top 9 cards of the encounter deck for an enemy and spawn it engaged with you. Attach Snooping Around to it. Shuffle the encounter deck.\n\n[reaction] When an investigator defeats the attached enemy: You heal 1 horror. They discover 1 clue at their location.",
+        "text": "Fast. Play only at the end of the mythos phase.\nSearch the top 9 cards of the encounter deck for an enemy and spawn it engaged with you. Attach Snooping Around to it. Shuffle the encounter deck.\n\n[reaction] When an investigator defeats the attached enemy: You heal 1 horror. They discover 1 clue at their location.",
         "traits": "Insight. Bold.",
         "type_code": "event",
         "xp": 0
@@ -483,10 +484,10 @@
         "quantity": 2,
         "skill_intellect": 1,
         "skill_willpower": 1,
-        "text": "Reduce the cost to play Sinister Challenge by 1 for every 4 other cards in your hand.\n<b>Investigate.</b> Investigate with a base [intellect] value of 3. If you succeed, discover 2 total clues from among your location and connecting locations.",
+        "text": "Reduce the cost to play Sinister Challenge by 1 for each other named event in your hand.\n<b>Parley</b>. Choose a <b><i>Humanoid</i></b> enemy at your location and test [intellect] (X), where X is the shroud of your current location. If you succeed, discover 1 clue from your location and a location with another enemy.",
         "traits": "Insight. Gambit.",
         "type_code": "event",
-        "xp": 2
+        "xp": 1
     },
     {
         "code": "43051",
@@ -624,7 +625,7 @@
         "quantity": 2,
         "skill_intellect": 1,
         "slot": "Body",
-        "text": "Handlocked. Uses (3 supplies).\n[reaction] When you play a card in the right half of your hand, spend 1 supply and exhaust Inner Lining: Place 1 supply or ammo on another asset card you control.",
+        "text": "Handlocked. Uses (3 supplies).\n[reaction] After you play a card in the right half of your hand, spend 1 supply and exhaust Inner Lining: Place 1 supply or ammo on another asset card you control.",
         "traits": "Item. Armor. Illicit.",
         "type_code": "asset",
         "xp": 0
@@ -650,7 +651,7 @@
     },
     {
         "code": "43059",
-        "cost": 0,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "rogue",
         "flavor": "",
@@ -663,7 +664,7 @@
         "skill_intellect": 1,
         "slot": "Accessory",
         "subname": "Cheating the Odds",
-        "text": "Uses (0 supplies). Limit 10 supplies on Stacked Deck.\n[reaction] After you spend resources to play a card: Place 1 supply on this card.\n\n[action] Discard Stacked Deck: Move all supplies from it to your resource pool, as resources.",
+        "text": "Uses (3 supplies). Limit 15 supplies on Stacked Deck.\n[reaction] After you spend resources to play a card: Place 1 supply on this card.\n\n[action] Discard Stacked Deck: Move all supplies from it to your resource pool, as resources.",
         "traits": "Item. Illicit.",
         "type_code": "asset",
         "xp": 0
@@ -718,7 +719,7 @@
         "position": 62,
         "quantity": 2,
         "skill_willpower": 1,
-        "text": "Group limit 1 The First to Flinch in play.\nFast. Play after you draw a non-weakness treachery card, but before resolving that card's effects.\n\nPut The First to Flinch into play in your play area and attach that treachery to it instead of resolving it.\n\n<b>Forced</b> After an investigator fails a skill test on an encounter card, they draw the attached card. Then, discard The First to Flinch.",
+        "text": "Group limit 1 The First to Flinch in play.\nFast. Play after you draw a non-peril encounter card, but before resolving that card's effects.\n\nPut The First to Flinch into play in your play area and attach that treachery to it instead of resolving it.\n\n<b>Forced</b> After an investigator fails a skill test on an encounter card, they draw the attached card. Then, discard The First to Flinch.",
         "traits": "Trick. Spirit.",
         "type_code": "event",
         "xp": 0
@@ -810,7 +811,7 @@
         "skill_agility": 1,
         "skill_combat": 1,
         "slot": "Hand",
-        "text": "Handlocked. Uses (3 ammo).\nIf The Klabb was the leftmost card in your hand before playing it: Place 3 additional ammo on The Klabb.\n\n[action] Spend 1 ammo: <b>Fight.</b> Add your [agility] value to your skill value for this attack and you deal +1 damage. If you do not succeed by at least 1, remove 1 ammo from The Klabb.",
+        "text": "Handlocked. Uses (4 ammo).\nIf The Klabb was the leftmost card in your hand before playing it: Place 3 additional ammo on The Klabb.\n\n[action] Spend 1 ammo: <b>Fight.</b> Add your [agility] value to your skill value for this attack and you deal +1 damage. If you do not succeed by at least 1, remove 1 ammo from The Klabb.",
         "traits": "Item. Weapon. Firearm. Illicit.",
         "type_code": "asset",
         "xp": 2
@@ -837,7 +838,7 @@
     },
     {
         "code": "43069",
-        "cost": 0,
+        "cost": 1,
         "deck_limit": 2,
         "faction_code": "rogue",
         "flavor": "",
@@ -850,7 +851,7 @@
         "skill_intellect": 2,
         "slot": "Accessory",
         "subname": "Cheating the Odds",
-        "text": "Uses (2 supplies). Limit 15 supplies on Stacked Deck.\n[reaction] After you spend resources to play a card: Place 1 resource on this card. (Limit 15 resources)\n\n[free] Discard Stacked Deck: Move all supplies from it to your resource pool, as resources.",
+        "text": "Uses (5 supplies). Limit 20 supplies on Stacked Deck.\n[reaction] After you spend resources to play a card: Place 1 resource on this card.\n\n[free] Discard Stacked Deck: Move all supplies from it to your resource pool, as resources.",
         "traits": "Item. Illicit.",
         "type_code": "asset",
         "xp": 3
@@ -910,7 +911,7 @@
         "skill_intellect": 1,
         "skill_wild": 1,
         "slot": "Ally",
-        "text": "Handlocked.\nYou get +1 [intellect] and +1 [agility].\n\nAt the start of the round, the player cards currently in the leftmost and middle positions of your hand become the \"Package\", until they are played or the round ends.\n\n[reaction] After you play a Package card: Gain 2 resources. You may exhaust Underworld Couriers to draw 1 card.",
+        "text": "Handlocked.\nYou get +1 [intellect] and +1 [agility].\n\nAt the start of the round, the player cards currently in the leftmost and middle positions of your hand become the \"Package\", until they are played or the round ends.\n\n[reaction] After you play a Package card: Gain 1 resource. You may exhaust Underworld Couriers to draw 1 card.",
         "traits": "Ally. Criminal.",
         "type_code": "asset",
         "xp": 4
@@ -1081,7 +1082,7 @@
         "quantity": 2,
         "skill_intellect": 1,
         "skill_willpower": 1,
-        "text": "Fast. Play only during your turn. Uses (3 charges).\nAttach to an <b><i>Ally</i></b> asset you control (limit 1 per ally).\n\nAttached asset gets +2 health.\n\n[free] Spend 1 charge and exhaust Rewrite Fate: Shuffle a non-weakness player card in your hand into your deck. Draw 1 card.\n\n<b>Forced</b> When Rewrite Fate leaves play, take 1 horror.",
+        "text": "Fast. Play only during your turn. Uses (3 charges).\nAttach to an <b><i>Ally</i></b> asset you control (limit 1 per ally).\n\nAttached asset gets +1 health.\n\n[free] Spend 1 charge and exhaust Rewrite Fate: Shuffle a non-weakness player card in your hand into your deck. Draw 1 card.",
         "traits": "Ritual. Upgrade.",
         "type_code": "event",
         "xp": 1
@@ -1117,7 +1118,7 @@
         "position": 83,
         "quantity": 2,
         "skill_wild": 2,
-        "text": "Commit only to a skill test you are performing. Max 1 committed per skill test.\nIf multiple chaos tokens are revealed during this skill test, you may return Blessing From Beyond to your hand after this test ends.",
+        "text": "Commit only to a skill test you are performing. Max 1 committed per skill test.\nIf multiple chaos tokens are resolved during this skill test, you may return Blessing From Beyond to your hand after this test ends.",
         "traits": "Innate. Blessed.",
         "type_code": "skill",
         "xp": 2
@@ -1138,7 +1139,7 @@
         "skill_wild": 1,
         "skill_willpower": 1,
         "slot": "Hands x2. Arcane",
-        "text": "Exceptional.\n\nWhile there is only 1 non-<b><i>Elite</i></b> enemy engaged with you, they cannot make attacks of opportunity against you. When you move, non-<b><i>Elite</i></b> enemies disengage from you first.\n[action] <b>Fight.</b> This attack uses your [willpower] instead of [combat]. If after applying all active modifiers other than chaos tokens, your [combat] is within 2 skill value of your [willpower], then you get +4 [willpower] and deal +2 damage for this attack.",
+        "text": "Exceptional.\n\nWhile there is only 1 non-<b><i>Elite</i></b> enemy engaged with you, they cannot make attacks of opportunity against you and when you would move, it disengages from you first.\n[action] <b>Fight.</b> This attack uses your [willpower] instead of [combat]. If after applying all active modifiers other than chaos tokens, your [combat] is within 2 of your skill value, then you get +4 [willpower] and deal +2 damage for this attack.",
         "traits": "Spell.",
         "type_code": "asset",
         "xp": 3
@@ -1221,7 +1222,7 @@
         "quantity": 2,
         "skill_combat": 1,
         "slot": "Hand",
-        "text": "Uses (3 grit).\nYou get +1 [combat] during basic fight actions.\n\n[reaction] After you defeat an enemy that you dealt at least 1 damage to with a basic fight action this round, spend 1 grit and exhaust Hand Wraps: Choose a level 0 <b><i>Innate</i></b> skill in your discard pile. Add the chosen skill to your hand.",
+        "text": "Uses (3 grit).\nYou get +1 [combat] during basic fight actions.\n\n[reaction] When you would defeat an enemy that you dealt at least 1 damage to with a basic fight action this round, spend 1 grit and exhaust Hand Wraps: Choose a level 0 <b><i>Innate</i></b> skill in your discard pile. Add the chosen skill to your hand.",
         "traits": "Item. Weapon.",
         "type_code": "asset",
         "xp": 0
@@ -1434,7 +1435,7 @@
     },
     {
         "code": "43100",
-        "cost": 1,
+        "cost": 2,
         "deck_limit": 2,
         "faction_code": "survivor",
         "flavor": "",
@@ -1446,7 +1447,7 @@
         "quantity": 2,
         "skill_combat": 2,
         "slot": "Hand",
-        "text": "Uses (4 grit).\nYou get +2 [combat] during basic fight actions.\n\n[reaction] After you defeat an enemy that you dealt at least 1 damage to with a basic fight action this round, spend 1 grit and exhaust Hand Wrap: Choose an <b><i>Innate</i></b> skill in your discard pile. Add the chosen skill to your hand.",
+        "text": "Uses (4 grit).\nYou get +2 [combat] during basic fight actions.\n\n[reaction] When you would defeat an enemy that you dealt at least 1 damage to with a basic fight action this round, spend 1 grit and exhaust Hand Wrap: Choose an <b><i>Innate</i></b> skill in your discard pile. Add the chosen skill to your hand.",
         "traits": "Item. Weapon.",
         "type_code": "asset",
         "xp": 3
@@ -1537,7 +1538,7 @@
         "skill_wild": 1,
         "skill_willpower": 1,
         "slot": "Accessory",
-        "text": "Exceptional. Uses (2 charges).\n[reaction] When a Non-<b><i>Elite</i></b> enemy would move into your location, exhaust Shattered Timepiece: That enemy enters your location exhausted. Place 1 charge on Shattered Timepiece.\n\n[free] Spend 1 charge: Choose an investigator or Non-<b><i>Elite</i></b> enemy at your location. Move them to a connecting location.",
+        "text": "Exceptional. Uses (2 charges).\n[reaction] After a Non-<b><i>Elite</i></b> enemy enters your location, exhaust Shattered Timepiece: That enemy enters your location exhausted or place 1 charge on Shattered Timepiece.\n\n[free] Spend 1 charge: Choose an investigator or Non-<b><i>Elite</i></b> enemy at your location. Move them to a connecting location.",
         "traits": "Item. Relic.",
         "type_code": "asset",
         "xp": 3
@@ -1572,7 +1573,7 @@
         "position": 107,
         "quantity": 2,
         "skill_agility": 1,
-        "text": "Limit 1 <b><i>Mask</i></b> in play.\nYou get -1 sanity.\n\nEnemies you target with player cards and abilities gain the <b><i>Monster</i></b> and <b><i>Humanoid</i></b> traits, if they didn't already have them, for the duration of the effect or ability.",
+        "text": "Limit 1 <b><i>Mask</i></b> in play.\nEnemies you target with player cards and abilities gain the <b><i>Monster</i></b> and <b><i>Humanoid</i></b> traits, if they didn't already have them, for the duration of the effect or ability.",
         "traits": "Item. Relic. Mask.",
         "type_code": "asset",
         "xp": 0
@@ -1609,7 +1610,7 @@
         "position": 109,
         "quantity": 2,
         "skill_willpower": 1,
-        "text": "If there is a copy of Calm the Nerves in your discard, Calm the Nerves gains [wild] [wild].\nChoose an investigator at your location. They heal 1 horror. Add this card to the victory display.",
+        "text": "If there is a copy of Calm the Nerves in your discard, Calm the Nerves gains [wild] [wild].\nChoose an investigator at your location. They heal 1 horror.",
         "traits": "Spirit.",
         "type_code": "event",
         "xp": 0
@@ -1662,7 +1663,7 @@
         "pack_code": "kyo_player",
         "position": 112,
         "quantity": 2,
-        "text": "This card can only be purchased once by 1 investigator per campaign.\nWhen the owner of this card would take trauma, cancel 1 of it and exile Essence of Humanity.",
+        "text": "This card can only be purchased by 1 investigator once per campaign.\nWhen the owner of this card would take any amount of trauma, cancel 1 of it and exile Essence of Humanity.",
         "traits": "Blessed. Transcendent.",
         "type_code": "asset",
         "xp": 3
@@ -1717,7 +1718,7 @@
         "skill_combat": 2,
         "skill_willpower": 1,
         "slot": "Hand. Arcane",
-        "text": "[action] <b>Fight.</b> Add your [willpower] value to your skill value for this attack. If you succeed and a [eldersign] token was revealed this round, this attack deals an additional +1 damage.\n\nAny investigator may choose to use the following effect instead of their [eldersign] token's normal effect: [eldersign]: +1. The owner of this card may take an additional action this round, which can only be used to fight (limit once per round).",
+        "text": "[action] <b>Fight.</b> For this attack, you may use [willpower] instead of [combat]. you get +1 skill value for this attack (+3 if a [eldersign] token was revealed this round). This attack deals +1 damage.\n\nAny investigator may choose to use the following effect instead of their [eldersign] token's normal effect: [eldersign]: +2. The owner of this card may take an additional action this round, which can only be used to fight (limit once per round).",
         "traits": "Item. Relic. Weapon. Melee. Blessed.",
         "type_code": "asset",
         "xp": 4
@@ -1812,10 +1813,10 @@
         "pack_code": "kyo_player",
         "position": 120,
         "quantity": 2,
-        "text": "Fast. Play only at the start of your turn.\n\nTake 2 direct damage and horror. Raise the base value of your [combat] and [agility] to 6 during this round.\n\nAfter enemies move during the next enemy phase, engage any number of enemies at your location. Then, when an enemy would attack you, you may immediately perform an action first.",
+        "text": "Fast. Play only durng your turn. (Max 1 per round.)\n\nTake 2 direct damage and horror. Then, engage any number of enemies at your location and raise the base value of your [combat] and [agility] to 6 this round. You may ignore attacks of opportunity this round.\n\nDuring the enemy phase, when an enemy would attack you, you may immediately perform an action first.",
         "traits": "Spirit. Transcendent.",
         "type_code": "event",
-        "xp": 4
+        "xp": 5
     },
     {
         "code": "43121",
@@ -1883,7 +1884,7 @@
         "pack_code": "kyo_player",
         "position": 124,
         "quantity": 2,
-        "text": "Bonded (Repossession Contract). Master Thief cannot be discarded.\nYou get +1 skill value while investigating and evading.\n\n[reaction] After you succeed an investigation by 4 or more, exhaust Master Thief: Gain 2 resources and draw 1 card.",
+        "text": "Bonded (Repossession Contract). Master Thief cannot be discarded.\nYou get +1 skill value while investigating and evading.\n\n[reaction] After you succeed an investigation by 3 or more, exhaust Master Thief: Gain 2 resources and draw 1 card.",
         "traits": "Talent. Illicit.",
         "type_code": "asset",
         "xp": null
@@ -2068,7 +2069,7 @@
         "skill_agility": 1,
         "skill_combat": 1,
         "slot": "Hand",
-        "text": "[action]<b>:</b> <b>Fight.</b> You get +2 [combat] for this attack. If your last action you performed this turn was a basic fight or evade action, this attack deals +1 damage. If you fail, this ability is [free] the next time you use it this turn (limit once per round, cannot be used during a test).",
+        "text": "[action]<b>:</b> <b>Fight.</b> You get +2 [combat] for this attack. If your last action you took this turn was a basic fight or evade action, this attack deals +1 damage. If you fail, you may exhaust hatchet, then then perform a basic fight or evade action.",
         "traits": "Item. Weapon. Melee.",
         "type_code": "asset",
         "xp": 2
@@ -2177,10 +2178,10 @@
         "quantity": 2,
         "skill_wild": 1,
         "skill_willpower": 1,
-        "text": "If this test would be successful, reveal 10 additional tokens from the chaos bag. Cancel all chaos tokens revealed this way that are not a [eldersign] token.\n\nIn an [eldersign] token was not revealed this test, return Faithful to your hand.",
+        "text": "If this test would be successful, reveal 10 additional tokens from the chaos bag. Cancel all chaos tokens revealed this way that are not a [eldersign] token. If an [eldersign] token was not revealed this way, draw 1 card.",
         "traits": "Blessed.",
         "type_code": "skill",
-        "xp": 2
+        "xp": 3
     },
     {
         "code": "43140",
@@ -2196,7 +2197,7 @@
         "quantity": 2,
         "skill_combat": 2,
         "skill_willpower": 1,
-        "text": "Exceptional.\n<b>Fight.</b> Resolve a <b>Fight</b> action on a <b><i>Melee</i></b> asset you control. If you succeed, instead of its standard damage, this attack deals its damage to each enemy at your location. If an enemy was defeated with way, return a <i><b>Blessed</b></i> card from you discard to your hand.",
+        "text": "Exceptional.\n<b>Fight.</b> Resolve a <b>Fight</b> action on a <b><i>Melee</i></b> asset you control. If you succeed, instead of its standard damage, this attack deals its damage to each enemy at your location. If an enemy is defeated this way, return another <i><b>Blessed</b></i> card from you discard to your hand.",
         "traits": "Blessed. Transcendent.",
         "type_code": "event",
         "xp": 3
@@ -2219,5 +2220,59 @@
         "traits": "Blessed. Summon.",
         "type_code": "event",
         "xp": 3
+    },
+    {
+        "code": "43142",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "flavor": "",
+        "illustrator": "lyteside",
+        "is_unique": false,
+        "name": "Fixer",
+        "pack_code": "kyo_player",
+        "position": 142,
+        "quantity": 2,
+        "skill_combat": 2,
+        "text": "Take an action. Set the base value of one your skills to 5 while resolving that action. This action does not provoke attacks of opportunity.\n\n[reaction] When you play Fixer, increase its cost by 2: Change \"5\" to \"7\".\n\n[reaction] When you play Fixer, increase its cost by 2: Change \"while resolving that action.\" to \"until the end of your turn.\"",
+        "traits": "Favor. Service.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
+        "code": "43143",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "flavor": "",
+        "illustrator": "svcjhhcale",
+        "is_unique": false,
+        "name": "Rendezvous",
+        "pack_code": "kyo_player",
+        "position": 143,
+        "quantity": 2,
+        "skill_agility": 2,
+        "text": "<b>Move:</b> Move 1 investigator at your location to a revealed location up to 2 connections away.\n\n[reaction] When you play Rendezvous, increase its cost by 2: Change \"1 investigator\" to \"2 investigators\".\n\n[reaction] When you play Rendezvous, increase its cost by 2: Change \"2 connections\" to \"4 connections\".",
+        "traits": "Favor. Service.",
+        "type_code": "event",
+        "xp": 0
+    },
+    {
+        "code": "43144",
+        "cost": 2,
+        "deck_limit": 2,
+        "faction_code": "rogue",
+        "flavor": "",
+        "illustrator": "Rinat Voligamsi",
+        "is_unique": false,
+        "name": "Crackdown",
+        "pack_code": "kyo_player",
+        "position": 144,
+        "quantity": 2,
+        "skill_combat": 2,
+        "text": "Deal 1 damage to an enemy at your location. This action does not provoke attacks of opportunity.\n\n[reaction] When you play Crackdown, increase its cost by 2: Change \"Deal 1 damage\" to \"Deal 2 damage.\"\n\n[reaction] When you play Crackdown, increase its cost by 2: Change \"an enemy at your location.\" to \"all enemies at your location.\"",
+        "traits": "Favor. Service.",
+        "type_code": "event",
+        "xp": 1
     }
 ]
