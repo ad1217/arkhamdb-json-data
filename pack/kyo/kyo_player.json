@@ -490,7 +490,8 @@
     },
     {
         "code": "43051",
-        "deck_limit": 2,
+        "deck_limit": 1,
+		"exceptional": true,
         "faction_code": "seeker",
         "flavor": "",
         "illustrator": "Bryan Sola",
@@ -1125,7 +1126,8 @@
     {
         "code": "43084",
         "cost": 4,
-        "deck_limit": 2,
+        "deck_limit": 1,
+		"exceptional": true,
         "faction_code": "mystic",
         "flavor": "",
         "illustrator": "Argent Saga",
@@ -1523,7 +1525,8 @@
     {
         "code": "43105",
         "cost": 2,
-        "deck_limit": 2,
+        "deck_limit": 1,
+		"exceptional": true,
         "faction2_code": "mystic",
         "faction_code": "rogue",
         "flavor": "",
@@ -2190,7 +2193,8 @@
     {
         "code": "43140",
         "cost": 4,
-        "deck_limit": 2,
+        "deck_limit": 1,
+		"exceptional": true,
         "faction_code": "guardian",
         "flavor": "\"It is said that they put their very soul into that strike. In the light that followed, the world escaped a terrible fate, and lost it's greatest hero.\"",
         "illustrator": "cobaltplasma",
@@ -2209,7 +2213,8 @@
     {
         "code": "43141",
         "cost": 4,
-        "deck_limit": 2,
+        "deck_limit": 1,
+		"exceptional": true,
         "faction_code": "mystic",
         "flavor": "\"Not a single soul survived that battlefield, but their resolve has never wavered. They will push back the darkness with everything they once had.\"",
         "illustrator": "",
