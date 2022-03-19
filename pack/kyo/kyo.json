@@ -13,12 +13,7 @@
                 "faction": ["seeker"],
                 "level": { "min": 0, "max": 5 }
             },
-            {
-                "faction": ["rogue"],
-                "level": { "min": 0, "max": 0 },
-                "limit": 5
-            },
-            { "trait": ["favor"], "level": { "min": 0, "max": 3 } }
+            { "trait": ["insight, spirit"], "level": { "min": 0, "max": 0 } }
         ],
         "deck_requirements": "size:30, card:40001, card:40002, random:subtype:basicweakness",
         "double_sided": true,
