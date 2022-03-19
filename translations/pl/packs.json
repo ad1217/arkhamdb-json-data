@@ -1,11 +1,15 @@
 [
     {
         "code": "aon",
-        "name": "All or Nothing"
+        "name": "Wszystko albo nic"
     },
     {
         "code": "apot",
         "name": "Widmo Prawdy"
+    },
+    {
+        "code": "bad",
+        "name": "Zła krew"
     },
     {
         "code": "bbt",
@@ -22,6 +26,10 @@
     {
         "code": "bsr",
         "name": "Noc Czarnych Gwiazd"
+    },
+    {
+        "code": "btb",
+        "name": "W majestacie prawa"
     },
     {
         "code": "coh",
@@ -41,7 +49,7 @@
     },
     {
         "code": "def",
-        "name": "Devil Reef"
+        "name": "Diabelska rafa"
     },
     {
         "code": "dsm",
@@ -50,6 +58,14 @@
     {
         "code": "dwl",
         "name": "Dziedzictwo Dunwich"
+    },
+    {
+        "code": "eoec",
+        "name": "Na krawędzi Ziemi - Rozszerzenie kampanijne"
+    },
+    {
+        "code": "eoep",
+        "name": "Na krawędzi Ziemi - Rozszerzenie badaczy"
     },
     {
         "code": "eotp",
@@ -69,7 +85,7 @@
     },
     {
         "code": "hhg",
-        "name": "Horror in High Gear"
+        "name": "Na wysokich obrotach"
     },
     {
         "code": "hote",
@@ -89,7 +105,7 @@
     },
     {
         "code": "itm",
-        "name": "Into the Maelstrom"
+        "name": "W głab wiru"
     },
     {
         "code": "jac",
@@ -97,7 +113,7 @@
     },
     {
         "code": "lif",
-        "name": "A Light in the Fog"
+        "name": "Światło pośród mgieł"
     },
     {
         "code": "litas",
@@ -105,7 +121,7 @@
     },
     {
         "code": "lod",
-        "name": "The Lair of Dagon"
+        "name": "Leże Dagona"
     },
     {
         "code": "lol",
@@ -129,7 +145,7 @@
     },
     {
         "code": "rod",
-        "name": "Read or Die"
+        "name": "Przeczytaj lub zgiń"
     },
     {
         "code": "rtdwl",
@@ -144,8 +160,12 @@
         "name": "Powrót Szlaku do Carcosy"
     },
     {
+        "code": "rttcu",
+        "name": "Powrót Przerwanego Kręgu"
+    },
+    {
         "code": "rttfa",
-        "name": "Return to the Forgotten Age"
+        "name": "Powrót Zapomnianej Ery"
     },
     {
         "code": "sfk",
