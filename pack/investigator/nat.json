@@ -1,6 +1,6 @@
 [
     {
-        "back_flavor": "When up-and-coming boxer Nathaniel Cho was offered lots of dough for a title fight, he thoughts he'd finally hit the big time. But his promoter turned out to be part of the notorious O'Bannion gang, and Nathaniel was pressured to fix fights by taking a dive every now and then. His refusal led to his brother Randall's \"accident.\" Nathaniel is rightly fed up with the mobsters endangering Arkham's citizens on a nightly basis. Now he puts his fists to better use, patrolling the streets and defending others from harm. But he's about to find out there are much more dangerous things that lurk in the shadows of Arkham than simple gangsters...",
+        "back_flavor": "When up-and-coming boxer Nathaniel Cho was offered lots of dough for a title fight, he thought he'd finally hit the big time. But his promoter turned out to be part of the notorious O'Bannion gang, and Nathaniel was pressured to fix fights by taking a dive every now and then. His refusal led to his brother Randall's \"accident.\" Nathaniel is rightly fed up with the mobsters endangering Arkham's citizens on a nightly basis. Now he puts his fists to better use, patrolling the streets and defending others from harm. But he's about to find out there are much more dangerous things that lurk in the shadows of Arkham than simple gangsters...",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Randall Cho, Tommy Malloy, 1 random basic weakness.",
         "code": "60101",
         "deck_limit": 1,
@@ -37,6 +37,7 @@
         "deck_limit": 1,
         "faction_code": "guardian",
         "health": 1,
+        "errata_date": "2020-10-15",
         "flavor": "\"You gotta give this up, Nathaniel. Sooner or later, you're gonna get yourself killed.\"",
         "illustrator": "Derek D. Edgell",
         "is_unique": true,
@@ -51,7 +52,7 @@
         "skill_wild": 1,
         "skill_willpower": 1,
         "slot": "Ally",
-        "text": "Nathaniel Cho deck only.\n[fast] After Randall Cho enters play: Heal 3 damage or search your deck and discard pile for a [[Weapon]] asset, play it <i>(paying its cost)</i>, and shuffle your deck.",
+        "text": "Nathaniel Cho deck only.\n[reaction] After Randall Cho enters play: Heal 3 damage or search your deck and discard pile for a [[Weapon]] asset, play it <i>(paying its cost)</i>, and shuffle your deck.",
         "traits": "Ally. Medic.",
         "type_code": "asset"
     },

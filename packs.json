@@ -665,6 +665,14 @@
         "size": 13
     },
     {
+        "code": "rtr",
+        "cycle_code": "parallel",
+        "date_release": "2021-12-30",
+        "name": "Red Tide Rising",
+        "position": 5,
+        "size": 9
+    },
+    {
         "code": "kyo",
         "cycle_code": "kyo",
         "date_release": null,
