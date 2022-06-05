@@ -719,5 +719,13 @@
         "name": "Alice in Wonderland",
         "position": 2,
         "size": 3
+    },
+    {
+        "code": "touhou_project_investigators",
+        "cycle_code": "misc",
+        "date_release": "2021-07-11",
+        "name": "Touhou Project Investigators",
+        "position": 3,
+        "size": 25
     }
 ]
