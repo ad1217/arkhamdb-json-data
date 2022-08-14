@@ -743,5 +743,13 @@
         "name": "Touhou Project Investigators",
         "position": 3,
         "size": 25
+    },
+    {
+        "code": "masseffect",
+        "cycle_code": "misc",
+        "date_release": null,
+        "name": "Mass Effect",
+        "position": 4,
+        "size": 1
     }
 ]
