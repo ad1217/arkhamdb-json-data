@@ -57,7 +57,7 @@
         "skill_wild": 1,
         "skill_willpower": 1,
         "restrictions": "investigator:40000",
-		"quantity": 2,
+        "quantity": 2,
         "text": "Chiaki Asami deck only.\n\nFast. Play only during your turn. Max 1 per round.\nFlip 1 your policy cards to its <b><i>Pending</i></b> side, then unexhaust it.\n\nYou may spend 1 resource. Flip 1 your policy cards to its <b><i>Enacted</i></b> side (2 if you spent a resource this way).",
         "traits": "Insight.",
         "type_code": "event",
