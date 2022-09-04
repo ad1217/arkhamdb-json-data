@@ -1524,6 +1524,7 @@
         "code": "43105",
         "cost": 2,
         "deck_limit": 1,
+        "exceptional": true,
         "faction2_code": "mystic",
         "faction_code": "rogue",
         "flavor": "",
