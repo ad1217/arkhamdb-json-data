@@ -19,8 +19,8 @@
                 "limit": 5
             },
             {
-			    "trait": ["favor"], 
-			    "level": { "min": 0, "max": 3 } 
+			    "trait": ["favor"],
+			    "level": { "min": 0, "max": 3 }
 			}
         ],
         "deck_requirements": "size:30, card:40001, card:40002, random:subtype:basicweakness",
@@ -288,8 +288,8 @@
         "deck_limit": 1,
         "deck_options": [
             {
-			    "faction": ["neutral"], 
-			    "level": { "min": 0, "max": 5 } 
+			    "faction": ["neutral"],
+			    "level": { "min": 0, "max": 5 }
 			},
             {
                 "faction": ["survivor"],
@@ -300,13 +300,14 @@
                 "level": { "min": 0, "max": 0 },
                 "limit": 5
             },
-            { 
-			    "trait": ["ally"], 
-				"level": { "min": 0, "max": 5 }
-			},
-            { 
-			    "trait": ["acquaintance"], "level": { "min": 0, "max": 1 }
-			}
+            {
+                "trait": ["ally"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "trait": ["acquaintance"],
+                "level": { "min": 0, "max": 1 }
+            }
         ],
         "deck_requirements": "size:30, card:40012, card:40013, random:subtype:basicweakness",
         "double_sided": true,
@@ -379,19 +380,21 @@
                 "faction": ["mystic"],
                 "level": { "min": 0, "max": 3 }
             },
-			{ 
-			    "trait": ["relic"], 
-				"level": { "min": 0, "max": 5 }
-			},
-            { 
-			    "text": ["(?<![Pp]ermanent\\. .*)Exceptional\\.(?!.* [Pp]ermanent\\.)"], 
-				"level": { "min": 0, "max": 5 },
-				"limit": 1
-			},
-      {
-          "faction": ["neutral"],
-          "level": { "min": 0, "max": 5 }
-      },
+            {
+                "trait": ["relic"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "text": [
+                    "(?<![Pp]ermanent\\. .*)Exceptional\\.(?!.* [Pp]ermanent\\.)"
+                ],
+                "level": { "min": 0, "max": 5 },
+                "limit": 1
+            },
+            {
+                "faction": ["neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
 
             {
                 "faction": ["seeker"],
