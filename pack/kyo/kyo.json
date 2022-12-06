@@ -169,8 +169,7 @@
         "subtype_code": "weakness",
         "text": "Cannot be discarded. \n\nWhile Prying Eyes is in your hand: You can only play the 2 leftmost cards in your hand. Your cards lose and cannot gain fast.\n<b>Forced</b> At the end of your turn: move Prying Eyes one position to the left.",
         "traits": "Intrusion. Blunder.",
-        "type_code": "event",
-        "xp": 0
+        "type_code": "event"
     },
     {
         "back_flavor": "Akira Hojo lived with his father who worked as a doctor in a dangerously unstable country. When the chaos erupted, it toke everything from him. He gathered together other suffering children to survive. With Chiaki Asami and few others, he fled the country. Only he and Chiaki managed to survive the journey. When he reached the safety of Arkham, he was met with by a dark, warped city. He decided he would reform the criminal underbelly of Arkham. He vowed to turn these gangsters into a force that could protect Arkham from the anything, be it man or monster.",
@@ -246,9 +245,11 @@
         "xp": null
     },
     {
+		"bonded_to": "Burning Ambition",
+        "bonded_count": 3,
         "code": "40009",
         "cost": null,
-        "deck_limit": 1,
+        "deck_limit": 0,
         "faction_code": "neutral",
         "flavor": "\"...What it takes an ordinary man thirty years to do.\"",
         "illustrator": "",
