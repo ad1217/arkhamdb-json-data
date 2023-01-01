@@ -296,17 +296,17 @@
                 "level": { "min": 0, "max": 5 }
             },
             {
-                "faction": ["guardian"],
-                "level": { "min": 0, "max": 0 },
-                "limit": 5
-            },
-            {
                 "trait": ["ally"],
                 "level": { "min": 0, "max": 5 }
             },
             {
                 "trait": ["acquaintance"],
                 "level": { "min": 0, "max": 1 }
+            },
+			{
+                "faction": ["guardian"],
+                "level": { "min": 0, "max": 0 },
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:40012, card:40013, random:subtype:basicweakness",
