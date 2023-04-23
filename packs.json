@@ -759,5 +759,13 @@
         "name": "Mass Effect",
         "position": 4,
         "size": 1
+    },
+    {
+        "code": "lola",
+        "cycle_code": "misc",
+        "date_release": null,
+        "name": "Lola Hayes Rework",
+        "position": 5,
+        "size": 6
     }
 ]
