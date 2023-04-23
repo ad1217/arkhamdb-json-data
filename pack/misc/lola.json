@@ -127,7 +127,7 @@
         "skill_combat": 3,
         "skill_willpower": 3,
         "subname": "The Actress",
-        "text": "<b>Forced</b> - At the start of the investigation phase: Shuffle a <b>Role</b> asset you control into the character deck. Look at the top 2 cards of the character deck and put one into play. Shuffle the remaining cards into the character deck.\n[elder_sign] effect: +2. Search the top 6 cards of your deck for a card with the same class as a <b>Role</b> asset you control and draw it. Shuffle your deck."
+        "text": "<b>Forced</b> - At the start of the investigation phase: Shuffle a <b>Role</b> asset you control into the character deck. Look at the top 2 cards of the character deck and put one into play. Shuffle the remaining cards into the character deck.\n[elder_sign] effect: +2. Search the top 6 cards of your deck for a card with the same class as a <b>Role</b> asset you control and draw it. Shuffle your deck.",
         "traits": "Performer.",
         "type_code": "investigator"
     },
@@ -142,9 +142,9 @@
         "position": 2,
         "quantity": 2, 
         "restrictions": "investigator:42009",
-        "skill_wild":,
+        "skill_wild":2,
         "text":"Lola Hayes deck only.\nFast. Play when you activate the <b>Forced</b> ability on Lola Hayes.\nInstead of looking at 2 cards, look at the top 6 non-Cassilda cards of the character deck and put one into play. Shuffle the remaining cards back into the character deck. Draw 1 card.",
-        "traits":"Insight."
+        "traits":"Insight.",
         "type_code":"event"
     },
     {
