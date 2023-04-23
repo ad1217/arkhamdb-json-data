@@ -1,0 +1,167 @@
+[
+    {
+        "back_flavor": "Lola has performed to sold-out houses worldwide, but no play has been as haunting or as odd as The King in Yellow. Even during rehearsals, everything about it brought calamity and dread. When her co-star, Miriam, was found floating dead in the Seine, she decided she'd had enough, and penned a letter to the director explaining that her next performace would be her last. Now she heads home to Arkham for one final show, hoping she can finally be rid of this dreadful play.",
+        "back_text": "<b>Deck Size</b> 35.\n<b>Secondary Class Choice:</b> At deck creation, choose 10 non-Cassilda <b>Role</b> assets (maximum of 3 from each class). These do not count towards your deck size.\n<b>Deckbuilding Options</b>: Survivor,Guardian,Seeker,Rogue, and Mystic cards ([survivor],[guardian],[seeker],[rogue] and [mystic]) level 0-X where X is the number of <b>Role</b> assets chosen in the corresponding class (cannot choose cards from a class that does not match at least 1 chosen <b>Role</b> asset, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): 2 copies of Improvisation, 2 copies of Crisis of Identify, Cassilda, 1 random basic weakness.\n<b>Additional Requirements:</b> During the setup of each scenario, shuffle Cassilda and the 10 <b>Role</b> assets you chose during deck creation into a seperate \"character deck\".",
+        "code": "42009",
+        "deck_limit":1,
+        "deck_options":[
+        {
+            "faction": ["neutral"],
+            "level": {"min": 0, "max":5}
+        },
+        {
+            "name": "Survivor Roles selected",
+            "complex_select": {
+                "Zero": {
+                    
+                },
+                "One": {
+                    "faction": ["survivor"],
+                    "level": {"min":0, "max":1}
+                },
+                "Two": {
+                    "faction": ["survivor"],
+                    "level": {"min":0, "max":2}
+                },
+                "Three": {
+                    "faction": ["survivor"],
+                    "level": {"min":0, "max":3}
+                }
+            }
+        },
+        {
+            "name": "Guardian Roles selected",
+            "complex_select": {
+                "Zero": {
+                    
+                },
+                "One": {
+                    "faction": ["guardian"],
+                    "level": {"min":0, "max":1}
+                },
+                "Two": {
+                    "faction": ["guardian"],
+                    "level": {"min":0, "max":2}
+                },
+                "Three": {
+                    "faction": ["guardian"],
+                    "level": {"min":0, "max":3}
+                }
+            }
+        },
+        {
+            "name": "Seeker Roles selected",
+            "complex_select": {
+                "Zero": {
+                    
+                },
+                "One": {
+                    "faction": ["seeker"],
+                    "level": {"min":0, "max":1}
+                },
+                "Two": {
+                    "faction": ["seeker"],
+                    "level": {"min":0, "max":2}
+                },
+                "Three": {
+                    "faction": ["seeker"],
+                    "level": {"min":0, "max":3}
+                }
+            }
+        },
+        {
+            "name": "Rogue Roles selected",
+            "complex_select": {
+                "Zero": {
+                    
+                },
+                "One": {
+                    "faction": ["rogue"],
+                    "level": {"min":0, "max":1}
+                },
+                "Two": {
+                    "faction": ["rogue"],
+                    "level": {"min":0, "max":2}
+                },
+                "Three": {
+                    "faction": ["rogue"],
+                    "level": {"min":0, "max":3}
+                }
+            }
+        },
+        {
+            "name": "Mystic Roles selected",
+            "complex_select": {
+                "Zero": {
+                    
+                },
+                "One": {
+                    "faction": ["mystic"],
+                    "level": {"min":0, "max":1}
+                },
+                "Two": {
+                    "faction": ["mystic"],
+                    "level": {"min":0, "max":2}
+                },
+                "Three": {
+                    "faction": ["mystic"],
+                    "level": {"min":0, "max":3}
+                }
+            }
+        }
+        ],
+        "deck_requirements": "size:35, card:42010, card:42010, card:42011, card:42011, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "neutral",
+        "flavor": "Perhaps this would be her big comeback.",
+        "health": 7,
+        "illustrator": "Magali Villeneuve",
+        "is_unique": true,
+        "name": "Lola Hayes",
+        "pack_code": "lola",
+        "position": 1,
+        "quantity": 1,
+        "sanity": 7,
+        "skill_agility": 3,
+        "skill_intellect": 3,
+        "skill_combat": 3,
+        "skill_willpower": 3,
+        "subname": "The Actress",
+        "text": "<b>Forced</b> - At the start of the investigation phase: Shuffle a <b>Role</b> asset you control into the character deck. Look at the top 2 cards of the character deck and put one into play. Shuffle the remaining cards into the character deck.\n[elder_sign] effect: +2. Search the top 6 cards of your deck for a card with the same class as a <b>Role</b> asset you control and draw it. Shuffle your deck."
+        "traits": "Performer.",
+        "type_code": "investigator"
+    },
+    {
+        "code":"42010",
+        "cost": 0,
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "illustrator": "Abigail Larson",
+        "name": "Improvisation",
+        "pack_code":"lola",
+        "position": 2,
+        "quantity": 2, 
+        "restrictions": "investigator:42009",
+        "skill_wild":,
+        "text":"Lola Hayes deck only.\nFast. Play when you activate the <b>Forced</b> ability on Lola Hayes.\nInstead of looking at 2 cards, look at the top 6 non-Cassilda cards of the character deck and put one into play. Shuffle the remaining cards back into the character deck. Draw 1 card.",
+        "traits":"Insight."
+        "type_code":"event"
+    },
+    {
+        "code":"42011",
+        "deck_limit": 2,
+        "faction_code": "neutral",
+        "flavor": "Am I Cassilda or Lola? This madness Hastur stop...",
+        "illustrator": "Abigail Larson",
+        "is_unique": false,
+        "name": "Crisis of Identity",
+        "pack_code": "lola",
+        "position":4,
+        "quantity":2,
+        "restrictions":"investigator:42009",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> - Reveal the top 2 non-Cassilda cards of the character deck. For each card revealed, either remove it from the game or take 1 direct horror to shuffle it into the character deck. If no cards were revealed by this effect, take 1 horror.",
+        "traits":"Madness.",
+        "type_code": "treachery"
+    }
+]
