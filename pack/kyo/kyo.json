@@ -60,7 +60,6 @@
         "skill_wild": 1,
         "skill_willpower": 1,
         "restrictions": "investigator:40000",
-        "quantity": 2,
         "text": "Chiaki Asami deck only.\n\nFast. Play only during your turn. Max 1 per round.\nFlip 1 your policy cards to its <b><i>Pending</i></b> side, then unexhaust it.\n\nYou may spend 1 resource. Flip 1 your policy cards to its <b><i>Enacted</i></b> side (2 if you spent a resource this way).",
         "traits": "Favor. Service.",
         "type_code": "event",
@@ -188,17 +187,21 @@
                         "faction": ["rogue"],
                         "level": { "min": 0, "max": 0 }
                     },
-                    "Exp > 11": {
+                    "Exp > 9": {
                         "faction": ["rogue"],
                         "level": { "min": 0, "max": 1 }
                     },
-                    "Exp > 23": {
+                    "Exp > 19": {
                         "faction": ["rogue"],
                         "level": { "min": 0, "max": 2 }
                     },
-                    "Exp > 35": {
+                    "Exp > 29": {
                         "faction": ["rogue"],
                         "level": { "min": 0, "max": 3 }
+                    },
+					"Exp > 39": {
+                        "faction": ["rogue"],
+                        "level": { "min": 0, "max": 4 }
                     }
                 }
             }
@@ -412,7 +415,7 @@
         "is_unique": true,
         "name": "William Grindel",
         "pack_code": "kyo",
-        "position": 15,
+        "position": 14,
         "quantity": 1,
         "skill_willpower": 5,
         "skill_intellect": 3,
@@ -433,7 +436,7 @@
         "is_unique": false,
         "name": "Future Foretold",
         "pack_code": "kyo",
-        "position": 22,
+        "position": 15,
         "quantity": 1,
         "restrictions": "investigator:40014",
         "text": "William Grindel's deck only. Fast. Play at the start of the investigation phase.\nUntil the end of the phase, increase the modifier of chaos tokens drawn at your location with a negative modifier by 2. Place Future Foretold on top of your prophecy deck.",
@@ -455,7 +458,7 @@
         "is_unique": false,
         "name": "Star Spawn",
         "pack_code": "kyo",
-        "position": 23,
+        "position": 16,
         "quantity": 2,
         "restrictions": "investigator:40014",
         "subtype_code": "weakness",
@@ -463,6 +466,102 @@
         "traits": "Monster. Harbinger.",
         "type_code": "enemy",
         "xp": null
+    },
+	{
+        "back_flavor": "XXXX",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, event cards that say \"investigate\" or \"discover\" level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Photo Album, 3 copies of A Sight to See, A World Of Solitude, 1 random basic weakness.\n<b>Deckbuilding Setup</b> You begin each game with 3 copies of A Sight to See set aside, out of play.",
+        "code": "40017",
+        "deck_limit": 1,
+        "deck_options": [
+            { "faction": ["seeker"], "level": { "min": 0, "max": 5 } },
+            { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
+            {
+                "text": [
+                    "[Ii]nvestigate"
+                ],
+                "level": { "min": 0, "max": 2 }
+            },
+			            {
+                "text": [
+                    "[Dd]iscover"
+                ],
+                "level": { "min": 0, "max": 2 }
+            }
+        ],
+        "deck_requirements": "size:30, card:40018, card:40019, card:40021, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "seeker",
+        "flavor": "There is a whole world out there waiting to be discovered.",
+        "health": 8,
+        "illustrator": "AI",
+        "is_unique": true,
+        "name": "Elise Collins",
+        "pack_code": "kyo",
+        "position": 17,
+        "quantity": 1,
+        "sanity": 6,
+        "skill_agility": 4,
+        "skill_intellect": 4,
+        "skill_combat": 1,
+        "skill_willpower": 3,
+        "subname": "The Tourist",
+        "text": "[reaction] When you draw a non-weakness card from your deck, before resolving any of its effects, discard it: Add one of your set-aside A Sight to See events to your hand (limit once per round).\n[elder_sign] effect: +1. You may discard a copy of A Sight to See from your hand, then draw 2 cards.",
+        "traits": "Wayfarer.",
+        "type_code": "investigator"
+    },
+    {
+        "code": "40018",
+        "cost": 0,
+        "deck_limit": 3,
+        "faction_code": "neutral",
+        "flavor": "",
+        "illustrator": "Oguzhan Kar",
+        "name": "A Sight to See",
+        "pack_code": "kyo",
+        "position": 18,
+		"restrictions": "investigator:40017",
+        "quantity": 3,
+        "skill_agility": 1,
+        "text": "<b>Investigate</b>. If you succeed, discover a clue at a connecting location.\n\n<b>Forced</b> When A Sight to See would be discarded: Set it aside, out of play, instead.",
+        "traits": "Insight.",
+        "type_code": "event",
+        "xp": null
+    },
+	{
+        "code": "40019",
+        "cost": 1,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "",
+        "illustrator": "Ian Macmillan",
+        "is_unique": true,
+        "name": "Photo Album",
+        "pack_code": "kyo",
+        "position": 19,
+		"restrictions": "investigator:40017",
+        "quantity": 1,
+        "skill_wild": 1,
+        "skill_willpower": 1,
+        "subname": "Worth a Million Words",
+        "text": "Elise Collnis deck only.\n\nA Sight to See does not count towards your maximum hand size.\n\n[reaction] When you play A Sight to See, exhaust Photo Album: Change \"discover a clue at\" to \"move to\".",
+        "traits": "Item. Tome.",
+        "type_code": "asset",
+        "xp": null
+    },
+	    {
+        "code": "40021",
+        "faction_code": "neutral",
+        "flavor": "",
+        "illustrator": "AI",
+        "name": "A World Of Solitude",
+        "pack_code": "kyo",
+        "position": 21,
+		"restrictions": "investigator:40017",
+        "quantity": 1,
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> Put this card into play in your threat area. Attach all set aside copies of A Sight to See to this card. Discard all other copies of A Sight to See from your hand and in play.\n\n<b>Forced</b> At the end of your turn discard 1 attached copy of a A Sight to See and take 1 horror. It there are no cards attached to A World Of Solitude, discard it.",
+        "traits": "Madness.",
+        "type_code": "treachery"
     },
     {
         "back_flavor": "XXXX",
@@ -501,6 +600,79 @@
         "text": "XXXX",
         "traits": "Performer.",
         "type_code": "investigator"
+    },
+	{
+        "back_flavor": "",
+        "back_text": "<b>Deck Size</b>: 30\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, <b><i>Spirit</i></b> cards level 0-3, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: \"Drinks on me!\", Alone in the World, 1 random basic weakness.",
+        "code": "40022",
+        "deck_options": [
+                        {
+                "faction": ["neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "faction": ["guardian"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "trait": ["spirit"],
+                "level": { "min": 0, "max": 3 }
+            }
+        ],
+        "deck_requirements": "size:30, card:40023, card:40024, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "guardian",
+        "flavor": "",
+        "health": 6,
+        "illustrator": "AI",
+        "is_unique": true,
+        "name": "Amelia Barrett",
+        "pack_code": "kyo",
+        "position": 22,
+        "quantity": 2,
+        "sanity": 8,
+        "skill_agility": 2,
+        "skill_combat": 4,
+        "skill_intellect": 2,
+        "skill_willpower": 4,
+        "subname": "The Bartender",
+        "text": "Investigators at your location can play events beneath this card.\n\n[reaction] After an investigator or <b><i>Ally</i></b>  asset your location is dealt damage or horror and there are less than 2 cards beneath this card: Reveal the top 3 cards of your deck. You may place 1 revealed <b><i>Spirit</i></b> event beneath this card. Shuffle the rest into your deck. (Limit once per round.)\n\n[eldersign] +1. You may shuffle a <b><i>Spirit</i></b> event from your discard into your deck.",
+        "traits": "Civic. Medic.",
+        "type_code": "investigator"
+    },
+	{
+        "code": "40023",
+        "cost": 3,
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "",
+        "illustrator": "",
+        "name": "\"Drinks on me!\"",
+        "pack_code": "kyo",
+        "position": 23,
+        "quantity": 1,
+		"restrictions": "investigator:40022",
+        "skill_wild": 1,
+        "skill_willpower": 2,
+        "text": "Amelia Barrett deck only.\nFor the remainder of the round, healing from player card effects may be disturbed from among investigators and/or <b><i>Ally</i></b> assets at the investigator's location.\n\nHeal 2 damage and 2 horror. You may take 1 horror, then draw 1 card.",
+        "traits": "Spirit.",
+        "type_code": "event",
+        "xp": null
+    },
+	{
+        "code": "40024",
+        "faction_code": "neutral",
+        "flavor": "",
+        "illustrator": "",
+        "name": "Alone in the World",
+        "pack_code": "kyo",
+        "position": 24,
+        "quantity": 1,
+		"restrictions": "investigator:40022",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> For each <b><i>Spirit</i></b> event in your hand, either take 1 horror or discard it. Then, if you have no <b><i>Spirit</i></b> events in hand, discard the top 6 cards of your deck. Draw each weaknesses discarded this way.",
+        "traits": "Madness.",
+        "type_code": "treachery"
     },
     {
         "back_flavor": "back flavor",
