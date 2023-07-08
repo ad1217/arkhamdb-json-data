@@ -550,6 +550,7 @@
     },
 	    {
         "code": "40021",
+        "deck_limit": 1,
         "faction_code": "neutral",
         "flavor": "",
         "illustrator": "AI",
@@ -661,6 +662,7 @@
     },
 	{
         "code": "40024",
+        "deck_limit": 1,
         "faction_code": "neutral",
         "flavor": "",
         "illustrator": "",
