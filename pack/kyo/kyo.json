@@ -199,7 +199,7 @@
                         "faction": ["rogue"],
                         "level": { "min": 0, "max": 3 }
                     },
-					"Exp > 39": {
+                    "Exp > 39": {
                         "faction": ["rogue"],
                         "level": { "min": 0, "max": 4 }
                     }
@@ -306,7 +306,7 @@
                 "trait": ["acquaintance"],
                 "level": { "min": 0, "max": 1 }
             },
-			{
+            {
                 "faction": ["guardian"],
                 "level": { "min": 0, "max": 0 },
                 "limit": 5
@@ -467,7 +467,7 @@
         "type_code": "enemy",
         "xp": null
     },
-	{
+    {
         "back_flavor": "XXXX",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, event cards that say \"investigate\" or \"discover\" level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size): Photo Album, 3 copies of A Sight to See, A World Of Solitude, 1 random basic weakness.\n<b>Deckbuilding Setup</b> You begin each game with 3 copies of A Sight to See set aside, out of play.",
         "code": "40017",
@@ -476,15 +476,11 @@
             { "faction": ["seeker"], "level": { "min": 0, "max": 5 } },
             { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
             {
-                "text": [
-                    "[Ii]nvestigate"
-                ],
+                "text": ["[Ii]nvestigate"],
                 "level": { "min": 0, "max": 2 }
             },
-			            {
-                "text": [
-                    "[Dd]iscover"
-                ],
+            {
+                "text": ["[Dd]iscover"],
                 "level": { "min": 0, "max": 2 }
             }
         ],
@@ -519,7 +515,7 @@
         "name": "A Sight to See",
         "pack_code": "kyo",
         "position": 18,
-		"restrictions": "investigator:40017",
+        "restrictions": "investigator:40017",
         "quantity": 3,
         "skill_agility": 1,
         "text": "<b>Investigate</b>. If you succeed, discover a clue at a connecting location.\n\n<b>Forced</b> When A Sight to See would be discarded: Set it aside, out of play, instead.",
@@ -527,7 +523,7 @@
         "type_code": "event",
         "xp": null
     },
-	{
+    {
         "code": "40019",
         "cost": 1,
         "deck_limit": 1,
@@ -538,7 +534,7 @@
         "name": "Photo Album",
         "pack_code": "kyo",
         "position": 19,
-		"restrictions": "investigator:40017",
+        "restrictions": "investigator:40017",
         "quantity": 1,
         "skill_wild": 1,
         "skill_willpower": 1,
@@ -548,7 +544,7 @@
         "type_code": "asset",
         "xp": null
     },
-	    {
+    {
         "code": "40021",
         "deck_limit": 1,
         "faction_code": "neutral",
@@ -557,7 +553,7 @@
         "name": "A World Of Solitude",
         "pack_code": "kyo",
         "position": 21,
-		"restrictions": "investigator:40017",
+        "restrictions": "investigator:40017",
         "quantity": 1,
         "subtype_code": "weakness",
         "text": "<b>Revelation</b> Put this card into play in your threat area. Attach all set aside copies of A Sight to See to this card. Discard all other copies of A Sight to See from your hand and in play.\n\n<b>Forced</b> At the end of your turn discard 1 attached copy of a A Sight to See and take 1 horror. It there are no cards attached to A World Of Solitude, discard it.",
@@ -602,12 +598,12 @@
         "traits": "Performer.",
         "type_code": "investigator"
     },
-	{
+    {
         "back_flavor": "",
         "back_text": "<b>Deck Size</b>: 30\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, <b><i>Spirit</i></b> cards level 0-3, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: \"Drinks on me!\", Alone in the World, 1 random basic weakness.",
         "code": "40022",
         "deck_options": [
-                        {
+            {
                 "faction": ["neutral"],
                 "level": { "min": 0, "max": 5 }
             },
@@ -641,7 +637,7 @@
         "traits": "Civic. Medic.",
         "type_code": "investigator"
     },
-	{
+    {
         "code": "40023",
         "cost": 3,
         "deck_limit": 1,
@@ -652,7 +648,7 @@
         "pack_code": "kyo",
         "position": 23,
         "quantity": 1,
-		"restrictions": "investigator:40022",
+        "restrictions": "investigator:40022",
         "skill_wild": 1,
         "skill_willpower": 2,
         "text": "Amelia Barrett deck only.\nFor the remainder of the round, healing from player card effects may be disturbed from among investigators and/or <b><i>Ally</i></b> assets at the investigator's location.\n\nHeal 2 damage and 2 horror. You may take 1 horror, then draw 1 card.",
@@ -660,7 +656,7 @@
         "type_code": "event",
         "xp": null
     },
-	{
+    {
         "code": "40024",
         "deck_limit": 1,
         "faction_code": "neutral",
@@ -670,7 +666,7 @@
         "pack_code": "kyo",
         "position": 24,
         "quantity": 1,
-		"restrictions": "investigator:40022",
+        "restrictions": "investigator:40022",
         "subtype_code": "weakness",
         "text": "<b>Revelation</b> For each <b><i>Spirit</i></b> event in your hand, either take 1 horror or discard it. Then, if you have no <b><i>Spirit</i></b> events in hand, discard the top 6 cards of your deck. Draw each weaknesses discarded this way.",
         "traits": "Madness.",
