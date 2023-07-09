@@ -42,5 +42,50 @@
         "text": "-",
         "traits": "Drifter. Scholar.",
         "type_code": "investigator"
+    },
+    {
+        "back_flavor": "-",
+        "back_text": "-",
+        "code": "42302",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": ["rogue"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "faction": ["neutral"],
+                "level": { "min": 0, "max": 5 }
+            },
+            {
+                "faction": ["guardian"],
+                "type": ["skill"],
+                "level": { "min": 0, "max": 2 }
+            },
+            {
+                "level": { "min": 0, "max": 3 },
+                "trait": ["upgrade"]
+            }
+        ],
+        "deck_requirements": "size:30, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "rogue",
+        "flavor": "-",
+        "health": 8,
+        "illustrator": "-",
+        "is_unique": true,
+        "name": "Garrus Vakarian",
+        "pack_code": "masseffect",
+        "position": 2,
+        "quantity": 1,
+        "sanity": 6,
+        "skill_agility": 4,
+        "skill_intellect": 2,
+        "skill_combat": 4,
+        "skill_willpower": 2,
+        "subname": "The Rebel",
+        "text": "-",
+        "traits": "Detective. Hunter.",
+        "type_code": "investigator"
     }
 ]
