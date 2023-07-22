@@ -389,8 +389,9 @@
             },
             {
                 "text": [
-                    "(?<![Pp]ermanent\\. .*)Exceptional\\.(?!.* [Pp]ermanent\\.)"
+                    "(?<![Pp]ermanent\\.).*Exceptional\\.(?!.* [Pp]ermanent\\.)"
                 ],
+                "tag": ["kyo_ex"],
                 "level": { "min": 0, "max": 5 },
                 "limit": 1
             },
@@ -476,11 +477,9 @@
             { "faction": ["seeker"], "level": { "min": 0, "max": 5 } },
             { "faction": ["neutral"], "level": { "min": 0, "max": 5 } },
             {
-                "text": ["[Ii]nvestigate"],
-                "level": { "min": 0, "max": 2 }
-            },
-            {
-                "text": ["[Dd]iscover"],
+                "text": ["[Ii]nvestigate", "[Dd]iscover"],
+                "tag": ["kyo_id"],
+                "type": ["event"],
                 "level": { "min": 0, "max": 2 }
             }
         ],
