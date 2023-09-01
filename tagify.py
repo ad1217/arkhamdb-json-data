@@ -27,7 +27,7 @@ def find_text_options():
 def tags_for_card(options, card):
     for option in options:
         if any(r.search(card["text"]) for r in option["re"]):
-            yield from option["tag"]
+            yield from option.get("tag", [])
 
 
 if OUTPUT_DIR.is_dir():
