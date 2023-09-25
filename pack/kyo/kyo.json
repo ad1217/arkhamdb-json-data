@@ -389,7 +389,7 @@
             },
             {
                 "text": [
-                    "(?<![Pp]ermanent\\. .*)Exceptional\\.(?!.* [Pp]ermanent\\.)"
+                    "(?<![Pp]ermanent\\.).*Exceptional\\.(?!.* [Pp]ermanent\\.)"
                 ],
                 "level": { "min": 0, "max": 5 },
                 "limit": 1
