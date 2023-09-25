@@ -3,12 +3,14 @@
 import json
 from pathlib import Path
 import re
+import sys
 
 try:
-    PACK_DIR = Path(__file__).parent / "pack"
+    BASE_DIR = Path(__file__).parent
 except NameError:
-    PACK_DIR = Path("pack")
+    BASE_DIR = Path(".")
 
+PACK_DIR = BASE_DIR / "pack"
 OUTPUT_DIR = PACK_DIR / "zzz_retagged_cards"
 
 
@@ -20,7 +22,14 @@ def find_text_options():
             if "deck_options" in card and card["deck_options"] is not None:
                 for option in card["deck_options"]:
                     if "text" in option:
-                        option["re"] = [re.compile(t) for t in option["text"]]
+                        try:
+                            option["re"] = [re.compile(t) for t in option["text"]]
+                        except re.error as e:
+                            print(
+                                f"Regex for {card['name']} [{card['code']}] "
+                                f"in {json_file.relative_to(BASE_DIR)} failed to compile: {e}"
+                            )
+                            sys.exit(1)
                         yield option
 
 
@@ -54,6 +63,8 @@ for json_file in PACK_DIR.glob("**/*.json"):
                 tagged_cards.append(card)
 
     if tagged_cards:
-        print(f"Changed tags on {len(tagged_cards)} cards in {json_file.relative_to(PACK_DIR)}")
+        print(
+            f"Changed tags on {len(tagged_cards)} cards in {json_file.relative_to(BASE_DIR)}"
+        )
         with open(OUTPUT_DIR / json_file.name, "w") as f:
             json.dump(tagged_cards, f, indent=4)
