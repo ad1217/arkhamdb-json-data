@@ -428,12 +428,12 @@
         "size": 300
     },
     {
-      "code": "fhvp",
-      "cycle_code": "fhv",
-      "date_release": "2023-01-30",
-      "name": "The Feast of Hemlock Vale Investigator Expansion",
-      "position": 1,
-      "size": 300
+        "code": "fhvp",
+        "cycle_code": "fhv",
+        "date_release": "2023-01-30",
+        "name": "The Feast of Hemlock Vale Investigator Expansion",
+        "position": 1,
+        "size": 300
     },
     {
         "code": "fhvc",
@@ -726,6 +726,22 @@
         "date_release": "2023-07-28",
         "name": "On the Road Again",
         "position": 6,
+        "size": 3
+    },
+    {
+        "code": "ltr",
+        "cycle_code": "parallel",
+        "date_release": "2023-10-13",
+        "name": "Laid to Rest",
+        "position": 7,
+        "size": 13
+    },
+    {
+        "code": "ptr",
+        "cycle_code": "parallel",
+        "date_release": "2023-10-30",
+        "name": "Path of the Righteous",
+        "position": 8,
         "size": 3
     },
     {
