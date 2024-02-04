@@ -815,5 +815,13 @@
         "name": "Lola Hayes Rework",
         "position": 5,
         "size": 6
+    },
+    {
+        "code": "rop",
+        "cycle_code": "parallel",
+        "date_release": "2024-01-01",
+        "name": "Relics of the Past",
+        "position": 9,
+        "size": 16
     }
 ]
