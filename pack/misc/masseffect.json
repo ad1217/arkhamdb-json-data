@@ -103,7 +103,7 @@
                 "level": { "min": 0, "max": 5 }
             },
             {
-                "text": ["[Ee]vade"],
+                "text": ["Evade\\."],
                 "tag": ["ev"],
                 "level": {
                     "min": 0,
