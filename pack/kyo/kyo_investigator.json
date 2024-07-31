@@ -516,7 +516,7 @@
         "skill_intellect": 2,
         "skill_willpower": 3,
         "subname": "The Hunted",
-        "text": "Non-weakness enemies at your location gain \"<pre> John Wick Only.\"\n[reaction] When you engage an enemy: You may take an additional action during this turn or your next turn if it is not currently your turn (limit once per round).\n\n[eldersign]: +1. After this test ends, you may engage an enemy at your location.",
+        "text": "Non-weakness enemies at your location gain \"<b>Prey</b> - John Wick Only.\"\n[reaction] When you engage an enemy: You may take an additional action during this turn or your next turn if it is not currently your turn (limit once per round).\n\n[eldersign]: +1. After this test ends, you may engage an enemy at your location.",
         "traits": "Criminal. Drifter.",
         "type_code": "investigator"
     }
