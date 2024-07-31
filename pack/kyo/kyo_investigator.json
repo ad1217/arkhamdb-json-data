@@ -262,16 +262,6 @@
                 }
             },
             {
-                "text": [
-                    "(?<![Pp]ermanent\\.).*Exceptional\\.(?!.* [Pp]ermanent\\.)"
-                ],
-                "level": {
-                    "min": 0,
-                    "max": 5
-                },
-                "limit": 1
-            },
-            {
                 "faction": ["neutral"],
                 "level": {
                     "min": 0,
@@ -330,6 +320,7 @@
             },
             {
                 "text": ["[Ii]nvestigate"],
+                "tag": ["iv"],
                 "level": {
                     "min": 0,
                     "max": 2
@@ -337,6 +328,7 @@
             },
             {
                 "text": ["[Dd]iscover"],
+                "tag": ["dc"],
                 "level": {
                     "min": 0,
                     "max": 2
@@ -435,6 +427,7 @@
             },
             {
                 "text": ["[Rr]esources"],
+                "tag": ["rs"],
                 "level": {
                     "min": 0,
                     "max": 3

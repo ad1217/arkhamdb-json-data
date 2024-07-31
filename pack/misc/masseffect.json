@@ -104,6 +104,7 @@
             },
             {
                 "text": ["[Ee]vade"],
+                "tag": ["ev"],
                 "level": {
                     "min": 0,
                     "max": 4
