@@ -20,19 +20,19 @@
                 }
             },
             {
+                "trait": ["favor"],
+                "level": {
+                    "min": 0,
+                    "max": 3
+                }
+            },
+            {
                 "faction": ["rogue"],
                 "level": {
                     "min": 0,
                     "max": 0
                 },
                 "limit": 5
-            },
-            {
-                "trait": ["favor"],
-                "level": {
-                    "min": 0,
-                    "max": 3
-                }
             }
         ],
         "deck_requirements": "size:30, card:40001, card:40002, card:40025, card:40026, card:40027, random:subtype:basicweakness",
