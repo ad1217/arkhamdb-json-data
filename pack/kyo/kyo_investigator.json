@@ -466,7 +466,7 @@
                 "faction": ["survivor"],
                 "level": {
                     "min": 0,
-                    "max": 4
+                    "max": 3
                 }
             },
             {
@@ -496,7 +496,7 @@
                     "min": 0,
                     "max": 0
                 },
-                "limit": 10
+                "limit": 5
             }
         ],
         "deck_requirements": "size:30, card:40032, card:40033, random:subtype:basicweakness",
@@ -516,7 +516,7 @@
         "skill_intellect": 2,
         "skill_willpower": 3,
         "subname": "The Hunted",
-        "text": "Non-weakness enemies at your location gain \"<b>Prey</b> - John Wick Only.\"\n[reaction] When you engage an enemy: You may take an additional action during this turn or your next turn if it is not currently your turn (limit once per round).\n\n[eldersign]: +1. After this test ends, you may engage an enemy at your location.",
+        "text": "<b>Fight</b> abilites on <i><b>Firearm</b></i> assets you control with 0 uses on them or out if play deal +1 damage.\n[reaction] After you defeat an enemy without using an ability on a <i><b>Firearm</b></i> asset: Choose a <i><b>Firearm</b></i> asset in your discard pile and either add it to your hand or play it (limit once per round).\n\n[eldersign]: +1. After this test ends, choose a <i><b>Firearm</b></i> asset you control and replenish 1 of its uses.",
         "traits": "Criminal. Drifter.",
         "type_code": "investigator"
     }
