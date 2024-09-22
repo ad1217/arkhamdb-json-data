@@ -227,8 +227,8 @@
         "position": 18,
         "quantity": 3,
         "restrictions": "investigator:40017",
-        "skill_agility": 1,
-        "text": "<b>Investigate</b>. If you succeed, discover a clue at a connecting location.\n\n<b>Forced</b> When A Sight to See would be discarded: Set it aside, out of play, instead.",
+        "skill_willpower": 1,
+        "text": "<b>Investigate</b>. You get +1 [intellect] for this investigation. If you succeed, discover a clue at a connecting location.\n\n<b>Forced</b> When A Sight to See would be discarded: Set it aside, out of play, instead.",
         "traits": "Insight.",
         "type_code": "event",
         "xp": null
@@ -249,7 +249,7 @@
         "skill_wild": 1,
         "skill_willpower": 1,
         "subname": "Worth a Million Words",
-        "text": "Elise Collnis deck only. Uses (2 pictures).\n\n[reaction] After you succeed the test on a copy of A Sight to See, place 1 resource on Photo Album, as a picture.\n\n[free] Spend 3 pictures and exhaust Photo Album: Shuffle 1 event from your discard into your deck.",
+        "text": "Elise Collnis deck only. Uses (2 secrets).\n\n[reaction] After you succeed the test on a copy of A Sight to See, place 1 secret on Photo Album.\n\n[free] Spend 2 secrets and exhaust Photo Album: Shuffle 1 event from your discard into your deck.",
         "traits": "Item. Tome.",
         "type_code": "asset",
         "xp": null
@@ -267,7 +267,7 @@
         "quantity": 1,
         "restrictions": "investigator:40017",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> Put this card into play in your threat area and place 3 resources on it.\n\nYou cannot play events.\n\n[free] Discard a copy of A sight to See, then remove 1 resource from this card.\n\n<b>Forced</b> At the end of your turn discard 1 resources on A World Of Solitude and take 1 horror. Then if there are no resources on A World Of Solitude, discard it.",
+        "text": "<b>Revelation</b> Put this card into play in your threat area and place 3 resources on it.\n\nYou cannot play events.\n\n[free] Discard a copy of A sight to See, then remove 1 resource from this card.\n\n<b>Forced</b> At the end of your turn discard 1 resource on A World Of Solitude, then take 1 horror. If there are no resources on A World Of Solitude, discard it.",
         "traits": "Madness.",
         "type_code": "treachery"
     },
@@ -420,7 +420,7 @@
         "text": "John Wick deck only.\n\nFast. Choose an enemy at your location. Attach Marked for Death to it and engage it. \nYou get +2 skill value during tests while fighting the attached enemy.\n\n[reaction] After the attached enemy is defeated: Heal 1 damage and horror (2 if you defeated an enemy with at least 4 printed health).",
         "traits": "Spirit. Tactic.",
         "type_code": "event",
-        "xp": 0
+        "xp": null
     },
     {
         "code": "40033",

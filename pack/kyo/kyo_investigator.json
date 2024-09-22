@@ -53,7 +53,7 @@
         "skill_willpower": 3,
         "subname": "The Reformer",
         "text": "Your cards with the <b><i>Favor</i></b> trait gain the <b><i>Insight</i></b> trait.\n\n<b>Forced</b> At the start of the round, flip all of your Policy cards to their <b><i>Pending</i></b> side. Flip your Policy card that has been on its <i><b>Pending</b></i> side the longest to its <b><i>Enacted</i></b> side.\n\n[eldersign] effect: +1. After this test ends, you may flip 1 of your Policy cards to its <b><i>Enacted</i></b> side.",
-        "traits": "Civic.",
+        "traits": "Philanthropist. Civic.",
         "type_code": "investigator"
     },
     {
@@ -319,16 +319,20 @@
                 }
             },
             {
-                "text": ["[Ii]nvestigate"],
+                "faction": ["Survivor", "Rogue"],
                 "tag": ["iv"],
+                "text": ["[Ii]nvestigate"],
+                "type": ["event"],
                 "level": {
                     "min": 0,
                     "max": 2
                 }
             },
             {
-                "text": ["[Dd]iscover"],
+                "faction": ["Survivor", "Rogue"],
                 "tag": ["dc"],
+                "text": ["[Dd]iscover"],
+                "type": ["event"],
                 "level": {
                     "min": 0,
                     "max": 2
@@ -352,7 +356,7 @@
         "skill_intellect": 4,
         "skill_willpower": 3,
         "subname": "The Tourist",
-        "text": "[reaction] When you draw a non-weakness card from your deck, before resolving any of its effects, discard it: Add one of your set-aside A Sight to See events to your hand (limit once per round).\n[eldersign] effect: +1. You may discard a copy of A Sight to See from your hand, then draw 2 cards.",
+        "text": "[reaction] When you draw a non-weakness card from your deck, before resolving any of its effects, discard it: Add one of your set-aside A Sight to See events to your hand (limit once per round).\n[eldersign] effect: +1. You may discard 1 card from your hand, then draw 1 card.",
         "traits": "Wayfarer.",
         "type_code": "investigator"
     },
@@ -458,7 +462,7 @@
     },
     {
         "back_flavor": "Young John traveled the world with his father’s hunts. Now a globe-trotting hunter and an accomplished killer in his own right, John follows in his father’s footsteps, securing the lives of his targets. But after discovering a silver pendant with a familiar symbol on it, Wick must explore his own past. Years ago, his father was found murdered with the very same sigil carved onto his forehead. The image has haunted Wick’s dreams ever since. But he’s getting close. He won’t stop until he solves the mystery of his father’s murder... no matter what it takes.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) 0-3, <b><i>Firearm</i></b> and <b><i>Tactic</i></b> cards level 0-4, Neutral cards level 0-5, up to 10 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Signature, Weakness, 1 random basic weakness.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) 0-3, <b><i>Firearm</i></b> and <b><i>Tactic</i></b> cards level 0-4, Neutral cards level 0-5, up to 5 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Marked for Death, Abandoned by God, 1 random basic weakness.",
         "code": "40031",
         "deck_limit": 1,
         "deck_options": [
@@ -466,7 +470,7 @@
                 "faction": ["survivor"],
                 "level": {
                     "min": 0,
-                    "max": 3
+                    "max": 4
                 }
             },
             {
@@ -510,13 +514,13 @@
         "pack_code": "kyo_investigator",
         "position": 31,
         "quantity": 1,
-        "sanity": 7,
-        "skill_agility": 1,
+        "sanity": 6,
+        "skill_agility": 3,
         "skill_combat": 5,
         "skill_intellect": 2,
-        "skill_willpower": 3,
+        "skill_willpower": 2,
         "subname": "The Hunted",
-        "text": "<b>Fight</b> abilites on <i><b>Firearm</b></i> assets you control with 0 uses on them or out if play deal +1 damage.\n[reaction] After you defeat an enemy without using an ability on a <i><b>Firearm</b></i> asset: Choose a <i><b>Firearm</b></i> asset in your discard pile and either add it to your hand or play it (limit once per round).\n\n[eldersign]: +1. After this test ends, choose a <i><b>Firearm</b></i> asset you control and replenish 1 of its uses.",
+        "text": "<b>Fight</b> abilities on <b><i>Firearm</i></b> assets you control with 0 uses on them or out of play deal +1 damage.\n[reaction] After you defeat an enemy without using an ability on a <b><i>Firearm</i></b> asset: Choose a <b><i>Firearm</i></b> asset in your discard pile. Either add it to your hand or play it (limit once per round).\n\n[eldersign]: +1. After this test ends, you may replenish 1 use on a <b><i>Firearm</i></b> asset you control.",
         "traits": "Criminal. Drifter.",
         "type_code": "investigator"
     }
