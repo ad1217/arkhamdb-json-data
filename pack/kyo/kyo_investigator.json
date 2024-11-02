@@ -40,7 +40,7 @@
         "faction_code": "seeker",
         "flavor": "",
         "health": 6,
-        "illustrator": "Ikegami Ryoichi\t",
+        "illustrator": "Ikegami Ryoichi",
         "is_unique": true,
         "name": "Chiaki Asami",
         "pack_code": "kyo_investigator",
@@ -54,6 +54,32 @@
         "subname": "The Reformer",
         "text": "Your cards with the <b><i>Favor</i></b> trait gain the <b><i>Insight</i></b> trait.\n\n<b>Forced</b> At the start of the round, flip all of your Policy cards to their <b><i>Pending</i></b> side. Flip your Policy card that has been on its <i><b>Pending</b></i> side the longest to its <b><i>Enacted</i></b> side.\n\n[eldersign] effect: +1. After this test ends, you may flip 1 of your Policy cards to its <b><i>Enacted</i></b> side.",
         "traits": "Philanthropist. Civic.",
+        "type_code": "investigator"
+    },
+    {
+        "back_flavor": "During every age, terrors would try to invade the world. While most of humanity remained unaware, William was there, holding the final line between the world and the forces outside its understanding. From place to place, age to age, whenever the tides of madness began, he was there, waiting. Sometimes, he wonders if he holds back the chaos, or if his birth marks the start of the apocalypse.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, <b><i>Expert</i></b> and <b><i>Developed</i></b> cards level\n0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: Future's Past, Cosmic Animosity, 1 random basic weakness.",
+        "code": "40000",
+        "deck_options": ["FIXME"],
+        "deck_requirements": "FIXME",
+        "double_sided": true,
+        "faction_code": "mystic",
+        "flavor": "\"Another day, another world ending event.\"",
+        "health": 6,
+        "illustrator": "CKGoksoy",
+        "is_unique": true,
+        "name": "William Grindel",
+        "pack_code": "kyo_investigator",
+        "position": null,
+        "quantity": 2,
+        "sanity": 8,
+        "skill_agility": 2,
+        "skill_combat": 2,
+        "skill_intellect": 3,
+        "skill_willpower": 5,
+        "subname": "The Reborn",
+        "text": "[reaction] After you commit a card to a skill test on a treachery card: This card gains [wild] [wild]. If this test is successful, draw 1 card. In another investigator succeeded by 2 or more this way, they draw 1 card. (Limit once per phase\t.)\n\n[eldersign] effect: +1. Heal 1 horror from an investigator at your location.",
+        "traits": "Chosen. Drifter.",
         "type_code": "investigator"
     },
     {
@@ -82,7 +108,7 @@
         "faction_code": "rogue",
         "flavor": "You didn't get that from me.",
         "health": 8,
-        "illustrator": "",
+        "illustrator": "Nagy Norbert",
         "is_unique": true,
         "name": "Jack Myers",
         "pack_code": "kyo_investigator",
@@ -100,7 +126,7 @@
     },
     {
         "back_flavor": "Akira Hojo lived with his father who worked as a doctor in a dangerously unstable country. When the chaos erupted, it took everything from him. He gathered together other suffering children to survive. With Chiaki Asami and few others, he fled the country. Only he and Chiaki managed to survive the journey. When he reached the safety of Arkham, he was met with by a dark, warped city. He decided he would reform the criminal underbelly of Arkham. He vowed to turn these gangsters into a force that could protect Arkham from the anything, be it man or monster.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-3, Rogue cards ([rogue]) level 0. Neutral cards level 0-5.  For every 10 experience you've earned in total, increase the level of Rogue cards you can take by 1 (max level 4)\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: 1 Burning Ambition, 1 Occupational Hazard, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Police</i></b> cards.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-3, Rogue cards ([rogue]) level 0. Neutral cards level 0-5.  For every 8 experience you've earned in total, increase the level of Rogue cards you can take by 1 (max level 4)\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: 1 Burning Ambition, 1 Occupational Hazard, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Police</i></b> cards.",
         "code": "40007",
         "deck_limit": 1,
         "deck_options": [
@@ -132,28 +158,28 @@
                             "max": 0
                         }
                     },
-                    "Exp > 9": {
+                    "Exp: 8+": {
                         "faction": ["rogue"],
                         "level": {
                             "min": 0,
                             "max": 1
                         }
                     },
-                    "Exp > 19": {
+                    "Exp: 16+": {
                         "faction": ["rogue"],
                         "level": {
                             "min": 0,
                             "max": 2
                         }
                     },
-                    "Exp > 29": {
+                    "Exp: 24+": {
                         "faction": ["rogue"],
                         "level": {
                             "min": 0,
                             "max": 3
                         }
                     },
-                    "Exp > 39": {
+                    "Exp: 32+": {
                         "faction": ["rogue"],
                         "level": {
                             "min": 0,
@@ -163,12 +189,12 @@
                 }
             }
         ],
-        "deck_requirements": "size:30, card:40008, card:40009, card:40010, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:40008, card:40010, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "guardian",
         "flavor": "",
         "health": 8,
-        "illustrator": "",
+        "illustrator": "Ikegami Ryoichi",
         "is_unique": true,
         "name": "Akira Hojo",
         "pack_code": "kyo_investigator",
@@ -180,13 +206,13 @@
         "skill_intellect": 3,
         "skill_willpower": 4,
         "subname": "The Underdog",
-        "text": "[reaction] When you initiate a fight action, spend 1 resource: Add your [agility] value to your skill value for this attack. If you succeed by 1 or more, gain 1 resource.\n\n[eldersign] effect: +1. If this skill test causes an enemy to be defeated; gain 2 resources.",
+        "text": "[reaction] When you initiate a [combat] test, spend 1 resource: Add your [agility] value to your skill value for this attack. If you succeed by 1 or more, gain 1 resource. If you succeed by 3 or more, gain 1 additional resource (limit once per round).\n\n[eldersign] effect: +1. If the resolution of this test defeats an enemy; gain 2 resources.",
         "traits": "Philanthropist. Criminal.",
         "type_code": "investigator"
     },
     {
         "back_flavor": "The people around Alma always met gruesome fates. As an orphan, whenever she got close to others, they would suffer. As she grew older, she realized that she was the source of their misfortune, and their deaths. Distraught, she wandered into the depths of Arkham, and there she found them. People who didn't care that she was a cursed existence, because they were already doomed. She stood up for these hapless souls. Wouldn't let anyone look down on them. Her compassion earns their loyalty, for as long as they last.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-3, <b><i>Ally</i></b> cards level 0-5, Neutral cards level 0-5, and up to 10 other Guardian cards ([guardian]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: 2 Vagrant Messenger, Inevitable Fate, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Criminal</i></b> cards.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-3, <b><i>Ally</i></b> cards level 0-5, Neutral cards level 0-5, and up to 10 other Guardian cards ([guardian]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: 2 Vagrant Messenger, Inevitable Fate, 1 random basic weakness.",
         "code": "40011",
         "deck_limit": 1,
         "deck_options": [
@@ -225,7 +251,7 @@
         "faction_code": "survivor",
         "flavor": "",
         "health": 6,
-        "illustrator": "",
+        "illustrator": "Lane Brown",
         "is_unique": true,
         "name": "Alma Venandi",
         "pack_code": "kyo_investigator",
@@ -237,65 +263,8 @@
         "skill_intellect": 4,
         "skill_willpower": 3,
         "subname": "The Intercessor",
-        "text": "You have an additional ally slot that can only be used to hold non-unique allies.\n\nInvestigators at your location and connecting locations may use your <b><i>Ally</i></b> assets to:\n\n-  Assign damage and/or horror.\n\n-  Use [action], [free], and [reaction] abilities as if they controlled it. (An ability may only be used by any 1 investigator per round.)\n[eldersign]: +1. You may heal 1 damage or 1 horror from an <b><i>Ally</i></b> asset at your location.",
+        "text": "You have an additional ally slot that can only be used to hold non-unique allies.\n\nOther investigators at your location and connecting locations may use your <b><i>Ally</i></b> assets to:\n\n-  Assign damage and/or horror.\n\n-  If ready, use a [action], [free], or [reaction] ability as if they controlled it, then exhaust it.\n[eldersign]: +1. You may heal 1 damage or 1 horror from an <b><i>Ally</i></b> asset at your location.",
         "traits": "Cursed. Abandoned.",
-        "type_code": "investigator"
-    },
-    {
-        "back_flavor": "During every age, terrors would try to invade the world. While most of humanity remained unaware, William was there, holding the final line between the world and the forces outside its understanding. From place to place, age to age, whenever the tides of madness began, he was there, waiting. Sometimes, he wonders if he holds back the chaos, or if his birth marks the start of the apocalypse.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: <b><i>Relic</i></b> cards level 0-5, Mystic cards ([mystic]) level 0-3, Neutral cards level 0-5, and up to ten level 0 Seeker cards ([seeker]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: Future Foretold, Star Spawn, 1 random basic weakness.\n<b>Additional Setup</b>: You begin each game with Future Foretold as an additional card in your opening hand.\n<b>Bonus Experience</b>: Reduce the total experience cost for you to purchase new non-permanent exceptional cards by 1.",
-        "code": "40014",
-        "deck_limit": 1,
-        "deck_options": [
-            {
-                "faction": ["mystic"],
-                "level": {
-                    "min": 0,
-                    "max": 3
-                }
-            },
-            {
-                "trait": ["relic"],
-                "level": {
-                    "min": 0,
-                    "max": 5
-                }
-            },
-            {
-                "faction": ["neutral"],
-                "level": {
-                    "min": 0,
-                    "max": 5
-                }
-            },
-            {
-                "faction": ["seeker"],
-                "level": {
-                    "min": 0,
-                    "max": 0
-                },
-                "limit": 10
-            }
-        ],
-        "deck_requirements": "size:30, card:40015, card:40016, random:subtype:basicweakness",
-        "double_sided": true,
-        "faction_code": "mystic",
-        "flavor": "",
-        "health": 6,
-        "illustrator": "CKGoksoy",
-        "is_unique": true,
-        "name": "William Grindel",
-        "pack_code": "kyo_investigator",
-        "position": 14,
-        "quantity": 1,
-        "sanity": 8,
-        "skill_agility": 2,
-        "skill_combat": 2,
-        "skill_intellect": 3,
-        "skill_willpower": 5,
-        "subname": "The Reborn",
-        "text": "<b>Forced</b> After you draw the last card in your deck and you have at least 7 cards in your prophecy deck: Move the cards from the prophecy deck to your deck. Draw 1 card.\n\n[reaction] When you reveal a token with a non-negative modifier during a skill test: Add your [eldersign] token's effect to that token for this test. (Limit once per round).\n\n[eldersign] effect: +2, reveal another token If you succeed, draw 1 card. After this skill test ends, you may move up to 3 cards from the top of your deck to the bottom of your prophecy deck.",
-        "traits": "Clairvoyant. Drifter.",
         "type_code": "investigator"
     },
     {
@@ -319,7 +288,7 @@
                 }
             },
             {
-                "faction": ["Survivor", "Rogue"],
+                "faction": ["survivor", "rogue"],
                 "tag": ["iv"],
                 "text": ["[Ii]nvestigate"],
                 "type": ["event"],
@@ -329,7 +298,7 @@
                 }
             },
             {
-                "faction": ["Survivor", "Rogue"],
+                "faction": ["survivor", "rogue"],
                 "tag": ["dc"],
                 "text": ["[Dd]iscover"],
                 "type": ["event"],
@@ -456,21 +425,25 @@
         "skill_intellect": 4,
         "skill_willpower": 2,
         "subname": "The Gambler",
-        "text": "[reaction] When you gain at least 2 resources: Gain 1 resource or you get +2 skill value for the next test you perform this round. (Limit once per phase.)\n\nPlaying cards and triggering abilities that can cause you to gain resources does not provoke attacks of opportunity.\n\n[eldersign] effect: +2. The next time you gain resources this round, increase the amount you gain by 1.",
+        "text": "While playing cards and triggering abilities that can cause you to gain resources, you may ignore attacks of opportunity.\n\n[reaction] When you gain at least 2 resources: Gain 1 resource or you get +2 skill value for the next test you perform this round. (Limit once per phase.)\n\n[eldersign] effect: +2. The next time you gain resources this round, increase the amount you gain by 1.",
         "traits": "Drifter.",
         "type_code": "investigator"
     },
     {
-        "back_flavor": "Young John traveled the world with his father’s hunts. Now a globe-trotting hunter and an accomplished killer in his own right, John follows in his father’s footsteps, securing the lives of his targets. But after discovering a silver pendant with a familiar symbol on it, Wick must explore his own past. Years ago, his father was found murdered with the very same sigil carved onto his forehead. The image has haunted Wick’s dreams ever since. But he’s getting close. He won’t stop until he solves the mystery of his father’s murder... no matter what it takes.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) 0-3, <b><i>Firearm</i></b> and <b><i>Tactic</i></b> cards level 0-4, Neutral cards level 0-5, up to 5 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Marked for Death, Abandoned by God, 1 random basic weakness.",
+        "back_flavor": "",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) 0-3, <b><i>Firearm</i></b> and <b><i>Tactic</i></b> cards level 0-4, Neutral cards level 0-5, up to 5 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Marked for Death, Abandoned by God, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Criminal</i></b> Cards.",
         "code": "40031",
         "deck_limit": 1,
         "deck_options": [
             {
+                "not": true,
+                "trait": ["criminal"]
+            },
+            {
                 "faction": ["survivor"],
                 "level": {
                     "min": 0,
-                    "max": 4
+                    "max": 3
                 }
             },
             {
@@ -520,7 +493,7 @@
         "skill_intellect": 2,
         "skill_willpower": 2,
         "subname": "The Hunted",
-        "text": "<b>Fight</b> abilities on <b><i>Firearm</i></b> assets you control with 0 uses on them or out of play deal +1 damage.\n[reaction] After you defeat an enemy without using an ability on a <b><i>Firearm</i></b> asset: Choose a <b><i>Firearm</i></b> asset in your discard pile. Either add it to your hand or play it (limit once per round).\n\n[eldersign]: +1. After this test ends, you may replenish 1 use on a <b><i>Firearm</i></b> asset you control.",
+        "text": "<b>Fight</b> abilities on <b><i>Firearm</i></b> assets you control with 0 uses on them deal +1 damage.\n[reaction] After you defeat an enemy without using an ability on a <b><i>Firearm</i></b> asset you control: Choose a <b><i>Firearm</i></b> asset in your discard pile. Either add it to your hand or play it (limit once per round).\n\n[eldersign]: +1. After this test ends, you may replenish 1 use on a <b><i>Firearm</i></b> asset you control.",
         "traits": "Criminal. Drifter.",
         "type_code": "investigator"
     }
