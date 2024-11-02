@@ -111,25 +111,6 @@
         "xp": 0
     },
     {
-        "code": "43147",
-        "cost": 0,
-        "deck_limit": 0,
-        "faction_code": "seeker",
-        "flavor": "",
-        "illustrator": "Karolina Nakazato",
-        "is_unique": false,
-        "name": "(Deprecated) Clear a Path",
-        "pack_code": "kyo_other",
-        "position": 147,
-        "quantity": 2,
-        "skill_intellect": 1,
-        "skill_willpower": 1,
-        "text": "<b>Forced</b> When you draw (Deprecated) Clear a Path, add it to the hand of another investigator, if possible.\n\nPlay only if the owner on this card is at your location.\nMove to a connecting location. You may swap places with the owner of this card. If you do, gain 1 resource.",
-        "traits": "Assistance. Favor.",
-        "type_code": "event",
-        "xp": 0
-    },
-    {
         "code": "43148",
         "cost": 0,
         "deck_limit": 0,
