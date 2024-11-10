@@ -20,6 +20,7 @@
         "faction_code": "mystic",
         "flavor": "\"No, not quiet at all. Dead folks get downright rambunctious when I play my horn.\"",
         "health": 7,
+        "hidden": true,
         "illustrator": "Patrick Burk",
         "is_unique": true,
         "name": "Jim Culver",
