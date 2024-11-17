@@ -243,7 +243,7 @@
     },
     {
         "back_flavor": "During every age, terrors would try to invade the world. While most of humanity remained unaware, William was there, holding the final line between the world and the forces outside its understanding. From place to place, age to age, whenever the tides of madness began, he was there, waiting. Sometimes, he wonders if he holds back the chaos, or if his birth marks the start of the apocalypse.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, <b><i>Expert</i></b> and <b><i>Developed</i></b> cards level\n0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: Future's Past, Cosmic Animosity, 1 random basic weakness.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Guardian ([guardian]) and Seeker ([seeker]) skill cards level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: Lives Lessons, Cosmic Animosity, 1 random basic weakness.",
         "code": "40014",
         "deck_limit": 1,
         "deck_options": [
@@ -255,14 +255,8 @@
                 }
             },
             {
-                "trait": ["expert"],
-                "level": {
-                    "min": 0,
-                    "max": 2
-                }
-            },
-            {
-                "trait": ["developed"],
+                "faction": ["guardian", "seeker"],
+                "type": ["skill"],
                 "level": {
                     "min": 0,
                     "max": 2
@@ -293,7 +287,7 @@
         "skill_intellect": 3,
         "skill_willpower": 5,
         "subname": "The Reborn",
-        "text": "[reaction] After you commit a card to a skill test on a treachery card: This card gains [wild] [wild]. If this test is successful, draw 1 card. In another investigator succeeded by 2 or more this way, they draw 1 card. (Limit once per phase\t.)\n\n[eldersign] effect: +1. Heal 1 horror from an investigator at your location.",
+        "text": "[reaction] After you commit a card to a skill test on a treachery card: This card gains [wild] [wild]. If this test is successful, draw 1 card. In another investigator succeeded by 2 or more this way, they draw 1 card. (Limit once per phase.)\n\n[eldersign] effect: +1. You may heal 1 horror from an investigator at your location.",
         "traits": "Chosen. Drifter.",
         "type_code": "investigator"
     },
