@@ -180,7 +180,7 @@
         "skill_intellect": 3,
         "skill_willpower": 4,
         "subname": "The Underdog",
-        "text": "[reaction] When you initiate a [combat] test, spend 1 resource: Add your [agility] value to your skill value for this attack. If you succeed by 1 or more, gain 1 resource. If you succeed by 3 or more, gain 1 additional resource (limit once per round).\n\n[eldersign] effect: +1. If the resolution of this test defeats an enemy; gain 2 resources.",
+        "text": "[reaction] When you initiate a [combat] test, spend 1 resource: Add your [agility] value to your skill value for this attack. If you succeed by 1 or more, gain 1 resource. If you succeed by 3 or more, gain 1 additional resource (limit once per round).\n\n[eldersign] effect: +1. If the resolution of this test defeats an enemy; gain 1 resource.",
         "traits": "Philanthropist. Criminal.",
         "type_code": "investigator"
     },
@@ -243,7 +243,7 @@
     },
     {
         "back_flavor": "During every age, terrors would try to invade the world. While most of humanity remained unaware, William was there, holding the final line between the world and the forces outside its understanding. From place to place, age to age, whenever the tides of madness began, he was there, waiting. Sometimes, he wonders if he holds back the chaos, or if his birth marks the start of the apocalypse.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Guardian ([guardian]) and Seeker ([seeker]) skill cards level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: Lives Lessons, Cosmic Animosity, 1 random basic weakness.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-4,  <b><i>Ritual</i></b> cards 0-2, Guardian ([guardian]) and Seeker ([seeker]) skill cards level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: Lives Lessons, Cosmic Animosity, 1 random basic weakness.",
         "code": "40014",
         "deck_limit": 1,
         "deck_options": [
@@ -287,7 +287,7 @@
         "skill_intellect": 3,
         "skill_willpower": 5,
         "subname": "The Reborn",
-        "text": "[reaction] After you commit a card to a skill test on a treachery card: This card gains [wild] [wild]. If this test is successful, draw 1 card. In another investigator succeeded by 2 or more this way, they draw 1 card. (Limit once per phase.)\n\n[eldersign] effect: +1. You may heal 1 horror from an investigator at your location.",
+        "text": "[reaction] After you commit a card to a skill test on a scenerio card: The commited card gains [wild]. If this test is successful, draw 1 card. If another investigator succeeded this test by 2 or more, they draw 1 card. (Limit once per phase.)\n\n[eldersign] effect: +1. You may heal 1 horror from an investigator at your location.",
         "traits": "Chosen. Drifter.",
         "type_code": "investigator"
     },
@@ -344,10 +344,10 @@
         "position": 17,
         "quantity": 1,
         "sanity": 6,
-        "skill_agility": 4,
+        "skill_agility": 3,
         "skill_combat": 1,
         "skill_intellect": 4,
-        "skill_willpower": 3,
+        "skill_willpower": 4,
         "subname": "The Tourist",
         "text": "[reaction] When you draw a non-weakness card from your deck, before resolving any of its effects, discard it: Add one of your set-aside A Sight to See events to your hand (limit once per round).\n[eldersign] effect: +1. You may discard 1 card from your hand, then draw 1 card.",
         "traits": "Wayfarer.",
@@ -403,7 +403,7 @@
         "type_code": "investigator"
     },
     {
-        "back_flavor": "",
+        "back_flavor": "Growing up on the streets of Armenia, Armen Seropian was surrounded by risk at every turn. While others hesitated, he gambled everything just to see another tomorrow. However, when the Soviets invaded, even Armen recognized a risk too great to take and fled to America. There, he built a reputation as an unmatched gambler, eventually catching the attention of The Syndicate—a powerful, shadowy organization. Forced into what could have been the last game of his life, Armen narrowly won and escaped with his life. But his victory was short-lived. The Syndicate does not lose, and Armen could never truly be allowed to win. Now, he is a marked man, for no can be that lucky. Right?",
         "back_text": "<b>Deck Size</b>: 30\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) level 0-5, Neutral cards 0-5, events and/or skills that \"gain resources\" level 0-3.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: House Rules, Cheating Accusations, 1 random basic weakness.",
         "code": "40028",
         "deck_limit": 1,
@@ -423,7 +423,7 @@
                 }
             },
             {
-                "text": ["[Rr]esources"],
+                "text": ["[Gg]ain "],
                 "tag": ["rs"],
                 "level": {
                     "min": 0,
@@ -445,17 +445,17 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 3,
-        "skill_combat": 3,
+        "skill_combat": 2,
         "skill_intellect": 4,
-        "skill_willpower": 2,
+        "skill_willpower": 3,
         "subname": "The Gambler",
-        "text": "While playing cards and triggering abilities that can cause you to gain resources, you may ignore attacks of opportunity.\n\n[reaction] When you gain at least 2 resources: Gain 1 resource or you get +2 skill value for the next test you perform this round. (Limit once per phase.)\n\n[eldersign] effect: +2. The next time you gain resources this round, increase the amount you gain by 1.",
+        "text": "While playing cards and triggering abilities that can cause you to gain resources, you may ignore attacks of opportunity.\n[free] If you have at 3 or more resources than you started this turn with: Take an action. You get +2 skill value during skill tests performed this way. (Limit once per round.)\n\n[eldersign] effect: +2. The next time you gain resources this round, increase the amount you gain by 1.",
         "traits": "Drifter.",
         "type_code": "investigator"
     },
     {
         "back_flavor": "",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) 0-3, <b><i>Firearm</i></b> and <b><i>Tactic</i></b> cards level 0-4, Neutral cards level 0-5, up to 5 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Marked for Death, Abandoned by God, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Criminal</i></b> Cards.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) 0-3, <b><i>Firearm</i></b> cards level 0-4, <b><i>Tactic</i></b> cards level 0-2, Neutral cards level 0-5, up to 5 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Marked for Death, Abandoned by God, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Criminal</i></b> Cards.",
         "code": "40031",
         "deck_limit": 1,
         "deck_options": [
@@ -488,7 +488,7 @@
                 "trait": ["tactic"],
                 "level": {
                     "min": 0,
-                    "max": 4
+                    "max": 2
                 }
             },
             {
@@ -517,8 +517,134 @@
         "skill_intellect": 2,
         "skill_willpower": 2,
         "subname": "The Hunted",
-        "text": "<b>Fight</b> abilities on <b><i>Firearm</i></b> assets you control with 0 uses on them deal +1 damage.\n[reaction] After you defeat an enemy without using an ability on a <b><i>Firearm</i></b> asset you control: Choose a <b><i>Firearm</i></b> asset in your discard pile. Either add it to your hand or play it (limit once per round).\n\n[eldersign]: +1. After this test ends, you may replenish 1 use on a <b><i>Firearm</i></b> asset you control.",
+        "text": "<b>Fight</b> [action] abilities that spend all remaining ammo on a <b><i>Firearm</i></b> asset you control deal +1 damage.\n[reaction] After you defeat an enemy without using an ability on a <b><i>Firearm</i></b> asset: Choose a <b><i>Firearm</i></b> asset in your discard pile. Either add it to your hand or play it. (Limit once per round.)\n\n[eldersign]: +1. After this test ends, you may replenish 1 use on a <b><i>Firearm</i></b> asset you control.",
         "traits": "Criminal. Drifter.",
+        "type_code": "investigator"
+    },
+    {
+        "back_flavor": "",
+        "back_text": "<b>Deck Size</b>: 30\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5, cards with \"Encounter\" and/or \"Treachery\" level 0-3.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: Out of sight, 2 copies of Without a Trace, 2 copies of Fading Existence, Existential Overload, 1 random basic weakness.\n<b>Additional Setup</b>: You begin each game with 2 copies of Without a Trace and 2 copies of Fading Existence set aside, out of play.",
+        "code": "40034",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": ["mystic"],
+                "level": {
+                    "min": 0,
+                    "max": 5
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "min": 0,
+                    "max": 5
+                }
+            },
+            {
+                "text": ["[Ee]counter"],
+                "tag": ["enc"],
+                "level": {
+                    "min": 0,
+                    "max": 3
+                }
+            },
+            {
+                "text": ["[Tt]reachery"],
+                "tag": ["trc"],
+                "level": {
+                    "min": 0,
+                    "max": 3
+                }
+            }
+        ],
+        "deck_requirements": "size:30, card:40035, card:40036, card:40037, card:40038, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "mystic",
+        "flavor": "\"Who, them? They've been here the whole time.\"",
+        "health": 6,
+        "illustrator": "",
+        "is_unique": true,
+        "name": "John Smith",
+        "pack_code": "kyo_investigator",
+        "position": 34,
+        "quantity": 1,
+        "sanity": 8,
+        "skill_agility": 2,
+        "skill_combat": 2,
+        "skill_intellect": 2,
+        "skill_willpower": 5,
+        "subname": "<image \"C:\\Users\\People\\Documents\\Strange Eons 3 Projects\\Arkham\\TSoA\\Investigator Characters\\Art\\9_John\\Art\\bar-subtitle-word.png\" 0.40in>",
+        "text": "Reduce the difficulty of skill tests you perform while resolving revelation abilities on encounter cards by 1.\n\n[reaction] After your turn begins: Look at the top card of the encounter deck. You may place it on the bottom of the encounter deck.\n[eldersign]: +1. After this test ends, you may draw the top card of the encounter deck. You may cancel that card's revelation effect.",
+        "traits": "<image \"C:\\Users\\People\\Documents\\Strange Eons 3 Projects\\Arkham\\TSoA\\Investigator Characters\\Art\\9_John\\Art\\bar-trait-word2.png\" 0.88 in middle> Civic.",
+        "type_code": "investigator"
+    },
+    {
+        "back_flavor": "Young John traveled the world with his father’s hunts. Now a globe-trotting hunter and an accomplished killer in his own right, John follows in his father’s footsteps, securing the lives of his targets. But after discovering a silver pendant with a familiar symbol on it, Wick must explore his own past. Years ago, his father was found murdered with the very same sigil carved onto his forehead. The image has haunted Wick’s dreams ever since. But he’s getting close. He won’t stop until he solves the mystery of his father’s murder... no matter what it takes.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) 0-3, <b><i>Firearm</i></b> cards level 0-4, <b><i>Tactic</i></b> cards level 0-2, Neutral cards level 0-5, up to 5 other Survivor cards ([survivor]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Marked for Death, Abandoned by God, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Blessed</i></b> or <b><i>Fortune</i></b> cards.",
+        "code": "40039",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "not": true,
+                "trait": ["blessed", "fortune"]
+            },
+            {
+                "faction": ["rogue"],
+                "level": {
+                    "min": 0,
+                    "max": 3
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "min": 0,
+                    "max": 5
+                }
+            },
+            {
+                "trait": ["firearm"],
+                "level": {
+                    "min": 0,
+                    "max": 4
+                }
+            },
+            {
+                "trait": ["tactic"],
+                "level": {
+                    "min": 0,
+                    "max": 2
+                }
+            },
+            {
+                "faction": ["survivor"],
+                "level": {
+                    "min": 0,
+                    "max": 0
+                },
+                "limit": 5
+            }
+        ],
+        "deck_requirements": "size:30, card:40032, card:40033, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "rogue",
+        "flavor": "",
+        "health": 8,
+        "illustrator": "DipankarYUVI",
+        "is_unique": true,
+        "name": "John Wick",
+        "pack_code": "kyo_investigator",
+        "position": 34,
+        "quantity": 1,
+        "sanity": 6,
+        "skill_agility": 3,
+        "skill_combat": 5,
+        "skill_intellect": 2,
+        "skill_willpower": 2,
+        "subname": "The Hunter",
+        "text": "You may play one <b><i>Item</i></b> asset you own that is attached to your location each turn as if it was in your hand. Reduce the cost of <b><i>Firearm</i></b> or <b><i>Illicit</i></b> cards played this way by 1.\n[reaction] After you enter a location: Search the top X cards of your deck for a <b><i>Item</i></b> asset and attach it to your location. X is the printed shroud of your location. Shuffle your deck. (Limit once per round.)\n\n[eldersign]: +1. Choose a card you own attached to a location. You may shuffle the chosen card into your deck.",
+        "traits": "Criminal. Hunter.",
         "type_code": "investigator"
     }
 ]
