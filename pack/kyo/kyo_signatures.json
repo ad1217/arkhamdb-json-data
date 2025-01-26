@@ -408,7 +408,7 @@
         "pack_code": "kyo_signatures",
         "position": 32,
         "quantity": 1,
-        "restrictions": "investigator:40031",
+        "restrictions": "investigator:40031:40039",
         "skill_combat": 1,
         "skill_wild": 1,
         "skill_willpower": 1,
@@ -428,7 +428,7 @@
         "pack_code": "kyo_signatures",
         "position": 33,
         "quantity": 1,
-        "restrictions": "investigator:40031",
+        "restrictions": "investigator:40031:40039",
         "subtype_code": "weakness",
         "text": "<b>Revelation</b> Put Abandoned by God into play in your threat area.\nCards in your deck and discard pile lose their traits.\n\n[action] [action]: Discard Abandoned by God. Reduce this ability's action cost by 1 if John Wick was healed this round.",
         "traits": "Endtimes.",
@@ -448,8 +448,8 @@
         "quantity": 1,
         "restrictions": "investigator:40034",
         "subname": "And out of mind.",
-        "text": "John Smith deck only. Permanent. Uses (1 fragment).\n[reaction] After you resolve an encounter card: Place 1 fragment on Out of Sight.\n\n[free] Spend 2 fragments and exhaust Out of Sight: Shuffle one of you set-aside  <image \"C:\\Users\\People\\Documents\\Strange Eons 3 Projects\\Arkham\\TSoA\\Investigator Characters\\Art\\9_John\\Art\\bar-trait-word-trans.png\" 0.41in middle> cards into the top 8 cards of the encounter deck.\n\n<b>Forced</b> When a <image \"C:\\Users\\People\\Documents\\Strange Eons 3 Projects\\Arkham\\TSoA\\Investigator Characters\\Art\\9_John\\Art\\bar-trait-word-trans.png\" 0.41in middle> card you own would be discarded from anywhere: Set it aside, out of play, instead.",
-        "traits": "<image \"C:\\Users\\People\\Documents\\Strange Eons 3 Projects\\Arkham\\TSoA\\Investigator Characters\\Art\\9_John\\Art\\bar-trait-sig.png\" 0.38in>",
+        "text": "John Smith deck only. Permanent. Uses (1 fragment).\n[reaction] After you resolve an encounter card: Place 1 fragment on Out of Sight.\n\n[free] Spend 2 fragments and exhaust Out of Sight: Shuffle one of you set-aside  [REDACTED] cards into the top 8 cards of the encounter deck.\n\n<b>Forced</b> When a [REDACTED] card you own would be discarded from anywhere: Set it aside, out of play, instead.",
+        "traits": "[REDACTED]",
         "type_code": "asset",
         "xp": null
     },
@@ -470,7 +470,7 @@
         "quantity": 2,
         "restrictions": "investigator:40034",
         "text": "Hunter. Surge.\n\n<spa> You may place a non-weakness, non-<b><i>Elite</i></b> enemy at any location on the bottom of the encounter deck and spawn Fading Existence at that location. Otherwise, discard Fading Existence.\n<For> When Fading Existence would be discarded: John Smith discovers 1 clue at John Smith's location.",
-        "traits": "Fractured. <image \"C:\\Users\\People\\Documents\\Strange Eons 3 Projects\\Arkham\\TSoA\\Investigator Characters\\Art\\9_John\\Art\\bar-trait-word-trans.png\" 0.43in middle>",
+        "traits": "Fractured. [REDACTED]",
         "type_code": "enemy"
     },
     {
@@ -486,7 +486,7 @@
         "restrictions": "investigator:40034",
         "subtype_code": "weakness",
         "text": "Surge.\n\n<b>Revelation</b> Choose and resolve up to 2 of the following, in any order:\n-  Choose and discard from play a non-weakness treachery that is not attached to an Elite enemy.\n\n-  Heal 1 damage or 1 horror.\n\n-  Move to John Smith's Location.",
-        "traits": "Power. <image \"C:\\Users\\People\\Documents\\Strange Eons 3 Projects\\Arkham\\TSoA\\Investigator Characters\\Art\\9_John\\Art\\bar-trait-word-trans.png\" 0.35in middle>",
+        "traits": "Power. [REDACTED]",
         "type_code": "treachery"
     },
     {
@@ -503,7 +503,7 @@
         "restrictions": "investigator:40034",
         "subtype_code": "weakness",
         "text": "<b>Revelation</b> Put Existential Overload into play in your threat area.\n<b>Forced</b> When an investigator would draw an encounter card due to surge, you draw it instead.\n\n[reaction] At the end your turn, if you drew at least 3 encounter cards this round: Discard Existential Overload.",
-        "traits": "Flaw. <image \"C:\\Users\\People\\Documents\\Strange Eons 3 Projects\\Arkham\\TSoA\\Investigator Characters\\Art\\9_John\\Art\\bar-trait-word-trans.png\" 0.38in middle>",
+        "traits": "Flaw. [REDACTED]",
         "type_code": "treachery"
     }
 ]

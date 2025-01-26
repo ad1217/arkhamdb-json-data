@@ -574,9 +574,9 @@
         "skill_combat": 2,
         "skill_intellect": 2,
         "skill_willpower": 5,
-        "subname": "<image \"C:\\Users\\People\\Documents\\Strange Eons 3 Projects\\Arkham\\TSoA\\Investigator Characters\\Art\\9_John\\Art\\bar-subtitle-word.png\" 0.40in>",
+        "subname": "[REDACTED]",
         "text": "Reduce the difficulty of skill tests you perform while resolving revelation abilities on encounter cards by 1.\n\n[reaction] After your turn begins: Look at the top card of the encounter deck. You may place it on the bottom of the encounter deck.\n[eldersign]: +1. After this test ends, you may draw the top card of the encounter deck. You may cancel that card's revelation effect.",
-        "traits": "<image \"C:\\Users\\People\\Documents\\Strange Eons 3 Projects\\Arkham\\TSoA\\Investigator Characters\\Art\\9_John\\Art\\bar-trait-word2.png\" 0.88 in middle> Civic.",
+        "traits": "[REDACTED]. Civic.",
         "type_code": "investigator"
     },
     {
@@ -633,9 +633,9 @@
         "health": 8,
         "illustrator": "DipankarYUVI",
         "is_unique": true,
-        "name": "John Wick",
+        "name": "John  Wick",
         "pack_code": "kyo_investigator",
-        "position": 34,
+        "position": 39,
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 3,
