@@ -542,7 +542,7 @@
                 }
             },
             {
-                "text": ["[Ee]counter"],
+                "text": ["[Ee]ncounter"],
                 "tag": ["enc"],
                 "level": {
                     "min": 0,
