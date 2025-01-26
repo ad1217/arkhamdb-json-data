@@ -1,7 +1,7 @@
 [
     {
         "code": "act",
-        "name": "Справа"
+        "name": "Акт"
     },
     {
         "code": "agenda",
@@ -9,11 +9,15 @@
     },
     {
         "code": "asset",
-        "name": "Здобуток"
+        "name": "Актив"
     },
     {
         "code": "enemy",
         "name": "Ворог"
+    },
+    {
+        "code": "enemy_location",
+        "name": "Enemy-Location"
     },
     {
         "code": "event",
@@ -22,6 +26,10 @@
     {
         "code": "investigator",
         "name": "Дослідник"
+    },
+    {
+        "code": "key",
+        "name": "Key"
     },
     {
         "code": "location",
@@ -33,7 +41,7 @@
     },
     {
         "code": "skill",
-        "name": "Вміння"
+        "name": "Навичка"
     },
     {
         "code": "story",
@@ -41,6 +49,6 @@
     },
     {
         "code": "treachery",
-        "name": "Підступність"
+        "name": "Напасть"
     }
 ]

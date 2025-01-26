@@ -444,6 +444,22 @@
         "size": 300
     },
     {
+        "code": "tdcp",
+        "cycle_code": "tdc",
+        "date_release": "2025-03-31",
+        "name": "The Drowned City Investigator Expansion",
+        "position": 1,
+        "size": 300
+    },
+    {
+        "code": "tdcc",
+        "cycle_code": "tdc",
+        "date_release": "2025-03-31",
+        "name": "The Drowned City Campaign Expansion",
+        "position": 2,
+        "size": 300
+    },
+    {
         "cgdb_id": 9,
         "code": "cotr",
         "cycle_code": "side_stories",
@@ -849,12 +865,20 @@
         "size": 3
     },
     {
-        "code": "pap",
+    "code": "pap",
         "cycle_code": "parallel",
         "date_release": "2024-08-07",
         "name": "Pistols and Pearls",
         "position": 11,
         "size": 3
+    },
+    {
+        "code": "tmg",
+        "cycle_code": "side_stories",
+        "date_release": "2024-08-23",
+        "name": "The Midwinter Gala",
+        "position": 11,
+        "size": 78
     },
     {
         "code": "aof",

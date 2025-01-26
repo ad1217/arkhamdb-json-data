@@ -1,5 +1,9 @@
 [
     {
+        "code": "aof",
+        "name": "Aura of Faith"
+    },
+    {
         "code": "aon",
         "name": "Wszystko albo nic"
     },
@@ -180,6 +184,10 @@
         "name": "On the Road Again"
     },
     {
+        "code": "pap",
+        "name": "Pistols and Pearls"
+    },
+    {
         "code": "pnr",
         "name": "Nie ma odwrotu"
     },
@@ -256,6 +264,14 @@
         "name": "Przerwany krąg"
     },
     {
+        "code": "tdcc",
+        "name": "The Drowned City Campaign Expansion"
+    },
+    {
+        "code": "tdcp",
+        "name": "The Drowned City Investigator Expansion"
+    },
+    {
         "code": "tde",
         "name": "Pożeracze snów"
     },
@@ -286,6 +302,10 @@
     {
         "code": "tic",
         "name": "Zmowa nad Innsmouth"
+    },
+    {
+        "code": "tmg",
+        "name": "The Midwinter Gala"
     },
     {
         "code": "tmm",
