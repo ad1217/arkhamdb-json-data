@@ -281,7 +281,7 @@
         "restrictions": "investigator:40022",
         "skill_wild": 1,
         "skill_willpower": 2,
-        "text": "Amelia Barrett deck only.\nFor the remainder of the round, healing from player card effects may be disturbed from among investigators and/or <b><i>Ally</i></b> assets at the investigator's location.\n\nHeal 2 damage and 2 horror. You may take 1 horror, then draw 1 card.",
+        "text": "Amelia Barrett deck only.\nFor the remainder of the round, healing from player card effects may be disturbed among investigators and/or <b><i>Ally</i></b> assets at their location.\n\nHeal 2 damage and 2 horror. You may take 1 horror, then draw 1 card.",
         "traits": "Spirit.",
         "type_code": "event",
         "xp": null
@@ -299,7 +299,7 @@
         "quantity": 1,
         "restrictions": "investigator:40022",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> For each <b><i>Spirit</i></b> event in your hand, either take 1 horror or discard it. Then, if you have no <b><i>Spirit</i></b> events in hand, discard the top 6 cards of your deck. Draw each weaknesses discarded this way.",
+        "text": "<b>Revelation</b> For each <b><i>Spirit</i></b> event in your hand, either take 1 horror or discard it. Then, if you have no <b><i>Spirit</i></b> events in hand, discard the top 5 cards of your deck. Draw each weaknesses discarded this way.",
         "traits": "Madness.",
         "type_code": "treachery"
     },
@@ -430,7 +430,7 @@
         "quantity": 1,
         "restrictions": "investigator:40031:40039",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> Put Abandoned by God into play in your threat area.\nCards in your deck and discard pile lose their traits.\n\n[action] [action]: Discard Abandoned by God. Reduce this ability's action cost by 1 if John Wick was healed this round.",
+        "text": "<b>Revelation</b> Put Abandoned by God into play in your threat area.\nCards in your play area and discard pile lose the <b><i>Firearm</i></b> and <b><i>Weapon</i></b> traits.\n\n[action] [action]: Discard Abandoned by God. Reduce this ability's action cost by 1 if John Wick was healed this round.",
         "traits": "Endtimes.",
         "type_code": "treachery"
     },
@@ -485,7 +485,7 @@
         "quantity": 2,
         "restrictions": "investigator:40034",
         "subtype_code": "weakness",
-        "text": "Surge.\n\n<b>Revelation</b> Choose and resolve up to 2 of the following, in any order:\n-  Choose and discard from play a non-weakness treachery that is not attached to an Elite enemy.\n\n-  Heal 1 damage or 1 horror.\n\n-  Move to John Smith's Location.",
+        "text": "Surge.\n\n<b>Revelation</b> Choose and resolve up to 2 of the following, in any order:\n-  Choose and discard from play a non-weakness treachery that is not attached to an <b><i>Elite</i></b> enemy.\n\n-  Heal 1 damage or 1 horror.\n\n-  Move to John Smith's Location.",
         "traits": "Power. [REDACTED]",
         "type_code": "treachery"
     },
@@ -502,8 +502,43 @@
         "quantity": 1,
         "restrictions": "investigator:40034",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> Put Existential Overload into play in your threat area.\n<b>Forced</b> When an investigator would draw an encounter card due to surge, you draw it instead.\n\n[reaction] At the end your turn, if you drew at least 3 encounter cards this round: Discard Existential Overload.",
+        "text": "<b>Revelation</b> Put Existential Overload into play in your threat area, with 5 rifts on it. If there is no rifts on Existential Overload discard it.\n<b>Forced</b> When an investigator would draw an encounter card due to surge, you draw it instead. Remove 1 rift from this card.",
         "traits": "Flaw. [REDACTED]",
+        "type_code": "treachery"
+    },
+    {
+        "code": "40041",
+        "deck_limit": 4,
+        "faction_code": "neutral",
+        "flavor": "",
+        "illustrator": "xx l",
+        "is_unique": false,
+        "name": "The Best of Times",
+        "pack_code": "kyo_signatures",
+        "position": 41,
+        "quantity": 4,
+        "restrictions": "investigator:40040aa",
+        "skill_wild": 1,
+        "text": "Max 1 committed per skill test.\n\nIf this test is successful, the owner of this card draws 1 card or they move to Old Man Johnson's locations.",
+        "traits": "Innate.",
+        "type_code": "skill",
+        "xp": null
+    },
+    {
+        "code": "40042",
+        "deck_limit": 1,
+        "faction_code": "neutral",
+        "flavor": "",
+        "illustrator": "Hugo Puzzuoli",
+        "is_unique": false,
+        "name": "The Worst of Times",
+        "pack_code": "kyo_signatures",
+        "position": 42,
+        "quantity": 1,
+        "restrictions": "investigator:40040",
+        "subtype_code": "weakness",
+        "text": "<b>Revelation</b> Put The Worst of Times into play in your threat area.\n\n<b>Forced</b> After you commit a card to a skill test, it loses 1 matching icon and all effects.\n\n<b>Forced</b> After you succeed a skill test, if you commited at least 2 skills, discard The Worst of Times. Otherwise take 1 horror and shuffle The Worst of Times into your deck.",
+        "traits": "Hardship.",
         "type_code": "treachery"
     }
 ]

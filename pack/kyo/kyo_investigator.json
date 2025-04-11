@@ -354,7 +354,7 @@
         "type_code": "investigator"
     },
     {
-        "back_flavor": "",
+        "back_flavor": "At the Clover Club, Amelia pours drinks for the weary of Arkham. The gamblers, drifters, and lost souls come for whiskey and respite, but some bring whispers of things unseen.\n\nAs a child, she watched the sea writhe with shapes too vast to be real. Her father vanished there when they crossed the sea. Now, in the club’s dim glow, stories of such shapes creep into the sailors ramblings. And at night, she hears a voice off the horizon, whispering her name.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Guardian cards ([guardian]) level 0-5, <b><i>Spirit</i></b> cards level 0-3, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: \"Drinks on me!\", Alone in the World, 1 random basic weakness.",
         "code": "40022",
         "deck_limit": 1,
@@ -370,14 +370,14 @@
                 "faction": ["guardian"],
                 "level": {
                     "min": 0,
-                    "max": 3
+                    "max": 5
                 }
             },
             {
                 "trait": ["spirit"],
                 "level": {
                     "min": 0,
-                    "max": 5
+                    "max": 3
                 }
             }
         ],
@@ -386,7 +386,7 @@
         "faction_code": "guardian",
         "flavor": "",
         "health": 6,
-        "illustrator": "AI",
+        "illustrator": "",
         "is_unique": true,
         "name": "Amelia Barrett",
         "pack_code": "kyo_investigator",
@@ -398,8 +398,8 @@
         "skill_intellect": 2,
         "skill_willpower": 4,
         "subname": "The Bartender",
-        "text": "Investigators at your location can play event cards beneath this card, reducing its resource cost by 1.\n\n[reaction] After an investigator or <b><i>Ally</i></b>  asset your location is dealt damage or horror and there are less than 2 cards beneath this card: Reveal the top 4 cards of your deck. You may place 1 revealed <b><i>Spirit</i></b> event beneath this card. Shuffle the rest into your deck. (Limit once per round.)\n\n[eldersign] +1. You may shuffle a <b><i>Spirit</i></b> event from your discard into your deck.",
-        "traits": "Civic. Medic.",
+        "text": "Investigators at your location can play event cards beneath Amelia Barrett as if they were in their hand, reducing its resource cost by 1.\n\n[reaction] After 1 or more damage/horror is assigned to player card your location and there are less than 3 cards beneath this card: Search the top 5 cards of your deck for a <b><i>Spirit</i></b> event and place it beneath this card. Shuffle your deck. (Limit once per round.)\n\n[eldersign] +1. You may shuffle a <b><i>Spirit</i></b> event from your discard into your deck.",
+        "traits": "Criminal. Medic.",
         "type_code": "investigator"
     },
     {
@@ -517,7 +517,7 @@
         "skill_intellect": 2,
         "skill_willpower": 2,
         "subname": "The Hunted",
-        "text": "<b>Fight</b> [action] abilities that spend all remaining ammo on a <b><i>Firearm</i></b> asset you control deal +1 damage.\n[reaction] After you defeat an enemy without using an ability on a <b><i>Firearm</i></b> asset: Choose a <b><i>Firearm</i></b> asset in your discard pile. Either add it to your hand or play it. (Limit once per round.)\n\n[eldersign]: +1. After this test ends, you may replenish 1 use on a <b><i>Firearm</i></b> asset you control.",
+        "text": "[action] abilities that spend all remaining ammo on a <b><i>Firearm</i></b> asset you control deal +1 damage.\n[reaction] After you defeat an enemy without using an ability on a <b><i>Firearm</i></b> asset: Choose a <b><i>Firearm</i></b> asset in your discard pile. Either add it to your hand or play it. (Limit once per round.)\n\n[eldersign]: +1. After this test ends, you may replenish 1 use on a <b><i>Firearm</i></b> asset you control.",
         "traits": "Criminal. Drifter.",
         "type_code": "investigator"
     },
@@ -561,7 +561,7 @@
         "deck_requirements": "size:30, card:40035, card:40036, card:40037, card:40038, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "mystic",
-        "flavor": "\"Who, them? They've been here the whole time.\"",
+        "flavor": "\"Who, them? They've been\nhere the whole time.\"",
         "health": 6,
         "illustrator": "",
         "is_unique": true,
@@ -575,13 +575,13 @@
         "skill_intellect": 2,
         "skill_willpower": 5,
         "subname": "[REDACTED]",
-        "text": "Reduce the difficulty of skill tests you perform while resolving revelation abilities on encounter cards by 1.\n\n[reaction] After your turn begins: Look at the top card of the encounter deck. You may place it on the bottom of the encounter deck.\n[eldersign]: +1. After this test ends, you may draw the top card of the encounter deck. You may cancel that card's revelation effect.",
+        "text": "Reduce the difficulty of skill tests you perform while resolving revelation abilities on encounter cards by 1.\n\n[reaction] When a player card causes you draw a non-weakness encounter card: Cancel all of that card's effects and place it on the bottom of the encounter deck. Then, draw another card from the top of the encounter deck. (Limit once per round).\n[eldersign]: +1. Place 1 resource on Out of Sight as a fragment.",
         "traits": "[REDACTED]. Civic.",
         "type_code": "investigator"
     },
     {
         "back_flavor": "Young John traveled the world with his father’s hunts. Now a globe-trotting hunter and an accomplished killer in his own right, John follows in his father’s footsteps, securing the lives of his targets. But after discovering a silver pendant with a familiar symbol on it, Wick must explore his own past. Years ago, his father was found murdered with the very same sigil carved onto his forehead. The image has haunted Wick’s dreams ever since. But he’s getting close. He won’t stop until he solves the mystery of his father’s murder... no matter what it takes.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) 0-3, <b><i>Firearm</i></b> cards level 0-4, <b><i>Tactic</i></b> cards level 0-2, Neutral cards level 0-5, up to 5 other Survivor cards ([survivor]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Marked for Death, Abandoned by God, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Blessed</i></b> or <b><i>Fortune</i></b> cards.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) 0-3, <b><i>Firearm</i></b> cards level 0-4, <b><i>Tactic</i></b> cards level 0-2, Neutral cards level 0-5, up to 5 other Survivor cards ([survivor]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Marked for Death, Abandoned by God, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Blessed</i></b> and/or <b><i>Fortune</i></b> cards.",
         "code": "40039",
         "deck_limit": 1,
         "deck_options": [
@@ -633,7 +633,7 @@
         "health": 8,
         "illustrator": "DipankarYUVI",
         "is_unique": true,
-        "name": "John  Wick",
+        "name": "John Wick ",
         "pack_code": "kyo_investigator",
         "position": 39,
         "quantity": 1,
@@ -643,8 +643,130 @@
         "skill_intellect": 2,
         "skill_willpower": 2,
         "subname": "The Hunter",
-        "text": "You may play one <b><i>Item</i></b> asset you own that is attached to your location each turn as if it was in your hand. Reduce the cost of <b><i>Firearm</i></b> or <b><i>Illicit</i></b> cards played this way by 1.\n[reaction] After you enter a location: Search the top X cards of your deck for a <b><i>Item</i></b> asset and attach it to your location. X is the printed shroud of your location. Shuffle your deck. (Limit once per round.)\n\n[eldersign]: +1. Choose a card you own attached to a location. You may shuffle the chosen card into your deck.",
+        "text": "[reaction] After you play a <b><i>Tactic</i></b> or <b><i>Trick</i></b> event: Resolve a [action] on a <b><i>Firearm</i></b> asset (<i>ignoring its [action] cost, if any</i>). If you succeed a skill test this way, gain 1 resource. (Limit once per round.)\n\n[eldersign]: +1. If you succeed by 2 or more, ready a card you control. If you succeed by 4 or more, draw 1 card.",
         "traits": "Criminal. Hunter.",
+        "type_code": "investigator"
+    },
+    {
+        "back_flavor": "",
+        "back_text": "<b>Deck Size</b>: 30\n<b>Trait Choice</b>: At deck creation, choose up to 2: <b><i>Insight</i></b>, <b><i>Spell</i></b>, or <b><i>Trick</i></b>. If you choose 2, gain +5 Deck Size.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-3, Neutral cards level 0-5, cards, and up to 15 other cards of your chosen trait(s) 0-3.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: 1 [per_investigator] copies of The Best of Times, The Worst of Times, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: You begin each game with 1 copy of The Best of Times shuffled into each players deck, they are considered the owner of the card.",
+        "code": "40040",
+        "deck_limit": 1,
+        "deck_options": [
+            {
+                "faction": ["survivor"],
+                "level": {
+                    "min": 0,
+                    "max": 3
+                }
+            },
+            {
+                "faction": ["neutral"],
+                "level": {
+                    "min": 0,
+                    "max": 5
+                }
+            },
+            {
+                "name": "Trait Choice",
+                "option_select": [
+                    {
+                        "id": "insight_40040",
+                        "name": "Insight",
+                        "trait": ["insight"],
+                        "type": ["event"],
+                        "limit": 15,
+                        "error": "You cannot have more than 15 Insight cards that are not Survivor or Neutral",
+                        "level": {
+                            "min": 0,
+                            "max": 3
+                        }
+                    },
+                    {
+                        "id": "spell_40040",
+                        "name": "Spell",
+                        "trait": ["spell"],
+                        "type": ["event"],
+                        "limit": 15,
+                        "error": "You cannot have more than 15 Spell cards that are not Survivor or Neutral",
+                        "level": {
+                            "min": 0,
+                            "max": 3
+                        }
+                    },
+                    {
+                        "id": "trick_40040",
+                        "name": "Trick",
+                        "trait": ["trick"],
+                        "type": ["event"],
+                        "limit": 15,
+                        "error": "You cannot have more than 15 Trick cards that are not Survivor or Neutral",
+                        "level": {
+                            "min": 0,
+                            "max": 3
+                        }
+                    },
+                    {
+                        "id": "insight-spell_40040",
+                        "name": "Insight and Spell",
+                        "trait": ["insight", "spell"],
+                        "type": ["event"],
+                        "limit": 15,
+                        "error": "You cannot have more than 15 Insight and Spell cards that are not Survivor or Neutral",
+                        "level": {
+                            "min": 0,
+                            "max": 3
+                        },
+                        "size": 5
+                    },
+                    {
+                        "id": "insight-trick_40040",
+                        "name": "Insight and Trick",
+                        "trait": ["insight", "trick"],
+                        "type": ["event"],
+                        "limit": 15,
+                        "error": "You cannot have more than 15 Insight and Trick cards that are not Survivor or Neutral",
+                        "level": {
+                            "min": 0,
+                            "max": 3
+                        },
+                        "size": 5
+                    },
+                    {
+                        "id": "spell-trick_40040",
+                        "name": "Spell and Trick",
+                        "trait": ["spell", "trick"],
+                        "type": ["event"],
+                        "limit": 15,
+                        "error": "You cannot have more than 15 Spell and Trick cards that are not Survivor or Neutral",
+                        "level": {
+                            "min": 0,
+                            "max": 3
+                        },
+                        "size": 5
+                    }
+                ]
+            }
+        ],
+        "deck_requirements": "size:30, card:40041, card:40042, random:subtype:basicweakness",
+        "double_sided": true,
+        "faction_code": "survivor",
+        "flavor": "\"Now this takes me back.\"",
+        "health": 6,
+        "illustrator": "Robin Tran",
+        "is_unique": true,
+        "name": "\"Old Man\" Simmons",
+        "pack_code": "kyo_investigator",
+        "position": 40,
+        "quantity": 1,
+        "sanity": 8,
+        "skill_agility": 3,
+        "skill_combat": 3,
+        "skill_intellect": 3,
+        "skill_willpower": 3,
+        "subname": "The Storyteller",
+        "text": "Your event cards gain <b>Parley</b> while there is an enemy at your location.\n[reaction] When you would play an event that shares an action type with the last action taken by an investigator at your location this round: Commit a skill from that investigator's discard pile to one of the tests on the event. After this test ends, shuffle that skill into the owners deck. (Limit once per round.)\n\n[eldersign] effect: +1. After this test ends, if you commited a skill to this test, you may return that card to it's owners hand (do not shuffle it into their deck).",
+        "traits": "Civic. Dreamer.",
         "type_code": "investigator"
     }
 ]

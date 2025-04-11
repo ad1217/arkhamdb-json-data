@@ -293,11 +293,11 @@
         "pack_code": "kyo_player",
         "position": 40,
         "quantity": 2,
-        "skill_combat": 3,
-        "text": "You can only commit this card to a skill test you are performing on a <b><i>Firearm</i></b> asset.\nIf you succeed, move all the ammo from that  <b><i>Firearm</i></b> to this card. Discard that card and play a <b><i>Firearm</i></b> asset from you hand, reducing its cost by the cost of the card you discarded. Move all ammo from this card to the played <b><i>Firearm</i>.",
+        "skill_combat": 2,
+        "text": "If you succeed, move all the ammo from that  <b><i>Firearm</i></b> to this card. Discard that card and play a <b><i>Firearm</i></b> asset from you hand, reducing its cost by the cost of the card you discarded. Move all ammo from this card to the played <b><i>Firearm</i>.",
         "traits": "Tactic.",
         "type_code": "skill",
-        "xp": 3
+        "xp": 2
     },
     {
         "code": "43041",
