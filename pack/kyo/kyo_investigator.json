@@ -1,7 +1,7 @@
 [
     {
         "back_flavor": "Chiaki Asami lived with his parents in an unstable country on the brink of rebellion. Just a child, he was forced to watch as the ensuing chaos stole his family from him. Forming a small group with refugees including Akira Hojo, he attempted flee the country. Only the two of them had survived by the time they reached the new world of Arkham. Chiaki was disgusted by the state of society when he saw the broken city. He vowed to take the political reins of Arkham and steer it towards a brighter future. Criminals, the corrupt, and even the abyss itself be damned.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Neutral cards level 0-5, <b><i>Favor</i></b> cards level 0-3, and up to five other level 0 Rogue cards ([rogue]).\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: 3 Policy, 2 Push for Progress, On Borrowed Time, 1 random basic weakness.\n<b>Additional Setup</b>: You begin the game with your Policy cards on their <b><i>Pending</i></b> side.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Neutral cards level 0-5, <b><i>Favor</i></b> cards level 0-3, up to 5 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: 3 Policy, 2 Push for Progress, On Borrowed Time, 1 random basic weakness.\n<b>Additional Setup</b>: You begin the game with your Policy cards on their <b><i>Pending</i></b> side.",
         "code": "40000",
         "deck_limit": 1,
         "deck_options": [
@@ -185,8 +185,8 @@
         "type_code": "investigator"
     },
     {
-        "back_flavor": "The people around Alma always met gruesome fates. As an orphan, whenever she got close to others, they would suffer. As she grew older, she realized that she was the source of their misfortune, and their deaths. Distraught, she wandered into the depths of Arkham, and there she found them. People who didn't care that she was a cursed existence, because they were already doomed. She stood up for these hapless souls. Wouldn't let anyone look down on them. Her compassion earns their loyalty, for as long as they last.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-3, <b><i>Ally</i></b> cards level 0-5, Neutral cards level 0-5, and up to 10 other Guardian cards ([guardian]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: 2 Vagrant Messenger, Inevitable Fate, 1 random basic weakness.",
+        "back_flavor": "The people around Alma always met gruesome fates. As an orphan, whenever she grew close to others, they suffered. As she got older, she realized she was the source of their misfortune---and their deaths. Distraught, she wandered into the depths of Arkham, where she found them: people who didn't care that she was a cursed existence, because they were already damned. She stood up for these kindred souls, who had been left for dead. Together, with new purpose, they would resist the fate forced upon them. She would stand vigil over the Damned as they rewrote their fate.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-3, <b><i>Ally</i></b> cards level 0-5, Neutral cards level 0-5, and up to 10 other Guardian cards ([guardian]) level 0.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: Vagrant Messenger, Inevitable Fate, 1 random basic weakness.",
         "code": "40011",
         "deck_limit": 1,
         "deck_options": [
@@ -236,14 +236,14 @@
         "skill_combat": 1,
         "skill_intellect": 4,
         "skill_willpower": 3,
-        "subname": "The Intercessor",
-        "text": "You have an additional ally slot that can only be used to hold non-unique allies.\n\nOther investigators at your location and connecting locations may use your <b><i>Ally</i></b> assets to:\n\n-  Assign damage and/or horror.\n\n-  If ready, use a [action], [free], or [reaction] ability as if they controlled it, then exhaust it.\n[eldersign]: +1. You may heal 1 damage or 1 horror from an <b><i>Ally</i></b> asset at your location.",
+        "subname": "The Vigil",
+        "text": "Reduce the cost of the first non-unique <b><i>Ally</i></b> you play each round by 1. You have an additional ally slot that can only be used to hold non-unique allies.\n\nOther investigators at your location and connecting locations may use your <b><i>Ally</i></b> assets to:\n\n-  Assign damage and/or horror.\n\n-  If ready, use a [action], [free], or [reaction] ability as if they controlled it, then exhaust it.\n[eldersign]: +1. You may heal 1 damage or 1 horror from an <b><i>Ally</i></b> asset at your location.",
         "traits": "Cursed. Abandoned.",
         "type_code": "investigator"
     },
     {
         "back_flavor": "During every age, terrors would try to invade the world. While most of humanity remained unaware, William was there, holding the final line between the world and the forces outside its understanding. From place to place, age to age, whenever the tides of madness began, he was there, waiting. Sometimes, he wonders if he holds back the chaos, or if his birth marks the start of the apocalypse.",
-        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-4,  <b><i>Ritual</i></b> cards 0-2, Guardian ([guardian]) and Seeker ([seeker]) skill cards level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: Lives Lessons, Cosmic Animosity, 1 random basic weakness.",
+        "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Guardian ([guardian]) and Seeker ([seeker]) skill cards level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: Lives Lessons, Cosmic Animosity, 1 random basic weakness.",
         "code": "40014",
         "deck_limit": 1,
         "deck_options": [
@@ -287,12 +287,12 @@
         "skill_intellect": 3,
         "skill_willpower": 5,
         "subname": "The Reborn",
-        "text": "[reaction] After you commit a card to a skill test on a scenerio card: The commited card gains [wild]. If this test is successful, draw 1 card. If another investigator succeeded this test by 2 or more, they draw 1 card. (Limit once per phase.)\n\n[eldersign] effect: +1. You may heal 1 horror from an investigator at your location.",
+        "text": "[reaction] After you commit a card to a skill test on a scenario card: The commited card gains [wild]. If this test is successful, draw 1 card. If another investigator succeeded this test by 2 or more, they draw 1 card. (Limit once per phase.)\n\n[eldersign] effect: +1. You may heal 1 horror from an investigator at your location.",
         "traits": "Chosen. Drifter.",
         "type_code": "investigator"
     },
     {
-        "back_flavor": "",
+        "back_flavor": "Elise, an traveler from England, fled the constraints of her bourgeois Parisian family to chase the world’s mysteries. With camera in hand and album full of wonders, she wandered from Cairo to Kolkata, chasing whispers ranging from the fanatical to the arcane. Her travels brought her to the foggy shores of Innsmouth, Massachusetts. Drawn by rumors of mysterious sightings and ancient ruins, Elise expected only photographs and ghost stories—until she found more than just rumors waiting for her. Her endless curiosity dissuades the cautious and attracts the dangerous as she ventures into the unknown.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Seeker cards ([seeker]) level 0-5, Rogue and/or  Survivor events ([rogue] and/or [survivor]) that say \"investigate\" or \"discover\" level 0-2, Neutral cards level 0-5.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: Photo Album, 3 copies of A Sight to See, A World Of Solitude, 1 random basic weakness.\n<b>Additional Setup</b>: You begin each game with 3 copies of A Sight to See set aside, out of play.",
         "code": "40017",
         "deck_limit": 1,
@@ -337,7 +337,7 @@
         "faction_code": "seeker",
         "flavor": "\"There is a whole world out there waiting to be discovered.\"",
         "health": 8,
-        "illustrator": "AI",
+        "illustrator": "",
         "is_unique": true,
         "name": "Elise Collins",
         "pack_code": "kyo_investigator",
@@ -349,7 +349,7 @@
         "skill_intellect": 4,
         "skill_willpower": 4,
         "subname": "The Tourist",
-        "text": "[reaction] When you draw a non-weakness card from your deck, before resolving any of its effects, discard it: Add one of your set-aside A Sight to See events to your hand (limit once per round).\n[eldersign] effect: +1. You may discard 1 card from your hand, then draw 1 card.",
+        "text": "[reaction] When you draw a non-weakness card from your deck, before resolving any of its effects, discard it: Add one of your set-aside A Sight to See events to your hand. (Limit once per round.)\n[eldersign] effect: +1. You may discard 1 card from your hand, then draw 1 card.",
         "traits": "Wayfarer.",
         "type_code": "investigator"
     },
@@ -445,16 +445,16 @@
         "quantity": 1,
         "sanity": 6,
         "skill_agility": 3,
-        "skill_combat": 2,
+        "skill_combat": 3,
         "skill_intellect": 4,
-        "skill_willpower": 3,
+        "skill_willpower": 2,
         "subname": "The Gambler",
-        "text": "While playing cards and triggering abilities that can cause you to gain resources, you may ignore attacks of opportunity.\n[free] If you have at 3 or more resources than you started this turn with: Take an action. You get +2 skill value during skill tests performed this way. (Limit once per round.)\n\n[eldersign] effect: +2. The next time you gain resources this round, increase the amount you gain by 1.",
-        "traits": "Drifter.",
+        "text": "Playing cards and triggering abilities that can cause you to gain resources ignore attacks of opportunity.\n[reaction] When you gain at least 2 resources: Either... (Limit once per phase.)\n\n-  Gain 1 resource.\n\n-  Lose 1 resource and you get +2 skill value for the next test you perform this round. If you succeed, gain 2 resources.\n\n[eldersign] effect: +2. The next time you gain resources this round, increase the amount you gain by 1.",
+        "traits": "Criminal. Socialite.",
         "type_code": "investigator"
     },
     {
-        "back_flavor": "",
+        "back_flavor": "For Wick, his wife was the only light in his life. After her mysterious death, he followed the bloody trail to the door of his own employer. The Syndicate's sudden betrayal was shocking-until Wick uncovers the truth. His wife’s death was no accident, but a failed ritual by a hidden cult festering within the Syndicate. Once their deadliest weapon, he's now their most hunted prey. The underworld turns against him, contracts placed on his head, allies vanish like smoke. Yet Wick moves through the shadows, a ghost of vengeance, hunting the traitors. Every step bringing him closer to where his revenge awaits, and madness whispers his name.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) 0-3, <b><i>Firearm</i></b> cards level 0-4, <b><i>Tactic</i></b> cards level 0-2, Neutral cards level 0-5, up to 5 other Rogue cards ([rogue]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Marked for Death, Abandoned by God, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Criminal</i></b> Cards.",
         "code": "40031",
         "deck_limit": 1,
@@ -522,7 +522,7 @@
         "type_code": "investigator"
     },
     {
-        "back_flavor": "",
+        "back_flavor": "File #56–X\nSubject Class: Yellow\nReal Identity: Unknown \nLast Known Location: Arkham, Massachusetts\n\nDescription: Subject #56–X (hereinafter \"John Smith\") is a person of approximately 182.88cm in height. At all times, subject wears a traditional western suit and defective wristwatch. All other features vary by report, including perceived age, gender, and nationality.\n\nParadimensional Capabilities: John Smith changes their appearance over time, making tracking difficult. Reports of temporal distortions resulting in relocation of nearby personal. Subject avoids contact with the organization.\n\nApproach Procedure: Exercise extreme caution regarding potential paradimensional disturbances.",
         "back_text": "<b>Deck Size</b>: 30\n<b>Deckbuilding Options</b>: Mystic cards ([mystic]) level 0-5, Neutral cards level 0-5, cards with \"Encounter\" and/or \"Treachery\" level 0-3.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: Out of sight, 2 copies of Without a Trace, 2 copies of Fading Existence, Existential Overload, 1 random basic weakness.\n<b>Additional Setup</b>: You begin each game with 2 copies of Without a Trace and 2 copies of Fading Existence set aside, out of play.",
         "code": "40034",
         "deck_limit": 1,
@@ -580,7 +580,7 @@
         "type_code": "investigator"
     },
     {
-        "back_flavor": "Young John traveled the world with his father’s hunts. Now a globe-trotting hunter and an accomplished killer in his own right, John follows in his father’s footsteps, securing the lives of his targets. But after discovering a silver pendant with a familiar symbol on it, Wick must explore his own past. Years ago, his father was found murdered with the very same sigil carved onto his forehead. The image has haunted Wick’s dreams ever since. But he’s getting close. He won’t stop until he solves the mystery of his father’s murder... no matter what it takes.",
+        "back_flavor": "Across the underworld, Wick name is whispered in feared as the Syndicate's enforcer—taking lives across the globe. Orphaned as a child, he was raised by the Syndicate to kill without mercy. It's said he once silenced an entire gang in a single night. When his wife, the only light in his cursed life, died mysteriously, he found a trail of strange signs and eldritch horrors. Armed with years of deadly experiences, Wick hunts cultists, monsters, and cosmic horrors alike, following the trail to it's source.",
         "back_text": "<b>Deck Size</b>: 30.\n<b>Deckbuilding Options</b>: Rogue cards ([rogue]) 0-3, <b><i>Firearm</i></b> cards level 0-4, <b><i>Tactic</i></b> cards level 0-2, Neutral cards level 0-5, up to 5 other Survivor cards ([survivor]) level 0.\n<b>Deckbuilding Requirements</hdr> (do not count toward deck size)<hdr></b>: Marked for Death, Abandoned by God, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: No <b><i>Blessed</i></b> and/or <b><i>Fortune</i></b> cards.",
         "code": "40039",
         "deck_limit": 1,
@@ -643,13 +643,13 @@
         "skill_intellect": 2,
         "skill_willpower": 2,
         "subname": "The Hunter",
-        "text": "[reaction] After you play a <b><i>Tactic</i></b> or <b><i>Trick</i></b> event: Resolve a [action] on a <b><i>Firearm</i></b> asset (<i>ignoring its [action] cost, if any</i>). If you succeed a skill test this way, gain 1 resource. (Limit once per round.)\n\n[eldersign]: +1. If you succeed by 2 or more, ready a card you control. If you succeed by 4 or more, draw 1 card.",
+        "text": "[reaction] When you play a <b><i>Tactic</i></b> or <b><i>Trick</i></b> event: Reduce it's cost by 1. Then, you may resolve a [action] on a <b><i>Firearm</i></b> asset you control. (Limit once per round.)\n\n[eldersign]: +1. If you succeed by 2 or more, ready a <b><i>Weapon</i></b> you control. If you succeed by 4 or more, draw 1 card.",
         "traits": "Criminal. Hunter.",
         "type_code": "investigator"
     },
     {
-        "back_flavor": "",
-        "back_text": "<b>Deck Size</b>: 30\n<b>Trait Choice</b>: At deck creation, choose up to 2: <b><i>Insight</i></b>, <b><i>Spell</i></b>, or <b><i>Trick</i></b>. If you choose 2, gain +5 Deck Size.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-3, Neutral cards level 0-5, cards, and up to 15 other cards of your chosen trait(s) 0-3.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: 1 [per_investigator] copies of The Best of Times, The Worst of Times, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: You begin each game with 1 copy of The Best of Times shuffled into each players deck, they are considered the owner of the card.",
+        "back_flavor": "From boyhood, Elijah Simmons dreamed in impossible colors—of lost cities, whispering gods, and skies that bent the stars. His tales made others laugh, but he always knew they were more than dreams. In retirement, drawn to quiet Kingsport, sleep became stranger still. Now he meets other Elijahs—older, broken, waiting. They wear different faces, but speak with one voice: “Stop what’s coming, or you’ll join us. Another echo in the dream.” Haunted and unsure, Elijah wakes each night with their warning. With the wisdom of a thousand voices, he must tell his own story.",
+        "back_text": "<b>Deck Size</b>: 30\n<b>Trait Choice</b>: At deck creation, choose up to 2: <b><i>Insight</i></b>, <b><i>Spell</i></b>, or <b><i>Trick</i></b>. If you choose 2, gain +5 Deck Size.\n<b>Deckbuilding Options</b>: Survivor cards ([survivor]) level 0-3, Neutral cards level 0-5, cards, and up to 15 other events of your chosen trait(s) 0-3.\n<b>Deckbuilding Requirements</b> (do not count toward deck size)</b>: 1 [per_investigator] copies of The Best of Times, The Worst of Times, 1 random basic weakness.\n<b>Deckbuilding Restrictions</b>: You begin each game with 1 [per_investigator] copies of The Best of Times set aside, out of play. When the first investigation phase of the game begins: Shuffle 1 copy of The Best of Times into each players deck. They are considered the owner of the card for the scenario.",
         "code": "40040",
         "deck_limit": 1,
         "deck_options": [
@@ -765,7 +765,7 @@
         "skill_intellect": 3,
         "skill_willpower": 3,
         "subname": "The Storyteller",
-        "text": "Your event cards gain <b>Parley</b> while there is an enemy at your location.\n[reaction] When you would play an event that shares an action type with the last action taken by an investigator at your location this round: Commit a skill from that investigator's discard pile to one of the tests on the event. After this test ends, shuffle that skill into the owners deck. (Limit once per round.)\n\n[eldersign] effect: +1. After this test ends, if you commited a skill to this test, you may return that card to it's owners hand (do not shuffle it into their deck).",
+        "text": "Your event cards that <b>Fight</b>, <b>Investigate</b>, or <b>Evade</b> gain <b>Parley</b> while there is an enemy at your location.\n[free] While performing a skill test on an event card: Commit a skill from the discard pile of an investigator who resolved an event this round. After this test ends, shuffle the chosen skill into the owners deck. (Limit once per round.)\n\n[eldersign] effect: +1. After this test ends, you may return a skill card you committed to this skill test to it's owners hand (do not shuffle it into their deck).",
         "traits": "Civic. Dreamer.",
         "type_code": "investigator"
     }
