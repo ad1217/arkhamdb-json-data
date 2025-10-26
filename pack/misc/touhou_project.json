@@ -18,7 +18,7 @@
                 "trait": ["melee"]
             }
         ],
-        "deck_requirements": "size:30, random:subtype:basicweakness",
+        "deck_requirements": "size:30, card:42202, card:42203, card:42204, random:subtype:basicweakness",
         "double_sided": true,
         "faction_code": "guardian",
         "flavor": "Those abominations that cannot be cut by my Roukanken, forced by youkai... Are next to none!",
@@ -35,7 +35,7 @@
         "skill_combat": 5,
         "skill_willpower": 2,
         "subname": "The Half-Phantom Gardener",
-        "text": "[reaction] After you active a fight ability on a [[Melee]] asset: Take a fight action using a different[[Melee]] asset you control. (Limit once per phase.)\n[elder_sign] effect: +2.If you succeed, you may immediately take a fight action on a [[Melee]] asset you control.",
+        "text": "[reaction] After you active a <b>Fight</b> ability on a [[Melee]] asset: Take a <b>Fight</b> action using a different [[Melee]] asset you control. (Limit once per phase.)\n[elder_sign] effect: +2. If you succeed, you may immediately take a <b>Fight</b> action on a [[Melee]] asset you control.",
         "traits": "Geist. Warden.",
         "type_code": "investigator"
     },
@@ -56,7 +56,7 @@
         "skill_combat": 1,
         "skill_wild": 1,
         "slot": "Hand",
-        "text": "[[action]] If Roukanken is ready: Fight. You get +2 combat for this attack. If you succeed, you may exhaust Roukanken to do +1 damage for this attack. Then, if this attack defeated an enemy, you may deal 1 damage to another enemy at your location.",
+        "text": "[action] If Roukanken is ready: Fight. You get +2 [combat] for this attack. If you succeed, you may exhaust Roukanken to do +1 damage for this attack. Then, if this attack defeated an enemy, you may deal 1 damage to another enemy at your location.",
         "traits": "Item. Relic. Weapon. Melee.",
         "type_code": "asset",
         "xp": null
@@ -77,7 +77,7 @@
         "restrictions": "investigator:42201",
         "skill_willpower": 1,
         "slot": "Hand",
-        "text": "[[action]] Fight. You get +2 combat for this attack. If this attack defeats an enemy, you may either (choose one)\nHeal 1 horror from and investigator or [[Ally]] at your location.\nDiscard a [[Terror]] card from the treat area on an investigator at your location.",
+        "text": "[action] Fight. You get +2 [combat] for this attack. If this attack defeats an enemy, you may either (choose one):\n- Heal 1 horror from an investigator or [[Ally]] at your location.\n- Discard a [[Terror]] card from the threat area on an investigator at your location.",
         "traits": "Item. Relic. Weapon. Melee.",
         "type_code": "asset",
         "xp": null
@@ -94,7 +94,7 @@
         "quantity": 1,
         "restrictions": "investigator:42201",
         "subtype_code": "weakness",
-        "text": "<b>Revelation</b> Discard each asset you control that takes up a hand slot. If you are engaged with any enemies, choose one of those enemies and take direct horror equal to it's horror value. If no cards were discarded by this effect, shuffle Phasmaphobia into your deck.",
+        "text": "<b>Revelation</b> - Discard each asset you control that takes up a hand slot. Choose an enemy engaged with you and take direct horror equal to it's horror value. If no asset was discarded by this effect, shuffle Phasmaphobia back into your deck.",
         "traits": "Terror.",
         "type_code": "treachery"
     },
