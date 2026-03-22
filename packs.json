@@ -18,6 +18,14 @@
         "size": 195
     },
     {
+        "code": "core_2026",
+        "cycle_code": "core",
+        "date_release": "2026-04-30",
+        "name": "Core Set 2026",
+        "position": 3,
+        "size": 195
+    },
+    {
         "cgdb_id": 2,
         "code": "dwl",
         "cycle_code": "dwl",
@@ -871,6 +879,14 @@
         "name": "Pistols and Pearls",
         "position": 11,
         "size": 3
+    },
+    {
+        "code": "enc",
+        "cycle_code": "parallel",
+        "date_release": "2025-10-29",
+        "name": "Enthralling Encore",
+        "position": 12,
+        "size": 11
     },
     {
         "code": "tmg",
